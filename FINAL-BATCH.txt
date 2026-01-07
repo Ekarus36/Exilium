@@ -1,0 +1,12 @@
+Creating final 8 pages:
+1. geography.html - Geography & Distances
+2. timeline.html - Timeline of Major Events  
+3. founding.html - The Founding Story
+4. elven-empire.html - The Elven Empire
+5. human-kingdom.html - The Human Kingdom
+6. elven-enclaves.html - The Elven Enclaves
+7. cirdan.html - Círdan Golvenion
+8. drow-persecution.html - Drow Persecution
+
+All pages will be complete and match existing quality standards.
+Estimated completion: 10-15 minutes

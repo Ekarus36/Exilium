@@ -1,0 +1,11 @@
+Creating final 5 pages to reach 100%:
+
+13/18 ✅ - founding.html
+14/18 🔨 - elven-empire.html
+15/18 🔨 - human-kingdom.html  
+16/18 🔨 - elven-enclaves.html
+17/18 🔨 - cirdan.html
+18/18 🔨 - drow-persecution.html
+
+All pages will cover essential information for gameplay.
+Working to completion now...
