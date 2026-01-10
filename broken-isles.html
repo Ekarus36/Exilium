@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Broken Isles - Exilium Wiki</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button class="menu-toggle">☰</button>
+    
+    <div class="wiki-container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <div class="logo">
+                <h2>EXILIUM</h2>
+                <p class="tagline">Campaign Setting</p>
+            </div>
+            
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search... (Ctrl+K)">
+            </div>
+            
+            <ul class="nav-menu">
+                <li><a href="index.html"><span class="nav-icon">🏠</span> Home</a></li>
+                
+                <li class="nav-section">World</li>
+                <li><a href="world-overview.html"><span class="nav-icon">📖</span> World Overview</a></li>
+                <li><a href="geography.html"><span class="nav-icon">🗺️</span> Geography</a></li>
+                <li><a href="magic-items.html"><span class="nav-icon">✨</span> Magic Items</a></li>
+                <li><a href="magic-users.html"><span class="nav-icon">🔮</span> Magic Users</a></li>
+                <li><a href="religion.html"><span class="nav-icon">🙏</span> Religion</a></li>
+                
+                <li class="nav-section">Veraheim</li>
+                <li><a href="veraheim.html"><span class="nav-icon">🏰</span> Veraheim</a></li>
+                <li><a href="floating-docks.html"><span class="nav-icon">⚓</span> The Floating Docks</a></li>
+                
+                <li class="nav-section">The Broken Isles</li>
+                <li><a href="broken-isles.html" class="active"><span class="nav-icon">🏴‍☠️</span> The Broken Isles</a></li>
+                <li><a href="broken-isles-history.html"><span class="nav-icon">📜</span> Isles History</a></li>
+                <li><a href="freehold-harbor.html"><span class="nav-icon">⚓</span> Freehold Harbor</a></li>
+                <li><a href="saltmere.html"><span class="nav-icon">💰</span> Saltmere</a></li>
+                <li><a href="skarath.html"><span class="nav-icon">🔨</span> Skarath</a></li>
+                <li><a href="ironhold.html"><span class="nav-icon">⚔️</span> Ironhold</a></li>
+                <li><a href="stormcrag.html"><span class="nav-icon">🦴</span> Stormcrag</a></li>
+                <li><a href="mistwood.html"><span class="nav-icon">🌲</span> Mistwood</a></li>
+                
+                <li class="nav-section">History</li>
+                <li><a href="timeline.html"><span class="nav-icon">📅</span> Timeline</a></li>
+                <li><a href="dragon-war.html"><span class="nav-icon">🐉</span> Dragon War</a></li>
+                <li><a href="founding.html"><span class="nav-icon">⚔️</span> The Founding</a></li>
+                
+                <li class="nav-section">Factions</li>
+                <li><a href="elven-empire.html"><span class="nav-icon">👑</span> Elven Empire</a></li>
+                <li><a href="human-kingdom.html"><span class="nav-icon">🛡️</span> Human Kingdom</a></li>
+                <li><a href="elven-enclaves.html"><span class="nav-icon">🌳</span> Elven Enclaves</a></li>
+                <li><a href="drow-persecution.html"><span class="nav-icon">🌑</span> Drow Persecution</a></li>
+                
+                <li class="nav-section">Veraheim NPCs</li>
+                <li><a href="vera.html"><span class="nav-icon">💫</span> Vera Wyrdweaver</a></li>
+                <li><a href="galdor.html"><span class="nav-icon">🏹</span> Galdor Ruincalen</a></li>
+                <li><a href="thorongil.html"><span class="nav-icon">🐲</span> Thorongil</a></li>
+                
+                <li class="nav-section">Empire NPCs</li>
+                <li><a href="cirdan.html"><span class="nav-icon">👤</span> Círdan Golvenion</a></li>
+                
+                <li class="nav-section">Pirate Captains</li>
+                <li><a href="vaelith-draegor.html"><span class="nav-icon">⛈️</span> Vaelith Draegor</a></li>
+                <li><a href="graza-bloodtide.html"><span class="nav-icon">👑</span> Graza Bloodtide</a></li>
+                <li><a href="gorrath-bloodstone.html"><span class="nav-icon">💀</span> Gorrath Bloodstone</a></li>
+                <li><a href="kozrek-admiral.html"><span class="nav-icon">⚓</span> Kozrek the Admiral</a></li>
+                <li><a href="rennick-vance.html"><span class="nav-icon">🗡️</span> Rennick Vance</a></li>
+                <li><a href="skrag-chainbreaker.html"><span class="nav-icon">⛓️</span> Skrag Chainbreaker</a></li>
+                <li><a href="nix-quickfingers.html"><span class="nav-icon">🐀</span> Nix Quickfingers</a></li>
+            </ul>
+            
+            <div class="sidebar-footer">
+                <p>D&D 5e 2024 Rules</p>
+                <p class="version">v2.0</p>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="content">
+            <header class="page-header">
+                <span class="faction-badge pirates">Pirate Confederation</span>
+                <h1>The Broken Isles</h1>
+                <p class="subtitle">"Freedom through strength. No kings, no chains, no laws but what we make."</p>
+            </header>
+
+            <section>
+                <h2>Overview</h2>
+                <p>The Broken Isles is a pirate confederation located two days' sail east of Veraheim's coast. An archipelago of approximately 20 islands (5 major, 15 smaller) of volcanic origin, it serves as home to the outcasts, exiles, and raiders who don't fit in the Empire, Kingdom, or even Veraheim.</p>
+                
+                <p>Unlike the rigid hierarchies of the mainland powers, the Broken Isles operates through a loose confederation of independent settlements and pirate captains united by mutual benefit and the threat of external enemies.</p>
+                
+                <div class="stat-block">
+                    <div class="stat-item">
+                        <span class="stat-label">Population</span>
+                        <span class="stat-value">~20,000</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Government</span>
+                        <span class="stat-value">Confederation</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Current Ruler</span>
+                        <span class="stat-value gold"><a href="graza-bloodtide.html">Graza Bloodtide</a></span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">True Power</span>
+                        <span class="stat-value gold"><a href="vaelith-draegor.html">Vaelith "The Storm"</a></span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Capital</span>
+                        <span class="stat-value"><a href="freehold-harbor.html">Freehold Harbor</a></span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Combined Fleet</span>
+                        <span class="stat-value">100-150+ ships</span>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2>The Five Major Islands</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Island</th>
+                            <th>Settlement</th>
+                            <th>Population</th>
+                            <th>Primary Race</th>
+                            <th>Economy</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Central Island</td>
+                            <td><a href="freehold-harbor.html">Freehold Harbor</a></td>
+                            <td>8,000-10,000</td>
+                            <td>Mixed</td>
+                            <td>Political capital, The Moot</td>
+                        </tr>
+                        <tr>
+                            <td>Tidecaller</td>
+                            <td><a href="saltmere.html">Saltmere</a></td>
+                            <td>~5,000</td>
+                            <td>Mixed</td>
+                            <td>Trade hub, black market</td>
+                        </tr>
+                        <tr>
+                            <td>Greenfire Isle</td>
+                            <td><a href="skarath.html">Skarath</a></td>
+                            <td>~8,000</td>
+                            <td>Goblin (95%)</td>
+                            <td>Shipbuilding</td>
+                        </tr>
+                        <tr>
+                            <td>The Fangs</td>
+                            <td><a href="ironhold.html">Ironhold</a></td>
+                            <td>~6,000</td>
+                            <td>Hobgoblin (85%)</td>
+                            <td>Weapons, metal</td>
+                        </tr>
+                        <tr>
+                            <td>Stormcrag</td>
+                            <td><a href="stormcrag.html">Clan Territories</a></td>
+                            <td>~5,500</td>
+                            <td>Orc</td>
+                            <td>Farming, bonecraft</td>
+                        </tr>
+                        <tr>
+                            <td>Mistwood</td>
+                            <td><a href="mistwood.html">Shadowpaw Territory</a></td>
+                            <td>~1,500</td>
+                            <td>Bugbear</td>
+                            <td>Hunting, relics</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h2>Government Structure</h2>
+                
+                <h3>The Moot</h3>
+                <p>The governing council of the Broken Isles, meeting quarterly at <a href="freehold-harbor.html">Freehold Harbor</a>.</p>
+                <ul>
+                    <li>Each pirate captain = 1 vote</li>
+                    <li>Each settlement = 1 vote</li>
+                    <li>Pirate Monarch = tie-breaker</li>
+                    <li>Major decisions require 2/3 majority</li>
+                </ul>
+                
+                <h3>The Pirate Monarch</h3>
+                <p>Current: <strong><a href="graza-bloodtide.html">Graza Bloodtide</a></strong> (Queen, 3 years)</p>
+                <ul>
+                    <li>Commands the largest official fleet (25 ships)</li>
+                    <li>Collects tribute from all captains</li>
+                    <li>Enforces Harbor Peace</li>
+                    <li>Settles major disputes</li>
+                    <li>Must be confirmed by The Moot</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>The Sacred Law: Harbor Peace</h2>
+                <blockquote>
+                    "Any ship heading to or from Freehold is untouchable. Break this rule and die."
+                </blockquote>
+                <ul>
+                    <li>Ships traveling TO or FROM Freehold = protected</li>
+                    <li>Protection lasts until they leave designated sea lanes</li>
+                    <li>Violation = death sentence from ALL captains</li>
+                    <li>Within Freehold: No violence in the harbor</li>
+                    <li>Enforced by collective action (and ultimately by <a href="vaelith-draegor.html">The Storm</a>)</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>The Legendary Captains</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Captain</th>
+                            <th>Fleet</th>
+                            <th>Specialty</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="vaelith-draegor.html">Vaelith Draegor</a></td>
+                            <td>40+ ships</td>
+                            <td>The Storm, founder, true power</td>
+                        </tr>
+                        <tr>
+                            <td><a href="graza-bloodtide.html">Graza Bloodtide</a></td>
+                            <td>25 ships</td>
+                            <td>Pirate Queen</td>
+                        </tr>
+                        <tr>
+                            <td><a href="kozrek-admiral.html">Kozrek the Admiral</a></td>
+                            <td>15-20 ships</td>
+                            <td>Military-style fleet</td>
+                        </tr>
+                        <tr>
+                            <td><a href="gorrath-bloodstone.html">Gorrath Bloodstone</a></td>
+                            <td>12 ships</td>
+                            <td>Orc Clan Fleet</td>
+                        </tr>
+                        <tr>
+                            <td><a href="skrag-chainbreaker.html">Skrag Chainbreaker</a></td>
+                            <td>8 ships</td>
+                            <td>Slaver</td>
+                        </tr>
+                        <tr>
+                            <td><a href="nix-quickfingers.html">Nix Quickfingers</a></td>
+                            <td>30+ small</td>
+                            <td>Swarm tactics</td>
+                        </tr>
+                        <tr>
+                            <td><a href="rennick-vance.html">Rennick Vance</a></td>
+                            <td>1 ship</td>
+                            <td>Deadly duelist</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h2>The Pirate Code</h2>
+                <ol>
+                    <li><strong>Harbor Peace is absolute</strong> — Ships to/from Freehold are untouchable</li>
+                    <li><strong>Tribute must be paid</strong> — To the reigning Monarch</li>
+                    <li><strong>No attacking Confederation settlements</strong> — Internal raids forbidden</li>
+                    <li><strong>Disputes settled in Freehold</strong> — Trial by combat or Monarch's judgment</li>
+                    <li><strong>Betraying another captain = death</strong> — Treachery not tolerated</li>
+                    <li><strong>The Moot's decisions are binding</strong> — Once voted, it's law</li>
+                </ol>
+            </section>
+
+            <section>
+                <h2>Economy</h2>
+                
+                <h3>Piracy (Primary)</h3>
+                <ul>
+                    <li>Targets: Empire ships, Kingdom ships, coastal towns</li>
+                    <li>NOT targeted: Ships under Harbor Peace, Confederation settlements</li>
+                    <li>Veraheim waters avoided (fear of <a href="thorongil.html">Thorongil</a>)</li>
+                </ul>
+                
+                <h3>Trade Network</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Settlement</th>
+                            <th>Primary Export</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="skarath.html">Skarath</a></td>
+                            <td>Ships, repairs, wooden goods</td>
+                        </tr>
+                        <tr>
+                            <td><a href="ironhold.html">Ironhold</a></td>
+                            <td>Weapons, armor, metal components</td>
+                        </tr>
+                        <tr>
+                            <td><a href="stormcrag.html">Stormcrag</a></td>
+                            <td>Food (~60% of Isles), bonecraft</td>
+                        </tr>
+                        <tr>
+                            <td><a href="mistwood.html">Mistwood</a></td>
+                            <td>Monster parts, artifacts, relics</td>
+                        </tr>
+                        <tr>
+                            <td><a href="saltmere.html">Saltmere</a></td>
+                            <td>Trade hub, fencing, black market</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <h3>Key Trade Relationship: The Iron-Wood Pact</h3>
+                <p><a href="skarath.html">Skarath</a> and <a href="ironhold.html">Ironhold</a> are bound by the Iron-Wood Pact—Skarath provides timber for Ironhold's forges, Ironhold provides metal components for Skarath's ships. Neither can function without the other.</p>
+            </section>
+
+            <section>
+                <h2>Demographics</h2>
+                <p>The Broken Isles welcomes all races the mainland rejects:</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Race</th>
+                            <th>Percentage</th>
+                            <th>Primary Roles</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Goblins</td><td>~30%</td><td>Shipbuilders, sailors, merchants</td></tr>
+                        <tr><td>Orcs</td><td>~25%</td><td>Warriors, farmers, raiders</td></tr>
+                        <tr><td>Hobgoblins</td><td>~15%</td><td>Military, tacticians, craftsmen</td></tr>
+                        <tr><td>Bugbears</td><td>~10%</td><td>Hunters, scouts, enforcers</td></tr>
+                        <tr><td>Mixed Others</td><td>~20%</td><td>Kobolds, humans, half-orcs, drow, etc.</td></tr>
+                    </tbody>
+                </table>
+                <p><em>Philosophy: All races pirate. Your worth is proven by your deeds, not your blood.</em></p>
+            </section>
+
+            <section>
+                <h2>Relationships</h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <span class="faction-badge empire">Hostile</span>
+                        <h4>Elven Empire</h4>
+                        <p>Primary piracy target. <a href="vaelith-draegor.html">Vaelith Draegor</a> has personal vendetta. Empire ships shown no mercy. 500,000 gold bounty on The Storm (never claimed).</p>
+                    </div>
+                    <div class="card">
+                        <span class="faction-badge kingdom">Business</span>
+                        <h4>Human Kingdom</h4>
+                        <p>Secondary piracy target. Some Lords secretly trade with Saltmere. Less hatred, more business.</p>
+                    </div>
+                    <div class="card">
+                        <span class="faction-badge veraheim">Fear</span>
+                        <h4>Veraheim</h4>
+                        <p>Vera morally disapproves of piracy. Pirates fear <a href="thorongil.html">Thorongil</a> deeply. Will not approach Veraheim waters.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2>History</h2>
+                <p>See <a href="broken-isles-history.html">History of the Broken Isles</a> for the full account.</p>
+                
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">Ancient</div>
+                        <div class="timeline-content">
+                            <h4>First Peoples</h4>
+                            <p>Orcs, goblins, and bugbears already inhabit the islands.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">~200-120 years ago</div>
+                        <div class="timeline-content">
+                            <h4>Era of Refugees</h4>
+                            <p>Mainlanders flee persecution, settle on islands.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">~118 years ago</div>
+                        <div class="timeline-content">
+                            <h4>Battle of the Broken Straits</h4>
+                            <p>Empire purge fleet destroyed. <a href="vaelith-draegor.html">Vaelith</a> unites pirates. Confederation founded.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">~60 years ago</div>
+                        <div class="timeline-content">
+                            <h4>Saltmere Founded</h4>
+                            <p>Commercial capital established on Tidecaller Island.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">3 years ago</div>
+                        <div class="timeline-content">
+                            <h4>Graza's Coronation</h4>
+                            <p><a href="graza-bloodtide.html">Graza Bloodtide</a> becomes Pirate Queen.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="story-hooks">
+                <h3>🎲 Story Hooks</h3>
+                <div class="story-hook">
+                    <strong>Freedom vs Chaos:</strong> The Isles offer true freedom, but at what cost?
+                </div>
+                <div class="story-hook">
+                    <strong>The Storm's Shadow:</strong> What happens when the true power finally acts?
+                </div>
+                <div class="story-hook">
+                    <strong>Graza's Challenge:</strong> Can she build real authority while The Storm exists?
+                </div>
+                <div class="story-hook">
+                    <strong>Moral Complexity:</strong> Pirates aren't heroes, but neither are they simple villains.
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
