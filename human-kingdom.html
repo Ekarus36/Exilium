@@ -3,24 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Human Kingdom - Exilium</title>
+    <title>The Human Kingdom - Exilium Wiki</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav class="sidebar">
-        <div class="logo"><h2>EXILIUM</h2><p class="tagline">Campaign Setting</p></div>
-        <div class="search-box"><input type="text" id="searchInput" placeholder="Search..."></div>
+        <div class="logo">
+            <h2>EXILIUM</h2>
+            <p class="tagline">Campaign Setting</p>
+        </div>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search Exilium...">
+        </div>
         <ul class="nav-menu">
             <li><a href="index.html">🏠 Home</a></li>
             <li class="nav-section">World</li>
             <li><a href="world-overview.html">📖 World Overview</a></li>
             <li><a href="geography.html">🗺️ Geography</a></li>
             <li><a href="magic-items.html">✨ Magic Items</a></li>
+            <li><a href="magic-users.html">🔮 Magic Users</a></li>
             <li><a href="religion.html">🙏 Religion</a></li>
             <li class="nav-section">Locations</li>
             <li><a href="veraheim.html">🏰 Veraheim</a></li>
-            <li><a href="elven-enclaves.html">🌳 Elven Enclaves</a></li>
             <li><a href="floating-docks.html">⚓ The Floating Docks</a></li>
+            <li><a href="elven-enclaves.html">🌳 Elven Enclaves</a></li>
+            <li><a href="freehold-harbor.html">🏴‍☠️ Freehold Harbor</a></li>
             <li class="nav-section">History</li>
             <li><a href="timeline.html">📅 Timeline</a></li>
             <li><a href="dragon-war.html">🐉 Dragon War</a></li>
@@ -28,272 +35,169 @@
             <li class="nav-section">Factions</li>
             <li><a href="elven-empire.html">👑 Elven Empire</a></li>
             <li><a href="human-kingdom.html" class="active">🛡️ Human Kingdom</a></li>
+            <li><a href="eleven-domains.html">🏰 The Eleven Domains</a></li>
+            <li><a href="broken-isles.html">🏴‍☠️ The Broken Isles</a></li>
             <li><a href="drow-persecution.html">🌑 Drow Persecution</a></li>
-            <li class="nav-section">Notable NPCs</li>
+            <li class="nav-section">Veraheim NPCs</li>
             <li><a href="vera.html">💫 Vera Wyrdweaver</a></li>
-            <li><a href="galdor.html">🏹 Galdor Ruincalen</a></li>
+            <li><a href="thaelen.html">🏹 Thaelen Ruincalen</a></li>
             <li><a href="thorongil.html">🐲 Thorongil</a></li>
-            <li><a href="cirdan.html">👤 Círdan Golvenion</a></li>
+            <li class="nav-section">Empire NPCs</li>
+            <li><a href="valandor.html">👤 Emperor Valandor</a></li>
+            <li class="nav-section">Broken Isles NPCs</li>
+            <li><a href="vaelith-draegor.html">🌊 Vaelith "The Storm"</a></li>
+            <li><a href="graza-bloodtide.html">👑 Graza Bloodtide</a></li>
         </ul>
-        <div class="sidebar-footer"><p>D&D 5e 2024 Rules</p><p class="version">v1.0</p></div>
+        <div class="sidebar-footer">
+            <p>D&D 5e 2024 Rules</p>
+            <p class="version">v2.0</p>
+        </div>
     </nav>
 
     <main class="content">
         <header class="page-header">
             <h1>🛡️ The Human Kingdom</h1>
-            <p class="subtitle">Fractious, Ambitious, Barely United - Eleven Lords Scheming for Power</p>
+            <p class="subtitle">"United by supremacy, divided by ambition, held together by one diplomat's skill."</p>
         </header>
 
-        <section>
-            <div class="info-box">
-                <p><strong>Ruler:</strong> King Aldric Greymont "The Diplomat King" (52 years old)<br>
-                <strong>Heir:</strong> Prince Roderick Greymont (28 years old)<br>
-                <strong>Capital:</strong> Thornreich<br>
-                <strong>Government:</strong> Feudal monarchy with 11 powerful Lords<br>
-                <strong>Territory:</strong> Eastern lands, rolling plains, southeastern coast<br>
-                <strong>Philosophy:</strong> Human supremacy, martial strength, might makes right</p>
-            </div>
-        </section>
-
-        <section>
-            <h2>The Fragile Kingdom</h2>
-
-            <h3>The Central Problem:</h3>
-            <p>The Human Kingdom isn't really a kingdom—it's eleven nearly autonomous domains held together by economic necessity, a standing royal army, and the King's gold mines. The Lords scheme constantly, alliances shift weekly, and civil war is always one bad decision away.</p>
-
-            <h4>Why It Holds Together:</h4>
-            <ul>
-                <li><strong>The King's Gold:</strong> Aldric controls richest gold mines, buys loyalty</li>
-                <li><strong>Standing Army:</strong> 10,000 soldiers loyal to crown (not Lords)</li>
-                <li><strong>External Threats:</strong> Elven Empire keeps Lords unified (barely)</li>
-                <li><strong>Economic Interdependence:</strong> Lords need each other's trade</li>
-                <li><strong>Tradition:</strong> Monarchy has existed for centuries (inertia)</li>
-            </ul>
-
-            <h4>Why It Could Fall Apart:</h4>
-            <ul>
-                <li>Lords are nearly as powerful as King</li>
-                <li>Each has own army, own economy, own agenda</li>
-                <li>Constant scheming and backstabbing</li>
-                <li>No Lord fully trusts the King or each other</li>
-                <li>Anyone who conquers Veraheim could claim throne</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>The King - Aldric Greymont</h2>
-
-            <h3>The Diplomat King (52 years old)</h3>
-            <p><strong>Reputation:</strong> Master politician who keeps fractious Lords from killing each other<br>
-            <strong>Strength:</strong> Diplomacy, negotiation, reading people<br>
-            <strong>Weakness:</strong> Not a warrior, relies on others for military strength</p>
-
-            <h4>How He Maintains Power:</h4>
-            <ul>
-                <li>Plays Lords against each other (prevent alliances)</li>
-                <li>Strategic marriages (daughters wed to create alliances)</li>
-                <li>Gold from royal mines (buys loyalty when needed)</li>
-                <li>Standing royal army (10,000 soldiers, not oath-sworn to Lords)</li>
-                <li>Careful balance (never let one Lord get too powerful)</li>
-            </ul>
-
-            <h4>His Challenge:</h4>
-            <p>Every Lord dreams of being King. Any Lord who conquers Veraheim (controls tunnel) could claim enough prestige and wealth to challenge throne. Aldric must keep Lords busy scheming against each other, not against him.</p>
-
-            <h3>The Heir - Prince Roderick (28)</h3>
-            <p><strong>Personality:</strong> Martial, aggressive, impatient<br>
-            <strong>Problem:</strong> Wants to be warrior-king, not diplomat-king<br>
-            <strong>Tension:</strong> Disagrees with father's cautious approach</p>
-
-            <p>Roderick wants to attack Veraheim, claim glory, prove strength. Aldric knows this would be suicide. Father and son clash constantly over Kingdom's direction.</p>
-        </section>
-
-        <section>
-            <h2>The Eleven Domains</h2>
-
-            <p>Each Lord rules nearly autonomously within their domain. They collect taxes, maintain armies, enforce laws, and scheme for more power. The King theoretically rules them all, but practically, they do what they want unless he forces the issue.</p>
-
-            <h3>The Lords (Brief Overview):</h3>
+        <div class="info-table">
             <table>
-                <tr><th>Domain</th><th>Lord</th><th>Key Traits</th></tr>
-                <tr><td>Greymont (Royal)</td><td>King Aldric</td><td>Diplomatic, controls gold mines</td></tr>
-                <tr><td>Ironpeak</td><td>Lord Cedric</td><td>Martial, aggressive, eyes throne</td></tr>
-                <tr><td>Greenfield</td><td>Lady Elara</td><td>Wealthy, merchant-focused, pragmatic</td></tr>
-                <tr><td>Stonewatch</td><td>Lord Gareth</td><td>Defensive, loyal to King (for now)</td></tr>
-                <tr><td>Riverrun</td><td>Lord Thaddeus</td><td>Trade-focused, controls river commerce</td></tr>
-                <tr><td>Blackwood</td><td>Lady Morgana</td><td>Mysterious, rumored sorcery connections</td></tr>
-                <tr><td>Highcliff</td><td>Lord Baldwin</td><td>Coastal, naval power, independent</td></tr>
-                <tr><td>Eastmarch</td><td>Lord Roland</td><td>Border domain, experienced in warfare</td></tr>
-                <tr><td>Westford</td><td>Lord Marcus</td><td>Ambitious, schemes constantly</td></tr>
-                <tr><td>Thornhaven</td><td>Lady Isolde</td><td>Religious, pious, moral authority</td></tr>
-                <tr><td>Redstone</td><td>Lord Brennan</td><td>Young, untested, manipulated by others</td></tr>
+                <tr><th>Type</th><td>Feudal Monarchy</td></tr>
+                <tr><th>Population</th><td>Largest of major powers</td></tr>
+                <tr><th>Ruler</th><td>King Aldric Greymont "The Diplomat King" (52)</td></tr>
+                <tr><th>Heir</th><td>Prince Roderick Greymont (28)</td></tr>
+                <tr><th>Capital</th><td>Thornreich</td></tr>
+                <tr><th>Structure</th><td>11 nearly autonomous domains</td></tr>
             </table>
+        </div>
 
-            <p><strong>Note:</strong> These Lords are player-facing NPCs, complete details available in full campaign guide.</p>
-        </section>
-
-        <section>
-            <h2>Human Supremacy - The Ideology</h2>
-
-            <h3>What They Believe:</h3>
-            <ul>
-                <li><strong>Humans are superior:</strong> Adaptable, ambitious, destined to rule</li>
-                <li><strong>Other races are lesser:</strong> Tools, servants, threats</li>
-                <li><strong>Strength proves worth:</strong> Might makes right</li>
-                <li><strong>Expansion is natural:</strong> Humans should dominate</li>
-            </ul>
-
-            <h3>How This Manifests:</h3>
-            <div class="warning-box">
-                <h4>Treatment of Non-Humans:</h4>
-                <ul>
-                    <li><strong>Segregated spaces:</strong> Separate inns, taverns, districts</li>
-                    <li><strong>Second-class legal status:</strong> Different laws, harsher penalties</li>
-                    <li><strong>Restricted rights:</strong> Cannot own property in most domains</li>
-                    <li><strong>Limited employment:</strong> Menial jobs only, no positions of authority</li>
-                    <li><strong>No political representation:</strong> Cannot vote or hold office</li>
-                    <li><strong>Social discrimination:</strong> Open hostility tolerated, encouraged</li>
-                </ul>
-
-                <p><strong>The Reality:</strong> Non-humans in Human Kingdom live as permanent underclass. They can exist, but never thrive. Never equal. Never safe.</p>
+        <section class="content-section">
+            <h2>⚡ At a Glance</h2>
+            <div class="tier-label">What anyone in the world would know</div>
+            
+            <p>The Human Kingdom isn't really a kingdom—it's eleven nearly autonomous domains held together by gold, fear, and one man's diplomatic genius.</p>
+            
+            <p>King Aldric controls the richest gold mines. He uses them to fund a standing army of 10,000 soldiers loyal only to the crown. The eleven Lords scheme constantly against each other (and sometimes against him), but they need his gold and his army to protect them from the Elven Empire.</p>
+            
+            <p>They believe in human supremacy as fiercely as elves believe in theirs. Non-humans face discrimination and persecution. The Kingdom lost Vera Wyrdweaver—their most powerful sorceress—80 years ago, and some Lords have never stopped dreaming of conquering Veraheim.</p>
+            
+            <div class="callout">
+                <strong>Common saying:</strong> "In the Kingdom, your sword arm matters more than your bloodline. But gold matters most of all."
             </div>
         </section>
 
-        <section>
-            <h2>Military - Quantity Over Quality</h2>
-
-            <h3>Structure:</h3>
+        <section class="content-section">
+            <h2>📖 Common Knowledge</h2>
+            <div class="tier-label">What visitors, traders, or Kingdom residents would know</div>
+            
+            <h3>The King's Balancing Act</h3>
+            <p><strong>King Aldric Greymont</strong> maintains power through:</p>
             <ul>
-                <li><strong>Royal Army:</strong> 10,000 soldiers (loyal to King)</li>
-                <li><strong>Lord Armies:</strong> Each Lord maintains own forces (varies, 500-3,000 each)</li>
-                <li><strong>Total:</strong> ~25,000-30,000 soldiers across Kingdom</li>
-                <li><strong>Navy:</strong> Coastal domains maintain warships</li>
+                <li><strong>Gold mines:</strong> Buys loyalty when diplomacy fails</li>
+                <li><strong>Royal tax:</strong> 20% of Lords' revenue funds the standing army</li>
+                <li><strong>Standing army:</strong> 10,000 soldiers loyal to crown, not Lords</li>
+                <li><strong>Careful balance:</strong> Never let one Lord get too powerful</li>
+                <li><strong>Playing Lords against each other:</strong> Prevent unified opposition</li>
             </ul>
-
-            <h3>Philosophy:</h3>
+            
+            <p><strong>The Heir Problem:</strong> Prince Roderick is martial, aggressive, and impatient. He wants to conquer Veraheim. His father knows that would be suicide. They clash constantly.</p>
+            
+            <h3>The Eleven Lords</h3>
+            <table>
+                <tr><th>Lord</th><th>Domain</th><th>Alignment</th><th>Key Trait</th></tr>
+                <tr><td>Edmund Blackthorne</td><td>Blackthorne</td><td>⚠️ Dangerous</td><td>Ruthless schemer</td></tr>
+                <tr><td>Robert Ashfeld</td><td>Ashfeld</td><td>Ambitious</td><td>Veraheim-obsessed</td></tr>
+                <tr><td>Heinrich von Eisenwald</td><td>Eisenwald</td><td>Militant</td><td>War hawk, Prince's ear</td></tr>
+                <tr><td>Wilhelm von Königsford</td><td>Königsford</td><td>Loyal</td><td>King's closest ally</td></tr>
+                <tr><td>Godfrey Ravenscar</td><td>Ravenscar</td><td>Loyal</td><td>Queen's brother</td></tr>
+                <tr><td>Alaric Thornwood</td><td>Thornwood</td><td>Neutral</td><td>Border guardian</td></tr>
+                <tr><td>Bertrand de Valcourt</td><td>Valcourt</td><td>Cultured</td><td>Diplomat, elven contact</td></tr>
+                <tr><td>Charles de Belmont</td><td>Belmont</td><td>Wealthy</td><td>Banker, debt schemes</td></tr>
+                <tr><td>Konrad von Rotfels</td><td>Rotfels</td><td>Militant</td><td>Mountain fortress</td></tr>
+                <tr><td>Ludwig von Graustein</td><td>Graustein</td><td>Uncertain</td><td>Succession crisis</td></tr>
+                <tr><td>Markus von Wolfstein</td><td>Wolfstein</td><td>Aggressive</td><td>Border raider</td></tr>
+            </table>
+            
+            <h3>Human Supremacy</h3>
+            <p>Like elves, humans believe in their own superiority:</p>
             <ul>
-                <li>Overwhelming numbers compensate for shorter training</li>
-                <li>Aggressive, offensive tactics preferred</li>
-                <li>Cavalry and heavy infantry focus</li>
-                <li>Less disciplined than elves, more brutal</li>
+                <li>Non-humans are second-class citizens</li>
+                <li>Half-breeds treated with suspicion</li>
+                <li>Sorcerers hunted and killed (innate magic = dangerous)</li>
+                <li>Vera's defection seen as betrayal of "her people"</li>
             </ul>
-
-            <h3>The Problem:</h3>
-            <p>Lords command their own armies. In theory, they serve the King. In practice, they serve their Lord first. If civil war came, Royal Army (10,000) vs. Combined Lords (15,000-20,000) = King loses.</p>
-
-            <p><strong>This is why Aldric must keep Lords divided.</strong></p>
+            
+            <h3>Military</h3>
+            <p><strong>The Lords' Forces</strong> (~15,000-20,000 combined): Each Lord maintains own army. Quality varies. Loyal to their Lord, not the King.</p>
+            
+            <p><strong>The Royal Army</strong> (10,000): Professional soldiers, well-trained. Loyal only to the crown. Funded by royal tax. The King's true power.</p>
         </section>
 
-        <section>
-            <h2>Economy - Competitive & Chaotic</h2>
-
-            <h3>Strengths:</h3>
-            <ul>
-                <li>Fertile farmland (plains produce abundant crops)</li>
-                <li>Southeastern ports (maritime trade)</li>
-                <li>Gold mines (royal domain, King's wealth)</li>
-                <li>Large population (more workers, more production)</li>
-                <li>Competitive markets (innovation through competition)</li>
-            </ul>
-
-            <h3>Weaknesses:</h3>
-            <ul>
-                <li>Inconsistent standards (each domain different)</li>
-                <li>Internal tariffs (Lords tax each other's goods)</li>
-                <li>Unstable alliances (trade disrupted by politics)</li>
-                <li>Dependent on Veraheim tunnel (need east-west trade)</li>
-            </ul>
-
-            <h3>The Veraheim Situation:</h3>
-            <ul>
-                <li>Need tunnel desperately (only safe east-west route)</li>
-                <li>Resent paying tolls to "elf-lover"</li>
-                <li>Lords dream of conquering it (prestige + wealth)</li>
-                <li>King knows attack = suicide (dragon, Vera's power)</li>
-                <li>Economic necessity trumps ideological hatred</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Culture & Society</h2>
-
-            <h3>Values:</h3>
-            <ul>
-                <li><strong>Ambition:</strong> Rise through merit and cunning</li>
-                <li><strong>Strength:</strong> Martial prowess respected</li>
-                <li><strong>Pragmatism:</strong> Do what works</li>
-                <li><strong>Competition:</strong> Winners deserve success</li>
-                <li><strong>Glory:</strong> Fame and recognition matter</li>
-            </ul>
-
-            <h3>Social Structure:</h3>
-            <ul>
-                <li><strong>Nobility:</strong> Lords, knights, landowners</li>
-                <li><strong>Merchants:</strong> Wealthy but not noble</li>
-                <li><strong>Craftsmen:</strong> Skilled workers, guilds</li>
-                <li><strong>Peasants:</strong> Farmers, laborers, vast majority</li>
-                <li><strong>Non-humans:</strong> Permanent underclass</li>
-            </ul>
-
-            <h3>Religion:</h3>
-            <p>Worship Arathor (The Shield, He Who Protects). Martial deity. Strength protects weak, courage defeats evil. Active prayer and martial training as devotion.</p>
-        </section>
-
-        <section>
-            <h2>Relationship with Veraheim</h2>
-
-            <div class="warning-box">
-                <h3>Official Position:</h3>
-                <ul>
-                    <li>Elves "kidnapped" Vera (human property stolen)</li>
-                    <li>Veraheim is illegally occupied human territory</li>
-                    <li>Vera under enchantment (can't possibly love elf)</li>
-                    <li>Sanctuary undermines human supremacy</li>
-                    <li>Would destroy it if they could</li>
-                </ul>
-
-                <h3>Practical Reality:</h3>
-                <ul>
-                    <li>Need tunnel desperately</li>
-                    <li>Cannot defeat dragon + Vera</li>
-                    <li>Attack = economic disaster</li>
-                    <li>Lords would use failure to challenge King</li>
-                    <li>Must tolerate what they hate</li>
-                </ul>
-
-                <h3>The Temptation:</h3>
-                <p>Every Lord dreams: Conquer Veraheim → Control tunnel → Richest domain → Challenge for throne → Become King</p>
-                <p><strong>This is why Aldric fears any Lord attempting it.</strong></p>
+        <section class="content-section">
+            <h2>🔒 Secret Knowledge</h2>
+            <div class="tier-label">DM-only information</div>
+            
+            <div class="secret-box">
+                <h4>⚠️ Contains spoilers for players</h4>
             </div>
+            
+            <h3>The Queen's Web</h3>
+            <p><strong>Queen Margarethe Greymont</strong> runs the Kingdom's intelligence network. Her ladies-in-waiting are spies. Her charity visits are interrogations. She knows more about the Lords' schemes than her husband does.</p>
+            
+            <p><strong>What she's discovered:</strong></p>
+            <ul>
+                <li>Blackthorne murdered his brother for the title (no proof)</li>
+                <li>Belmont is bankrupt, hiding it with creative accounting</li>
+                <li>Three Lords have secret dealings with Broken Isles pirates</li>
+                <li>Her son Roderick has been manipulated by Eisenwald</li>
+            </ul>
+            
+            <h3>Lord Blackthorne's Long Game</h3>
+            <p>Edmund Blackthorne isn't just scheming for more power—he wants the throne.</p>
+            
+            <p><strong>His plan:</strong></p>
+            <ol>
+                <li>Weaken rival Lords through manipulation ✓</li>
+                <li>Gain Prince Roderick's trust ✓</li>
+                <li>Isolate the King (in progress)</li>
+                <li>When Aldric dies, be positioned as Roderick's chief advisor</li>
+                <li>Control the new King, then... accidents happen</li>
+            </ol>
+            
+            <p><strong>What he doesn't know:</strong> The Queen suspects him. She's documenting everything.</p>
+            
+            <h3>The Pirate Connections</h3>
+            <p>Three Lords secretly deal with Broken Isles pirates:</p>
+            <ul>
+                <li><strong>Blackthorne:</strong> Funds specific captains to raid rivals' shipping</li>
+                <li><strong>Belmont:</strong> Buys stolen goods at discount, sells as "salvage"</li>
+                <li><strong>Ashfeld:</strong> Trades shipping information for cuts of pirate profit</li>
+            </ul>
+            
+            <h3>The Succession Crisis</h3>
+            <p>When Aldric dies, the Kingdom will fracture unless:</p>
+            <ul>
+                <li>Roderick proves himself quickly</li>
+                <li>The Queen maintains her network</li>
+                <li>No Lord makes a move before Roderick consolidates</li>
+            </ul>
+            
+            <p><strong>The nightmare scenario:</strong> Aldric dies before Roderick matures. Multiple Lords declare independence. Civil war.</p>
         </section>
 
-        <section>
-            <h2>Current State</h2>
-
-            <h3>Strengths:</h3>
+        <div class="plot-hooks">
+            <h3>🎲 Story Hooks</h3>
             <ul>
-                <li>Large population and military</li>
-                <li>Abundant resources (farms, mines, ports)</li>
-                <li>Competitive economy drives innovation</li>
-                <li>Ambitious people create opportunities</li>
+                <li><strong>The Blackthorne Documents:</strong> Proof of the murder exists. Finding it could reshape Kingdom politics.</li>
+                <li><strong>The Queen's Mission:</strong> Margarethe needs something done that can't be traced to the crown.</li>
+                <li><strong>The Pirate Problem:</strong> Evidence of the Lords' pirate dealings surfaces. Expose them or profit from silence?</li>
+                <li><strong>Roderick's Folly:</strong> The Prince is planning something stupid regarding Veraheim. Stop him or help him?</li>
+                <li><strong>Succession Games:</strong> Aldric falls ill. The Lords begin positioning. Who do the PCs support?</li>
             </ul>
-
-            <h3>Weaknesses:</h3>
-            <ul>
-                <li>Constantly on verge of civil war</li>
-                <li>Lords scheme against King and each other</li>
-                <li>No unified vision or long-term planning</li>
-                <li>Dependent on Veraheim's tunnel</li>
-                <li>Supremacy ideology creates enemies</li>
-                <li>Younger, more aggressive heir threatens stability</li>
-            </ul>
-
-            <h3>The Future:</h3>
-            <p>The Kingdom teeters. Aldric keeps Lords divided through diplomacy. But he's 52, Roderick is 28 and aggressive. When Roderick inherits, will he maintain father's careful balance? Or will ambition and ideology drive Kingdom to war it cannot win?</p>
-        </section>
+        </div>
 
         <footer class="page-footer">
-            <p>The Human Kingdom: United by supremacy, divided by ambition, held together by one diplomat's skill.</p>
+            <p>Exilium - A D&D 5e 2024 Campaign Setting</p>
         </footer>
     </main>
 

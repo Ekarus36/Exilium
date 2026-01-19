@@ -3,24 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Religion System - Exilium</title>
+    <title>Religion - Exilium Wiki</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav class="sidebar">
-        <div class="logo"><h2>EXILIUM</h2><p class="tagline">Campaign Setting</p></div>
-        <div class="search-box"><input type="text" id="searchInput" placeholder="Search..."></div>
+        <div class="logo">
+            <h2>EXILIUM</h2>
+            <p class="tagline">Campaign Setting</p>
+        </div>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search Exilium...">
+        </div>
         <ul class="nav-menu">
             <li><a href="index.html">🏠 Home</a></li>
             <li class="nav-section">World</li>
             <li><a href="world-overview.html">📖 World Overview</a></li>
             <li><a href="geography.html">🗺️ Geography</a></li>
             <li><a href="magic-items.html">✨ Magic Items</a></li>
+            <li><a href="magic-users.html">🔮 Magic Users</a></li>
             <li><a href="religion.html" class="active">🙏 Religion</a></li>
             <li class="nav-section">Locations</li>
             <li><a href="veraheim.html">🏰 Veraheim</a></li>
-            <li><a href="elven-enclaves.html">🌳 Elven Enclaves</a></li>
             <li><a href="floating-docks.html">⚓ The Floating Docks</a></li>
+            <li><a href="elven-enclaves.html">🌳 Elven Enclaves</a></li>
+            <li><a href="freehold-harbor.html">🏴‍☠️ Freehold Harbor</a></li>
             <li class="nav-section">History</li>
             <li><a href="timeline.html">📅 Timeline</a></li>
             <li><a href="dragon-war.html">🐉 Dragon War</a></li>
@@ -28,200 +35,134 @@
             <li class="nav-section">Factions</li>
             <li><a href="elven-empire.html">👑 Elven Empire</a></li>
             <li><a href="human-kingdom.html">🛡️ Human Kingdom</a></li>
+            <li><a href="eleven-domains.html">🏰 The Eleven Domains</a></li>
+            <li><a href="broken-isles.html">🏴‍☠️ The Broken Isles</a></li>
             <li><a href="drow-persecution.html">🌑 Drow Persecution</a></li>
-            <li class="nav-section">Notable NPCs</li>
+            <li class="nav-section">Veraheim NPCs</li>
             <li><a href="vera.html">💫 Vera Wyrdweaver</a></li>
-            <li><a href="galdor.html">🏹 Galdor Ruincalen</a></li>
+            <li><a href="thaelen.html">🏹 Thaelen Ruincalen</a></li>
             <li><a href="thorongil.html">🐲 Thorongil</a></li>
-            <li><a href="cirdan.html">👤 Círdan Golvenion</a></li>
+            <li class="nav-section">Empire NPCs</li>
+            <li><a href="valandor.html">👤 Emperor Valandor</a></li>
+            <li class="nav-section">Broken Isles NPCs</li>
+            <li><a href="vaelith-draegor.html">🌊 Vaelith "The Storm"</a></li>
+            <li><a href="graza-bloodtide.html">👑 Graza Bloodtide</a></li>
         </ul>
-        <div class="sidebar-footer"><p>D&D 5e 2024 Rules</p><p class="version">v1.0</p></div>
+        <div class="sidebar-footer">
+            <p>D&D 5e 2024 Rules</p>
+            <p class="version">v2.0</p>
+        </div>
     </nav>
 
     <main class="content">
         <header class="page-header">
-            <h1>🙏 Religion System</h1>
-            <p class="subtitle">One God, Many Names - Divine Unity Through Cultural Lens</p>
+            <h1>🙏 Religion in Exilium</h1>
+            <p class="subtitle">One God, Many Names - "All Prayers Reach the Same Source"</p>
         </header>
 
-        <section>
-            <h2>Core Principle</h2>
-            <blockquote>"There is one divine source. Every race calls it by a different name. All prayers reach the same place."</blockquote>
+        <section class="content-section">
+            <h2>⚡ At a Glance</h2>
+            <div class="tier-label">What anyone in Exilium would know</div>
             
-            <p>In Exilium, there is only one God - a singular divine entity that responds to worship from all races. However, each race believes they worship their own unique deity, unaware they're all praying to the same source.</p>
+            <p>Every race has their own god. Humans worship Solmaren. Elves revere Vaelithar. Dwarves honor Thromdur. Each believes their deity is the true divine power.</p>
+            
+            <p>They're all worshipping the same god.</p>
+            
+            <p><strong>This is the great secret of Exilium's cosmos:</strong> One divine entity exists. Every racial religion is a different interpretation of the same source. All prayers reach the same destination. The god doesn't correct them.</p>
         </section>
 
-        <section>
-            <h2>How It Works</h2>
-
-            <h3>The Truth (Unknown to Most):</h3>
+        <section class="content-section">
+            <h2>📖 The Racial Gods</h2>
+            <div class="tier-label">What followers of each faith would know</div>
+            
+            <table>
+                <tr><th>Race</th><th>God Name</th><th>Aspect</th><th>Domain Focus</th></tr>
+                <tr><td>Humans</td><td><strong>Solmaren</strong></td><td>The Sun Father</td><td>Light, Justice, War</td></tr>
+                <tr><td>Elves</td><td><strong>Vaelithar</strong></td><td>The Eternal Star</td><td>Knowledge, Nature, Life</td></tr>
+                <tr><td>Drow</td><td><strong>Velandra</strong></td><td>The Deep Mother</td><td>Darkness, Protection, Trickery</td></tr>
+                <tr><td>Dwarves</td><td><strong>Thromdur</strong></td><td>The Forge Father</td><td>Forge, War, Order</td></tr>
+                <tr><td>Halflings</td><td><strong>Aelwyn</strong></td><td>The Wanderer</td><td>Luck, Travel, Trickery</td></tr>
+                <tr><td>Gnomes</td><td><strong>Garl Glittergold</strong></td><td>The Clever One</td><td>Knowledge, Trickery, Forge</td></tr>
+                <tr><td>Orcs</td><td><strong>Gruumok</strong></td><td>The Storm Lord</td><td>Tempest, War, Death</td></tr>
+            </table>
+            
+            <h3>How Clerics Work</h3>
+            <p>Divine casters draw power from faith, not direct divine contact. A cleric of Solmaren believes in the Sun Father; that belief channels divine energy. The actual god doesn't appear, doesn't speak directly, doesn't correct misconceptions.</p>
+            
             <ul>
-                <li>One divine entity exists</li>
-                <li>Responds to all sincere prayers regardless of name used</li>
-                <li>Grants divine power based on faith, not specific doctrine</li>
-                <li>Does not favor one race over another</li>
-                <li>The divine is beyond mortal comprehension of identity</li>
+                <li><strong>Domains are disciplines</strong>, not different deities</li>
+                <li><strong>Faith powers magic</strong>, not divine relationship</li>
+                <li><strong>Different interpretations</strong> access the same source differently</li>
+                <li><strong>No god corrects</strong> theological disputes</li>
             </ul>
-
-            <h3>What Mortals Believe:</h3>
-            <ul>
-                <li>Each race believes in their own unique god</li>
-                <li>Elves worship "Elbereth" (Light of the Stars)</li>
-                <li>Humans worship "Arathor" (The Shield)</li>
-                <li>Dwarves worship "Khazad" (The Forge Father)</li>
-                <li>Halflings worship "Yavanna" (The Provider)</li>
-                <li>Each race has their own prayers, temples, rituals</li>
-            </ul>
-
-            <h3>The Divine's Perspective:</h3>
-            <ul>
-                <li>Names don't matter - faith does</li>
-                <li>Sincere worship from any race is heard</li>
-                <li>Grants power to clerics/paladins of all races equally</li>
-                <li>Does not correct mortal misunderstanding (why?)</li>
-            </ul>
+            
+            <h3>Religious Tolerance (and Intolerance)</h3>
+            <p><strong>Elven Empire:</strong> Vaelithar worship dominant. Other faiths tolerated but seen as inferior.</p>
+            <p><strong>Human Kingdom:</strong> Solmaren worship enforced. Other faiths permitted but clergy have less status.</p>
+            <p><strong>Veraheim:</strong> All faiths welcome. Multi-faith temples exist. No state religion.</p>
+            <p><strong>Broken Isles:</strong> Mixed practices. Sea gods, storm gods, various interpretations. Practical faith—pray to whoever helps.</p>
         </section>
 
-        <section>
-            <h2>Racial Interpretations</h2>
-
-            <div class="feature-card">
-                <h3>Elven Faith: Elbereth</h3>
-                <p><strong>"The Light of the Stars, She Who Illuminates"</strong></p>
-                <ul>
-                    <li><strong>Domains:</strong> Light, Knowledge, Order</li>
-                    <li><strong>Symbol:</strong> Silver star on dark field</li>
-                    <li><strong>Core Belief:</strong> Light drives back darkness, knowledge enlightens, order brings peace</li>
-                    <li><strong>Worship:</strong> Meditation under stars, quiet contemplation</li>
-                    <li><strong>Values:</strong> Wisdom, patience, preservation</li>
-                </ul>
+        <section class="content-section">
+            <h2>🔒 Secret Knowledge</h2>
+            <div class="tier-label">DM-only information</div>
+            
+            <div class="secret-box">
+                <h4>⚠️ Contains cosmological spoilers</h4>
             </div>
-
-            <div class="feature-card">
-                <h3>Human Faith: Arathor</h3>
-                <p><strong>"The Shield, He Who Protects"</strong></p>
-                <ul>
-                    <li><strong>Domains:</strong> War, Protection, Life</li>
-                    <li><strong>Symbol:</strong> Golden shield with sword</li>
-                    <li><strong>Core Belief:</strong> Strength protects the weak, courage defeats evil</li>
-                    <li><strong>Worship:</strong> Active prayer, martial training as devotion</li>
-                    <li><strong>Values:</strong> Courage, strength, action</li>
-                </ul>
-            </div>
-
-            <div class="feature-card">
-                <h3>Dwarven Faith: Khazad</h3>
-                <p><strong>"The Forge Father, He Who Shapes"</strong></p>
-                <ul>
-                    <li><strong>Domains:</strong> Forge, Earth, Order</li>
-                    <li><strong>Symbol:</strong> Hammer and anvil</li>
-                    <li><strong>Core Belief:</strong> Work is worship, creation is sacred</li>
-                    <li><strong>Worship:</strong> Through craftsmanship and labor</li>
-                    <li><strong>Values:</strong> Skill, dedication, quality</li>
-                </ul>
-            </div>
-
-            <div class="feature-card">
-                <h3>Halfling Faith: Yavanna</h3>
-                <p><strong>"The Provider, She Who Nourishes"</strong></p>
-                <ul>
-                    <li><strong>Domains:</strong> Nature, Life, Peace</li>
-                    <li><strong>Symbol:</strong> Wheat sheaf with green leaves</li>
-                    <li><strong>Core Belief:</strong> Life sustains life, sharing brings abundance</li>
-                    <li><strong>Worship:</strong> Harvest festivals, communal meals</li>
-                    <li><strong>Values:</strong> Community, generosity, contentment</li>
-                </ul>
-            </div>
+            
+            <h3>The One God</h3>
+            <p>A single divine entity exists. It has no "true" name—or rather, all names are equally true. It doesn't prefer one interpretation over another. It doesn't intervene to correct errors.</p>
+            
+            <p><strong>Why doesn't it speak?</strong> Unknown. Theories include:</p>
+            <ul>
+                <li>It can't (too vast to communicate directly)</li>
+                <li>It won't (non-interference principle)</li>
+                <li>It doesn't care (mortals are a small part of something larger)</li>
+                <li>It's dead/sleeping (power flows but consciousness doesn't)</li>
+            </ul>
+            
+            <h3>False Gods</h3>
+            <p>Beings that claim divinity but aren't:</p>
+            <ul>
+                <li><strong>Powerful fiends</strong> accepting worship for power</li>
+                <li><strong>Archfey</strong> playing god for amusement</li>
+                <li><strong>Ancient sorcerers</strong> who achieved near-immortality</li>
+                <li><strong>Entities from beyond the Storm</strong> (if it ever breaks)</li>
+            </ul>
+            
+            <p>These beings can grant power (warlock-style), but they're not the One God. Their "clerics" function differently—more like warlocks with divine aesthetics.</p>
+            
+            <h3>The Great Storm & Religion</h3>
+            <p>The Great Storm blocks extraplanar contact. This means:</p>
+            <ul>
+                <li>No celestials arrive directly</li>
+                <li>No fiends reach through</li>
+                <li>Divine power flows, but divine beings don't manifest</li>
+                <li>This has been true for thousands of years</li>
+            </ul>
+            
+            <p><strong>If the Storm fails:</strong> Entities that mortals have been praying to might actually show up. What happens when worshippers meet their "gods" and discover they're not what they expected?</p>
+            
+            <h3>Religious Conflicts as Power Struggles</h3>
+            <p>Theological disputes are actually cultural conflicts. Humans don't fight elves over theology—they fight over land, power, pride. Religion provides justification.</p>
+            
+            <p><strong>The irony:</strong> Wars fought "in the name of Solmaren" against elves who worship "the wrong god" are actually two groups of people praying to the same deity for victory against each other.</p>
         </section>
 
-        <section>
-            <h2>Divine Magic - How It Works</h2>
-
-            <h3>For Clerics and Paladins:</h3>
+        <div class="plot-hooks">
+            <h3>🎲 Story Hooks</h3>
             <ul>
-                <li>Power comes from sincere faith, not specific deity</li>
-                <li>Call on your god's name - it works regardless</li>
-                <li>Elven cleric praying to Elbereth gets same power as human cleric praying to Arathor</li>
-                <li>The divine responds to faith itself</li>
+                <li><strong>The Shared Vision:</strong> Clerics of different faiths have the same divine dream. What do they do when they realize they serve one god?</li>
+                <li><strong>The False God:</strong> Something claims to be Solmaren incarnate. It grants real power. Is it lying? Does it matter?</li>
+                <li><strong>The Storm Breach:</strong> Something from beyond reaches through. It looks like what humans expect Solmaren to look like. But it's not.</li>
+                <li><strong>The Unifying Heresy:</strong> A prophet preaches that all gods are one. They're right. Both empires want them dead.</li>
+                <li><strong>The Silent Prayer:</strong> A cleric's powers fail. Their faith hasn't changed. What does that mean?</li>
             </ul>
-
-            <h3>Domains:</h3>
-            <p>Divine magic users can access domains based on their faith's interpretation:</p>
-            <ul>
-                <li>Elven clerics typically choose Light or Knowledge</li>
-                <li>Human clerics typically choose War or Life</li>
-                <li>Dwarf clerics typically choose Forge or Order</li>
-                <li>But any domain is available if justified by character's faith</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Does Anyone Know the Truth?</h2>
-
-            <div class="warning-box">
-                <h3>Very Few Know</h3>
-                <ul>
-                    <li>Most mortals believe in their racial god exclusively</li>
-                    <li>High-level clerics (17+) may suspect</li>
-                    <li>Scholars who study comparative theology wonder</li>
-                    <li>The divine itself doesn't confirm or deny</li>
-                </ul>
-
-                <h3>In Veraheim:</h3>
-                <p>Religious diversity forces the question. When elven cleric and human paladin both pray and both receive power...</p>
-                <ul>
-                    <li>Some residents suspect shared divinity</li>
-                    <li>Others insist their god is simply more tolerant</li>
-                    <li>Religious debates common in taverns</li>
-                    <li>No definitive answer (the divine stays silent)</li>
-                </ul>
-            </div>
-        </section>
-
-        <section>
-            <h2>Campaign Implications</h2>
-
-            <h3>For Players:</h3>
-            <ul>
-                <li>Worship according to your character's race/background</li>
-                <li>Divine magic works exactly as written in rules</li>
-                <li>Your character probably doesn't know the truth</li>
-                <li>Religious disagreements can be roleplayed</li>
-            </ul>
-
-            <h3>For DMs:</h3>
-            <ul>
-                <li>Grants religious diversity without pantheon complexity</li>
-                <li>Allows interfaith conflict AND cooperation</li>
-                <li>Players can discover truth through high-level play</li>
-                <li>Divine remains mysterious and unified</li>
-            </ul>
-
-            <h3>Story Potential:</h3>
-            <ul>
-                <li>High-level quest: Discover the truth about the divine</li>
-                <li>Religious tolerance: Veraheim's practical solution</li>
-                <li>Faith crisis: What if mortals learned the truth?</li>
-                <li>Unity through diversity: All pray to same source</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Veraheim's Approach</h2>
-            <p>All faiths welcome. Multiple shrines exist side by side:</p>
-            <ul>
-                <li>Elven shrine to Elbereth (star garden on Level 3)</li>
-                <li>Human chapel to Arathor (martial hall on Level 2)</li>
-                <li>Dwarven forge-temple to Khazad (Level 2, workshop district)</li>
-                <li>Halfling grove to Yavanna (Level 1, near plaza)</li>
-            </ul>
-
-            <p><strong>Vera's Policy:</strong> "Worship how you will. The divine doesn't seem to care what name you use."</p>
-            <p>Some residents find this blasphemous. Others find it practical. All agree divine magic works regardless of debate.</p>
-        </section>
+        </div>
 
         <footer class="page-footer">
-            <p>One God, Many Names: The divine hears all prayers, regardless of the name spoken.</p>
+            <p>Exilium - A D&D 5e 2024 Campaign Setting</p>
         </footer>
     </main>
 

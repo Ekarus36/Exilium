@@ -3,24 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Elven Empire - Exilium</title>
+    <title>The Elven Empire - Exilium Wiki</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav class="sidebar">
-        <div class="logo"><h2>EXILIUM</h2><p class="tagline">Campaign Setting</p></div>
-        <div class="search-box"><input type="text" id="searchInput" placeholder="Search..."></div>
+        <div class="logo">
+            <h2>EXILIUM</h2>
+            <p class="tagline">Campaign Setting</p>
+        </div>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search Exilium...">
+        </div>
         <ul class="nav-menu">
             <li><a href="index.html">🏠 Home</a></li>
             <li class="nav-section">World</li>
             <li><a href="world-overview.html">📖 World Overview</a></li>
             <li><a href="geography.html">🗺️ Geography</a></li>
             <li><a href="magic-items.html">✨ Magic Items</a></li>
+            <li><a href="magic-users.html">🔮 Magic Users</a></li>
             <li><a href="religion.html">🙏 Religion</a></li>
             <li class="nav-section">Locations</li>
             <li><a href="veraheim.html">🏰 Veraheim</a></li>
-            <li><a href="elven-enclaves.html">🌳 Elven Enclaves</a></li>
             <li><a href="floating-docks.html">⚓ The Floating Docks</a></li>
+            <li><a href="elven-enclaves.html">🌳 Elven Enclaves</a></li>
+            <li><a href="freehold-harbor.html">🏴‍☠️ Freehold Harbor</a></li>
             <li class="nav-section">History</li>
             <li><a href="timeline.html">📅 Timeline</a></li>
             <li><a href="dragon-war.html">🐉 Dragon War</a></li>
@@ -28,548 +35,170 @@
             <li class="nav-section">Factions</li>
             <li><a href="elven-empire.html" class="active">👑 Elven Empire</a></li>
             <li><a href="human-kingdom.html">🛡️ Human Kingdom</a></li>
+            <li><a href="eleven-domains.html">🏰 The Eleven Domains</a></li>
+            <li><a href="broken-isles.html">🏴‍☠️ The Broken Isles</a></li>
             <li><a href="drow-persecution.html">🌑 Drow Persecution</a></li>
-            <li class="nav-section">Notable NPCs</li>
+            <li class="nav-section">Veraheim NPCs</li>
             <li><a href="vera.html">💫 Vera Wyrdweaver</a></li>
-            <li><a href="galdor.html">🏹 Galdor Ruincalen</a></li>
+            <li><a href="thaelen.html">🏹 Thaelen Ruincalen</a></li>
             <li><a href="thorongil.html">🐲 Thorongil</a></li>
-            <li><a href="cirdan.html">👤 Círdan Golvenion</a></li>
+            <li class="nav-section">Empire NPCs</li>
+            <li><a href="valandor.html">👤 Emperor Valandor</a></li>
+            <li class="nav-section">Broken Isles NPCs</li>
+            <li><a href="vaelith-draegor.html">🌊 Vaelith "The Storm"</a></li>
+            <li><a href="graza-bloodtide.html">👑 Graza Bloodtide</a></li>
         </ul>
-        <div class="sidebar-footer"><p>D&D 5e 2024 Rules</p><p class="version">v1.0</p></div>
+        <div class="sidebar-footer">
+            <p>D&D 5e 2024 Rules</p>
+            <p class="version">v2.0</p>
+        </div>
     </nav>
 
     <main class="content">
         <header class="page-header">
             <h1>👑 The Elven Empire</h1>
-            <p class="subtitle">Ancient, Stable, Superior - 1,500 Years Under One Emperor</p>
+            <p class="subtitle">"We have ruled for fifteen centuries. We will rule for fifteen more. This is the natural order."</p>
         </header>
 
-        <section>
-            <div class="info-box">
-                <p><strong>Ruler:</strong> Emperor Círdan Golvenion (1,500+ years on throne)<br>
-                <strong>Capital:</strong> Tirion (50,000 elves)<br>
-                <strong>Government:</strong> Absolute monarchy with Four Pillars administration<br>
-                <strong>Population:</strong> ~150,000 elves across 10 enclaves<br>
-                <strong>Territory:</strong> Western lands, ancient forests, northwestern coast<br>
-                <strong>Philosophy:</strong> Elven supremacy, stability, slow deliberate change</p>
-            </div>
-        </section>
-
-        <section>
-            <h2>Government Structure</h2>
-
-            <h3>The Emperor - Absolute Authority</h3>
-            <p>Círdan Golvenion has ruled for over 1,500 years. His word is law. No council challenges him, no vote overrules him. The Empire is stable because one immortal elf has guided it for fifteen centuries.</p>
-
-            <h4>Emperor's Powers:</h4>
-            <ul>
-                <li>Absolute legislative authority</li>
-                <li>Final judicial decision</li>
-                <li>Commands all military forces</li>
-                <li>Appoints all Four Pillars</li>
-                <li>Can override any decision</li>
-                <li>No term limits (immortal)</li>
-            </ul>
-
-            <h3>The Four Pillars - Administration</h3>
-            <p>The Emperor delegates day-to-day governance to four appointed positions. They advise him and execute his will. They do NOT make policy independently.</p>
-
-            <div class="feature-grid">
-                <div class="feature-card">
-                    <h4>1st Pillar: Ecthelion Silverquill</h4>
-                    <p><strong>Role:</strong> Military Commander & Dragon Knights<br>
-                    <strong>High Elf, Male, 800+ years</strong></p>
-                    <ul>
-                        <li>Commands all Imperial military</li>
-                        <li>Maintains Dragon Knight order (no dragons)</li>
-                        <li>Strategic defense planning</li>
-                        <li>Personally bitter about losing Galdor</li>
-                        <li>Views Veraheim as stolen asset</li>
-                    </ul>
-                </div>
-
-                <div class="feature-card">
-                    <h4>2nd Pillar: Pengolodh Truthseeker</h4>
-                    <p><strong>Role:</strong> Council of Memory & Records<br>
-                    <strong>High Elf, Male, 1,200+ years</strong></p>
-                    <ul>
-                        <li>Oversees all historical records</li>
-                        <li>Investigates major events</li>
-                        <li>Discovered drow caused Dragon War</li>
-                        <li>Values truth over politics</li>
-                        <li>Quietly sympathetic to Veraheim</li>
-                    </ul>
-                </div>
-
-                <div class="feature-card">
-                    <h4>3rd Pillar: Mirelen Dawnwhisper</h4>
-                    <p><strong>Role:</strong> Justice & Law<br>
-                    <strong>Drow, Female, 180 years (unique position)</strong></p>
-                    <ul>
-                        <li>Chief Justice of Empire</li>
-                        <li>Achievement-based justice system</li>
-                        <li>Only drow in Empire (protected status)</li>
-                        <li>Lives in Veraheim, commutes to Tirion</li>
-                        <li>Bridge between Empire and sanctuary</li>
-                    </ul>
-                </div>
-
-                <div class="feature-card">
-                    <h4>4th Pillar: Tauriel Greenleaf</h4>
-                    <p><strong>Role:</strong> Economic Development & Trade<br>
-                    <strong>Wood Elf, Female, 400 years</strong></p>
-                    <ul>
-                        <li>Coordinates Imperial commodities system</li>
-                        <li>Manages provision flows between enclaves</li>
-                        <li>Oversees external trade and tunnel tolls</li>
-                        <li>Century-scale economic planning</li>
-                        <li>Frustrated by ideological constraints</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <h2>Elven Supremacy - The Core Ideology</h2>
-
-            <h3>What They Believe:</h3>
-            <ul>
-                <li><strong>Elves are superior:</strong> Longer lives = more wisdom, better culture</li>
-                <li><strong>Other races are lesser:</strong> Shorter lives = limited perspective</li>
-                <li><strong>Elven rule is natural:</strong> They should guide other races</li>
-                <li><strong>Preservation over progress:</strong> Change slowly, value tradition</li>
-                <li><strong>Order through hierarchy:</strong> Everyone has their place</li>
-            </ul>
-
-            <h3>How This Manifests:</h3>
-            <ul>
-                <li>Non-elves have second-class legal status</li>
-                <li>Can live in Empire but with restrictions</li>
-                <li>Cannot own land (rent only)</li>
-                <li>Separate courts for non-elves (harsher penalties)</li>
-                <li>No voting rights or political representation</li>
-                <li>Employment restrictions (certain jobs elves-only)</li>
-            </ul>
-
-            <div class="warning-box">
-                <h3>The Drow Exception</h3>
-                <p><strong>Kill on sight. No exceptions. 400 years running.</strong></p>
-                <p>Drow caused the Dragon War. Drow tortured dragons. Drow destroyed the sacred bonds. Therefore, all drow must die.</p>
-                <p>This is official Imperial policy decreed by Círdan personally.</p>
-                <p><strong>Mirelen Dawnwhisper (3rd Pillar) is the ONLY drow allowed,</strong> protected by Emperor's personal decree. Cannot live in Empire proper - lives in Veraheim where safe.</p>
-            </div>
-        </section>
-
-        <section>
-            <h2>Justice System - Achievement-Based</h2>
-
-            <h3>No Death Penalty for Elves</h3>
-            <p>Elves live 750+ years. Killing an elf = destroying centuries of accumulated wisdom. Therefore, no elf can be executed, no matter the crime.</p>
-
-            <h3>Achievement-Based Sentencing</h3>
-            <p>Punishment scaled to what you've contributed:</p>
+        <div class="info-table">
             <table>
-                <tr><th>Achievement Level</th><th>Crime Penalty</th></tr>
-                <tr><td>High achiever (scholar, artist, leader)</td><td>Lightest sentences, often just fines</td></tr>
-                <tr><td>Mid achiever (craftsman, soldier, merchant)</td><td>Moderate sentences, community service</td></tr>
-                <tr><td>Low achiever (laborer, young elf)</td><td>Harsh sentences, long imprisonment</td></tr>
-                <tr><td>Non-elf</td><td>Harshest sentences, including execution</td></tr>
+                <tr><th>Type</th><td>Absolute Monarchy</td></tr>
+                <tr><th>Population</th><td>~150,000 elves</td></tr>
+                <tr><th>Ruler</th><td>Emperor Valandor Aethril (1,500+ years)</td></tr>
+                <tr><th>Capital</th><td>Aelindor (~50,000 elves)</td></tr>
+                <tr><th>Territory</th><td>Western lands, ancient forests, coast</td></tr>
+                <tr><th>Philosophy</th><td>Elven supremacy, stability, tradition</td></tr>
             </table>
+        </div>
 
-            <h4>The Logic:</h4>
-            <ul>
-                <li>High achievers earned leniency through contributions</li>
-                <li>Society benefits from their continued work</li>
-                <li>One crime doesn't erase lifetime of achievement</li>
-                <li>Non-elves haven't contributed as much (shorter lives)</li>
-            </ul>
-
-            <h4>The Reality:</h4>
-            <p>Rich, accomplished elves rarely face consequences. Poor elves and all non-elves face harsh justice. Mirelen (3rd Pillar) administers this system but doesn't control policy.</p>
-        </section>
-
-        <section>
-            <h2>Military - Quality Over Quantity</h2>
-
-            <h3>Structure:</h3>
-            <ul>
-                <li><strong>Standing Army:</strong> ~5,000 professional soldiers</li>
-                <li><strong>Dragon Knights:</strong> Elite order (no dragons anymore)</li>
-                <li><strong>Enclave Guards:</strong> Local defense forces</li>
-                <li><strong>Navy:</strong> Northwestern coast patrol</li>
-            </ul>
-
-            <h3>Philosophy:</h3>
-            <ul>
-                <li>Highly trained, centuries of experience</li>
-                <li>Strategic, defensive posture</li>
-                <li>Prefer diplomacy and deterrence</li>
-                <li>Will fight if necessary (patient, methodical)</li>
-                <li>Lost dragon advantage 400 years ago</li>
-            </ul>
-
-            <h3>The Dragon Knights Today:</h3>
-            <p>Elite warrior order that once rode dragons. Now just elite warriors. Still called Dragon Knights. Still trained in aerial combat tactics. Still the best fighters in the Empire. But no dragons.</p>
-            <p><strong>Ecthelion maintains the order, hoping bonds might one day return.</strong></p>
-
-            <h3>How Provision System Funds Military:</h3>
-            <ul>
-                <li>Osgiliath provides: Weapons, armor, training facilities</li>
-                <li>Tirion provides: Dragon Knight training, strategic command</li>
-                <li>Mithlond/Pelargir provide: Warships for naval defense</li>
-                <li>All Enclaves provide: Soldiers (small numbers, highest quality)</li>
-                <li>No "military budget" in gold - everything flows through commodities system</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Economy - Commodities & Mutual Provision</h2>
-
-            <div class="info-box">
-                <h3>The Elven Economic Philosophy</h3>
-                <p><strong>"We each provide what we can. We each receive what we need. The Empire endures through cooperation, not coin."</strong></p>
-                <p>Unlike humans who rely on gold and taxation, elves built their economy on <strong>mutual provision</strong> and <strong>resource sharing</strong>. Each enclave produces what it's best suited to create, then shares with others. Currency exists (used in external trade), but <strong>internal Imperial trade operates primarily through commodities exchange.</strong></p>
-            </div>
-
-            <h3>How It Works - The Provision System</h3>
-            <p><strong>Tauriel (4th Pillar) coordinates all flows:</strong></p>
-            <ul>
-                <li>Each enclave reports production quarterly</li>
-                <li>Tauriel's office calculates need across Empire</li>
-                <li>Goods flow to where needed most</li>
-                <li>Records maintained by Pengolodh (2nd Pillar)</li>
-                <li>System runs smoothly for 1,500 years</li>
-            </ul>
-
-            <h4>No "Taxation" in Human Sense:</h4>
-            <ul>
-                <li>Enclaves don't pay gold to Tirion</li>
-                <li>Instead, they <strong>provide goods</strong> based on what they produce</li>
-                <li>Tirion (capital) receives portion from all</li>
-                <li>But Tirion also produces (governance, culture, military training)</li>
-            </ul>
-
-            <h4>Why It Works:</h4>
-            <ul>
-                <li>Elven lifespans = long-term thinking</li>
-                <li><strong>Simple lifestyle = stable needs</strong> (no greed for wealth)</li>
-                <li><strong>Seek power, not possessions</strong> (gold is meaningless internally)</li>
-                <li>Consensus culture = cooperation (eventually)</li>
-                <li>Trust built over centuries</li>
-            </ul>
-
-            <h3>What Each Enclave Provides</h3>
-            <table>
-                <tr><th>Enclave</th><th>Provides to Empire</th></tr>
-                <tr><td><strong>Tirion</strong> (50K)</td><td>Administration, Dragon Knights, Imperial Archives</td></tr>
-                <tr><td><strong>Mithlond</strong> (15K)</td><td>Warships (navy), Merchant Vessels, Seafood</td></tr>
-                <tr><td><strong>Osgiliath</strong> (12K)</td><td>Weapons, Armor, Border Protection</td></tr>
-                <tr><td><strong>Lothgalen</strong> (18K)</td><td>Cultural Works, Performance, Education</td></tr>
-                <tr><td><strong>Annúminas</strong> (10K)</td><td>Exotic Materials, Medicinal Plants</td></tr>
-                <tr><td><strong>Imladris</strong> (8K)</td><td>Medicine, Historical Research, Manuscripts</td></tr>
-                <tr><td><strong>Edhellond</strong> (9K)</td><td>Seafood, Preserved Goods, Salt</td></tr>
-                <tr><td><strong>Calembel</strong> (11K)</td><td>Grains, Wines (aged centuries), Produce</td></tr>
-                <tr><td><strong>Ethring</strong> (7K)</td><td>Barges, River Commerce, Logistics</td></tr>
-                <tr><td><strong>Pelargir</strong> (10K)</td><td>Imperial Fleet, Coastal Defense</td></tr>
-            </table>
-
-            <h3>Example: How Calembel's Wine Reaches Everyone</h3>
-            <ol>
-                <li><strong>Calembel produces:</strong> 10,000 barrels of wine annually</li>
-                <li><strong>Tauriel calculates distribution:</strong> Tirion gets 3,000 (largest), other 8 enclaves get 700 each, Calembel keeps 500</li>
-                <li><strong>Shipping coordinated:</strong> Ethring provides barges, Mithlond provides ships</li>
-                <li><strong>In return, Calembel receives:</strong> Ships from Mithlond, weapons from Osgiliath, books from Imladris, art from Lothgalen</li>
-                <li><strong>No gold changes hands internally. Only goods flow.</strong></li>
-            </ol>
-
-            <h3>Currency - For External Use Only</h3>
-            <p><strong>Elven Gold Standard:</strong> Beautiful Imperial gold coins, worth more than human gold due to craftsmanship.</p>
-
-            <h4>Used For:</h4>
-            <ul>
-                <li>Trade with Veraheim (tunnel tolls paid in gold)</li>
-                <li>External merchants (humans, dwarves via Veraheim)</li>
-                <li>Non-elves working in Empire (paid in currency)</li>
-                <li>Luxury purchases from outside Empire</li>
-            </ul>
-
-            <h4>NOT Used For:</h4>
-            <ul>
-                <li>Internal enclave trade (commodities only)</li>
-                <li>Provision system (goods exchange)</li>
-                <li>Imperial "taxation" (provide goods, not gold)</li>
-            </ul>
-
-            <div class="info-box">
-                <h4>Why Gold Accumulates:</h4>
-                <p>Elves earn gold from exports but don't spend it internally. Simple lifestyle = few wants. "I have a home, tools for my craft, food from the provision system. What would I buy? Another home I don't need? That would be vulgar excess."</p>
-                <p><strong>Power Over Wealth:</strong> An ambitious elf doesn't hoard gold. They create masterworks, build reputation, accumulate favors, mentor the next generation. In 200 years, gold is forgotten. Legacy endures forever.</p>
-            </div>
-
-            <h3>Comparison to Human Economy</h3>
-            <table>
-                <tr><th>Aspect</th><th>Elven Empire</th><th>Human Kingdom</th></tr>
-                <tr><td>Internal Trade</td><td>Commodities exchange</td><td>Gold/silver currency</td></tr>
-                <tr><td>Taxation</td><td>Provide goods (mutual)</td><td>20% gold tax (forced)</td></tr>
-                <tr><td>Cooperation</td><td>Enclaves cooperate</td><td>Lords compete</td></tr>
-                <tr><td>Stability</td><td>1,500 years unchanged</td><td>Constantly shifting</td></tr>
-                <tr><td>Resentment</td><td>None (consensus)</td><td>Lords hate the tax</td></tr>
-                <tr><td>Philosophy</td><td>"We provide for each other"</td><td>"Every man for himself"</td></tr>
-            </table>
-
-            <div class="warning-box">
-                <h4>The Key Insight:</h4>
-                <p>Elves don't cheat on commodities because they don't care about wealth. An elf scheming for Pillar position for 200 years doesn't need extra wine barrels. Stealing goods is beneath them (no honor in it). Power struggles happen in reputation and position, not material goods.</p>
-                <p><strong>Elf:</strong> "I scheme for a Pillar position. Wine? I need one barrel. Take what you need."<br>
-                <strong>Human Lord:</strong> "I scheme for the throne AND I want 10,000 barrels of wine to prove I'm rich!"</p>
-            </div>
-
-            <h3>External Trade Revenue</h3>
-            <p>Even though internal trade is commodities, Empire earns gold from:</p>
-            <ul>
-                <li><strong>Port Fees:</strong> Mithlond, Edhellond, Pelargir charge foreign ships docking fees</li>
-                <li><strong>Veraheim Tunnel Tolls:</strong> Net loss (Empire pays more than collects)</li>
-                <li><strong>Export of Masterworks:</strong> Wines, weapons, armor, jewelry, books sold at premium prices</li>
-            </ul>
-            <p><strong>Imperial Treasury:</strong> Massive gold reserves (1,500 years accumulated). Used only for external trade and emergencies.</p>
-
-            <h3>The Veraheim Problem - Economic Dependence</h3>
-            <div class="warning-box">
-                <p><strong>The Painful Reality:</strong></p>
-                <ol>
-                    <li>Empire needs tunnel desperately (only safe east-west trade route)</li>
-                    <li>Must pay tolls to sanctuary they despise</li>
-                    <li>Gold flows to "traitors" (Vera, Galdor, Thorongil)</li>
-                    <li>Cannot attack (dragon, Vera's power, economic suicide)</li>
-                    <li>Tauriel manages this humiliation daily</li>
-                </ol>
-                <p><strong>Without Tunnel:</strong> Would lose 30% of external trade. Economy would survive (commodities system) but hurt. Prestige would suffer (dependent on sanctuary).</p>
-            </div>
-        </section>
-
-        <section>
-            <h2>Culture & Society</h2>
-
-            <h3>The Elven Lifestyle - Simple by Choice</h3>
-            <div class="info-box">
-                <p><strong>Core Philosophy:</strong> "Take what you need, not what you want."</p>
-            </div>
-
-            <h4>Material Simplicity:</h4>
-            <ul>
-                <li>Elves live simply despite massive wealth</li>
-                <li>Small homes (by human standards)</li>
-                <li>Few possessions (only what serves purpose)</li>
-                <li>No hoarding or accumulation</li>
-                <li>Centuries-old items maintained, not replaced</li>
-                <li><strong>"I have everything I need. Why would I want more?"</strong></li>
-            </ul>
-
-            <h4>Why Greed Doesn't Exist (In Wealth):</h4>
-            <ul>
-                <li>Long lives = patience, no urgency</li>
-                <li>Provision system = needs always met</li>
-                <li>Cultural value = excellence, not ownership</li>
-                <li>Status from achievement, not possessions</li>
-                <li>"More things = more to maintain. Why burden myself?"</li>
-            </ul>
-
-            <h4>What They DO Care About:</h4>
-            <ul>
-                <li><strong>Excellence in craft</strong> (mastery takes centuries)</li>
-                <li><strong>Achievement and reputation</strong> (remembered for ages)</li>
-                <li><strong>Knowledge and wisdom</strong> (accumulated over lifetimes)</li>
-                <li><strong>POWER and INFLUENCE</strong> (control over others, lasting legacy)</li>
-            </ul>
-
-            <h3>The Hidden Truth - Power Struggles</h3>
+        <section class="content-section">
+            <h2>⚡ At a Glance</h2>
+            <div class="tier-label">What anyone in the world would know</div>
             
-            <h4>What Outsiders See:</h4>
-            <ul>
-                <li>Perfect stability</li>
-                <li>No conflicts</li>
-                <li>Harmonious cooperation</li>
-                <li>1,500 years unchanged</li>
-                <li>"Elves never fight among themselves"</li>
-            </ul>
-
-            <div class="warning-box">
-                <h4>The Reality:</h4>
-                <ul>
-                    <li><strong>Elves absolutely compete for power</strong></li>
-                    <li>But slowly, patiently, over decades</li>
-                    <li>Not wealth (no one cares about gold)</li>
-                    <li>Not possessions (simplicity is cultural)</li>
-                    <li><strong>Control, influence, position, legacy</strong></li>
-                </ul>
+            <p>The Elven Empire is ancient, stable, and convinced of its own superiority.</p>
+            
+            <p>One immortal Emperor has ruled for 1,500 years. Four Pillars administer his will. Ten enclaves house 150,000 elves who live simply by choice while accumulating unimaginable wealth. Their justice system values achievement—the accomplished receive mercy; the unproven receive punishment.</p>
+            
+            <p>Non-elves are second-class citizens. <strong>Drow are killed on sight</strong>—a 400-year policy born from the Dragon War that cost elves their dragon bonds forever.</p>
+            
+            <p>They need Veraheim's tunnel desperately. They hate needing it more.</p>
+            
+            <div class="callout">
+                <strong>Common saying:</strong> "The Empire does not rush. The Empire endures."
             </div>
+        </section>
 
-            <h3>How Power Struggles Work</h3>
+        <section class="content-section">
+            <h2>📖 Common Knowledge</h2>
+            <div class="tier-label">What visitors, traders, or Empire residents would know</div>
+            
+            <h3>Government: The Four Pillars</h3>
+            <p><strong><a href="valandor.html">Emperor Valandor Aethril</a>:</strong> Absolute authority for 1,500 years. His word is law. Delegates daily governance to:</p>
+            
             <table>
-                <tr><th>Aspect</th><th>Human Power Struggle</th><th>Elven Power Struggle</th></tr>
-                <tr><td>Timeline</td><td>2 years</td><td>50-200 years</td></tr>
-                <tr><td>Method</td><td>Quick coup attempt</td><td>Slow reputation building</td></tr>
-                <tr><td>Violence</td><td>Common, bloody</td><td>Never (culturally forbidden)</td></tr>
-                <tr><td>Visibility</td><td>Obvious to all</td><td>Invisible to outsiders</td></tr>
-                <tr><td>Result</td><td>Win or die</td><td>Win or try again in a century</td></tr>
+                <tr><th>Pillar</th><th>Leader</th><th>Role</th></tr>
+                <tr><td><strong>1st - Iron Tower</strong></td><td>Caerwyn (High Warden)</td><td>Military, Dragon Knights</td></tr>
+                <tr><td><strong>2nd - Silvered Tower</strong></td><td>Thaelorin (First Remembrancer)</td><td>Law, Records, Justice</td></tr>
+                <tr><td><strong>3rd - Twilight Tower</strong></td><td>Isileth (Starwarden)</td><td>Magic, Diplomacy, Culture</td></tr>
+                <tr><td><strong>4th - Granite Tower</strong></td><td>Faendril (First Steward)</td><td>Administration, Economy</td></tr>
             </table>
-
-            <h4>Example Timeline - 100 Year Campaign:</h4>
+            
+            <h3>The Ten Enclaves</h3>
+            <table>
+                <tr><th>Enclave</th><th>Pop.</th><th>Role</th></tr>
+                <tr><td><strong>Aelindor</strong></td><td>50K</td><td>Capital, governance</td></tr>
+                <tr><td>Vaeltharis</td><td>15K</td><td>Primary seaport</td></tr>
+                <tr><td>Serath Vorn</td><td>12K</td><td>Military fortress, border</td></tr>
+                <tr><td>Caelindra</td><td>18K</td><td>Cultural center, arts</td></tr>
+                <tr><td>Thalwei</td><td>10K</td><td>Western watch</td></tr>
+                <tr><td>Lithvaen</td><td>8K</td><td>Scholarship, healing</td></tr>
+                <tr><td>Naerith</td><td>9K</td><td>Southern port, fishing</td></tr>
+                <tr><td>Velindor</td><td>11K</td><td>Agriculture, wine</td></tr>
+                <tr><td>Raemond</td><td>7K</td><td>River trade hub</td></tr>
+                <tr><td>Saelthorn</td><td>10K</td><td>Naval base</td></tr>
+            </table>
+            
+            <h3>Elven Supremacy</h3>
+            <p>The core ideology:</p>
             <ul>
-                <li><strong>Year 1:</strong> Begin quiet campaign for enclave leadership</li>
-                <li><strong>Year 20:</strong> First allies secured through decades of favors</li>
-                <li><strong>Year 50:</strong> Reputation established as master craftsman</li>
-                <li><strong>Year 80:</strong> Rival makes critical error (finally!)</li>
-                <li><strong>Year 100:</strong> Position achieved through "consensus"</li>
-                <li><strong>Humans would die of old age before seeing results</strong></li>
+                <li>Elves are superior (longer lives = more wisdom)</li>
+                <li>Other races are lesser (shorter lives = limited perspective)</li>
+                <li>Non-elves can live in the Empire but with restrictions</li>
+                <li>Cannot own land, separate courts, harsher penalties</li>
+                <li><strong>Drow policy:</strong> Kill on sight. No exceptions. 400 years.</li>
             </ul>
-
-            <h3>What Elves Compete For</h3>
-            <ol>
-                <li><strong>Pillar Positions</strong> (ultimate power below Emperor) - 400-800 year campaigns!</li>
-                <li><strong>Enclave Leadership</strong> (local power) - Speaker positions, voice in councils</li>
-                <li><strong>Imperial Appointments</strong> (specialized roles) - Master craftsmen, military commanders</li>
-                <li><strong>Reputation and Legacy</strong> (eternal influence) - "I will be remembered for 10,000 years"</li>
-            </ol>
-
-            <h4>The Methods (All Subtle):</h4>
+            
+            <h3>Achievement-Based Justice</h3>
+            <p>Punishment scaled to contribution:</p>
             <ul>
-                <li><strong>Excellence in craft</strong> (prove worthiness over decades)</li>
-                <li><strong>Strategic alliances</strong> (decades-long friendships, marriages)</li>
-                <li><strong>Patient waiting</strong> (opponent will eventually err)</li>
-                <li><strong>Accumulated favors</strong> (50 years of small kindnesses paid back)</li>
-                <li><strong>Reputation building</strong> (one great deed every 20 years)</li>
-                <li><strong>Never direct confrontation</strong> (culturally unacceptable)</li>
+                <li>High achievers (scholars, artists): Lightest sentences</li>
+                <li>Low achievers (laborers, young): Harsh sentences</li>
+                <li>Non-elves: Harshest, including execution</li>
+                <li><strong>No death penalty for elves</strong> (centuries of wisdom too valuable)</li>
             </ul>
+            
+            <h3>Economy: Mutual Provision</h3>
+            <p>Enclaves don't pay gold taxes—they share goods. Each produces what it's suited for; Faendril's office distributes based on need. Currency exists only for external trade.</p>
+            
+            <p><strong>The Veraheim Problem:</strong> The Empire desperately needs the tunnel but must pay tolls to traitors. Faendril manages this humiliation daily.</p>
+        </section>
 
-            <h4>Why It Looks Stable to Outsiders:</h4>
-            <ul>
-                <li>Moves take decades (humans don't live long enough to see)</li>
-                <li>No violence (consensus culture forbids it)</li>
-                <li>No drama (emotional displays are vulgar)</li>
-                <li>Always polite (cultural requirement)</li>
-                <li><strong>"They never argue!" (They do. Just over 50 years.)</strong></li>
-            </ul>
-
-            <h3>The Consensus Myth</h3>
-            <div class="info-box">
-                <p><strong>What Humans Think:</strong> "Elves reach consensus easily. They all agree on everything. No conflict."</p>
-                <p><strong>The Reality:</strong> "Consensus" = decades of maneuvering until everyone's position is clear.</p>
+        <section class="content-section">
+            <h2>🔒 Secret Knowledge</h2>
+            <div class="tier-label">DM-only information</div>
+            
+            <div class="secret-box">
+                <h4>⚠️ Contains spoilers for players</h4>
             </div>
-
-            <h4>How "Consensus" Really Works:</h4>
-            <ol>
-                <li><strong>Issue arises</strong> (new trade policy needed)</li>
-                <li><strong>50 years of quiet discussion</strong> - Private conversations, subtle alliances formed, positions clarified</li>
-                <li><strong>30 more years of maneuvering</strong> - Compromise positions developed, face-saving options created</li>
-                <li><strong>Final 20 years of "consensus building"</strong> - Everyone knows what will happen, face saved for all parties</li>
-                <li><strong>"Consensus reached!"</strong> (after 100 years)</li>
-            </ol>
-            <p><strong>To humans:</strong> "Wow, they all just agreed!"<br>
-            <strong>To elves:</strong> "Finally. That took forever."</p>
-
-            <h3>Values & Daily Life</h3>
-            <h4>Values:</h4>
+            
+            <h3>The Dragon War Truth</h3>
+            <p>The official history: Drow tortured dragons, breaking sacred bonds. The Empire righteously exterminated them.</p>
+            
+            <p><strong>The hidden truth</strong> (known only to Valandor, Velindor Shadowmere, and the deepest archives):</p>
             <ul>
-                <li><strong>Patience:</strong> Centuries to accomplish goals</li>
-                <li><strong>Simplicity:</strong> Need over want in material life</li>
-                <li><strong>Excellence:</strong> Time to master any skill</li>
-                <li><strong>Power:</strong> Influence and legacy over wealth</li>
-                <li><strong>Memory:</strong> History is sacred</li>
-                <li><strong>Order:</strong> Everyone has their place (and competes for higher place)</li>
+                <li>The war began over territory, not dragons</li>
+                <li>Both sides committed atrocities</li>
+                <li>The dragon-torture was real but was <em>retaliation</em>, not unprovoked</li>
+                <li>Elves struck first</li>
+                <li>The genocide was Valandor's rage, not justice</li>
             </ul>
-
-            <h4>Daily Life:</h4>
+            
+            <p><strong>Why it matters:</strong> If this became public, the Empire's moral foundation crumbles.</p>
+            
+            <h3>Velindor Shadowmere - Master of Whispers</h3>
+            <p>The Empire's spymaster knows almost everything. He's served four Emperors. He's killed for the Empire more times than he can count.</p>
+            
+            <p><strong>What haunts him:</strong> He knows the Dragon War truth. He's buried evidence. He's silenced witnesses. He did it for the Empire. He'd do it again.</p>
+            
+            <p><strong>His network:</strong> Agents in Veraheim (discovered and tolerated), agents in the Human Kingdom (several lords compromised), agents in the Broken Isles (limited success).</p>
+            
+            <h3>The Four Pillars' Secrets</h3>
             <ul>
-                <li>Meditation and contemplation valued</li>
-                <li>Simple meals (no excess)</li>
-                <li>Work is meticulous, never rushed</li>
-                <li>Communal gatherings (festivals, performances)</li>
-                <li>Strong connection to nature and forests</li>
-                <li>Worship Elbereth (Light of the Stars)</li>
-                <li><strong>Quiet political maneuvering</strong> (never obvious)</li>
+                <li><strong>Caerwyn:</strong> Wants war with Veraheim. Has drawn up invasion plans. Knows they'd fail but updates them anyway.</li>
+                <li><strong>Thaelorin:</strong> The Living Archive contains records that would destroy the Empire. He's read them. He's sealed them.</li>
+                <li><strong>Isileth:</strong> Has been in secret contact with Vera Wyrdweaver for 60 years. They discuss philosophy, not politics. Valandor doesn't know.</li>
+                <li><strong>Faendril:</strong> Has secretly invested Empire gold in Veraheim-based businesses. If exposed, it would be treason.</li>
             </ul>
-
-            <h4>Arts:</h4>
-            <ul>
-                <li>Poetry and literature (centuries to compose epics)</li>
-                <li>Music (complex, layered compositions)</li>
-                <li>Architecture (buildings stand for millennia)</li>
-                <li>Sculpture and painting (perfected over lifetimes)</li>
-            </ul>
-
-            <h3>Time Perspective - 80 Years is Nothing</h3>
-            <ul>
-                <li><strong>To humans:</strong> Several generations, entire lifetime</li>
-                <li><strong>To elves:</strong> "We just started this project"</li>
-                <li>"You worry about decades. We think in centuries."</li>
-            </ul>
+            
+            <h3>Thaelen's Defection: The Real Story</h3>
+            <p>Thaelen didn't betray the Empire for love. He betrayed it because he discovered what the Empire did to start the Dragon War.</p>
+            
+            <p><strong>His choice:</strong> Stay and live a lie, or leave with the woman he loved. He chose Vera—and took his dragon, the last bonded dragon in the Empire.</p>
         </section>
 
-        <section>
-            <h2>Relationship with Veraheim</h2>
-
-            <div class="warning-box">
-                <h3>Official Position:</h3>
-                <ul>
-                    <li>Vera "enchanted" Galdor (human witch seduced him)</li>
-                    <li>Galdor is traitor who stole last dragon</li>
-                    <li>Veraheim harbors criminals and exiles</li>
-                    <li>Sanctuary undermines Imperial authority</li>
-                    <li>Would destroy it if economically feasible</li>
-                </ul>
-
-                <h3>Practical Reality:</h3>
-                <ul>
-                    <li>Need the tunnel desperately</li>
-                    <li>Cannot defeat dragon on mountain</li>
-                    <li>Vera demonstrated mountain-splitting power</li>
-                    <li>Attack = economic suicide</li>
-                    <li>Must tolerate what they cannot change</li>
-                </ul>
-
-                <h3>Internal Debates - The Four Pillars:</h3>
-                <ul>
-                    <li><strong>Ecthelion (1st):</strong> Wants to destroy Veraheim, reclaim Galdor</li>
-                    <li><strong>Pengolodh (2nd):</strong> Privately sympathetic, values truth over politics</li>
-                    <li><strong>Mirelen (3rd):</strong> Lives there, sees value, can't say so publicly</li>
-                    <li><strong>Tauriel (4th):</strong> Frustrated but pragmatic, needs trade</li>
-                    <li><strong>Círdan:</strong> Personally betrayed, but too wise to act rashly</li>
-                </ul>
-            </div>
-        </section>
-
-        <section>
-            <h2>Current State</h2>
-
-            <h3>Strengths:</h3>
+        <div class="plot-hooks">
+            <h3>🎲 Story Hooks</h3>
             <ul>
-                <li>1,500 years of stable rule</li>
-                <li>Unified under one Emperor</li>
-                <li>Strong economy (commodities system)</li>
-                <li>Ancient wisdom and culture</li>
-                <li>Clear hierarchy and order</li>
-                <li>Self-sufficient through mutual provision</li>
-                <li>Massive gold reserves</li>
+                <li><strong>The Archive Breach:</strong> Someone broke into the Living Archive's sealed section. What did they find?</li>
+                <li><strong>The Succession Crisis:</strong> An assassination attempt on Valandor fails—but exposes that someone is planning for his death.</li>
+                <li><strong>Isileth's Letters:</strong> Velindor discovers the correspondence with Vera. Does he tell the Emperor?</li>
+                <li><strong>The Dragon Bond:</strong> A young knight reports a dream: a dragon calling to her. Is it real?</li>
+                <li><strong>Drow Asylum:</strong> A drow child arrives at Serath Vorn, alone, starving. The law says kill on sight. What does honor say?</li>
             </ul>
-
-            <h3>Weaknesses:</h3>
-            <ul>
-                <li>Lost dragon bonds forever</li>
-                <li>Demographically stable = not growing</li>
-                <li>Resistant to change (slow to adapt)</li>
-                <li>Dependent on Veraheim's tunnel</li>
-                <li>400-year genocide creates enemies</li>
-                <li>Supremacy ideology limits potential allies</li>
-                <li>Century-long power struggles (hidden but present)</li>
-            </ul>
-
-            <h3>The Future:</h3>
-            <p>The Empire endures. It always has. Círdan has guided it for 1,500 years and will guide it for 1,500 more. Change comes slowly to elves. The loss of the dragons still hurts after 400 years. The defection of Galdor still stings after 80. But the Empire is patient. It will outlast its problems. It always has.</p>
-        </section>
+        </div>
 
         <footer class="page-footer">
-            <p>The Elven Empire: Ancient, stable, superior... and utterly dependent on the sanctuary they despise. Simple in lifestyle, complex in politics. Surface stability hiding century-long power struggles. A system that works perfectly for immortals who think in centuries, impossible for mortals who think in years.</p>
+            <p>Exilium - A D&D 5e 2024 Campaign Setting</p>
         </footer>
     </main>
 

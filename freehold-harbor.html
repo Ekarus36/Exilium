@@ -7,179 +7,175 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <button class="menu-toggle">☰</button>
-    <div class="wiki-container">
-        <nav class="sidebar">
-            <div class="logo"><h2>EXILIUM</h2><p class="tagline">Campaign Setting</p></div>
-            <div class="search-box"><input type="text" id="searchInput" placeholder="Search... (Ctrl+K)"></div>
-            <ul class="nav-menu">
-                <li><a href="index.html"><span class="nav-icon">🏠</span> Home</a></li>
-                <li class="nav-section">The Broken Isles</li>
-                <li><a href="broken-isles.html"><span class="nav-icon">🏴‍☠️</span> The Broken Isles</a></li>
-                <li><a href="broken-isles-history.html"><span class="nav-icon">📜</span> Isles History</a></li>
-                <li><a href="freehold-harbor.html" class="active"><span class="nav-icon">⚓</span> Freehold Harbor</a></li>
-                <li><a href="saltmere.html"><span class="nav-icon">💰</span> Saltmere</a></li>
-                <li><a href="skarath.html"><span class="nav-icon">🔨</span> Skarath</a></li>
-                <li><a href="ironhold.html"><span class="nav-icon">⚔️</span> Ironhold</a></li>
-                <li><a href="stormcrag.html"><span class="nav-icon">🦴</span> Stormcrag</a></li>
-                <li><a href="mistwood.html"><span class="nav-icon">🌲</span> Mistwood</a></li>
-                <li class="nav-section">Pirate Captains</li>
-                <li><a href="vaelith-draegor.html"><span class="nav-icon">⛈️</span> Vaelith Draegor</a></li>
-                <li><a href="graza-bloodtide.html"><span class="nav-icon">👑</span> Graza Bloodtide</a></li>
+    <nav class="sidebar">
+        <div class="logo">
+            <h2>EXILIUM</h2>
+            <p class="tagline">Campaign Setting</p>
+        </div>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search Exilium...">
+        </div>
+        <ul class="nav-menu">
+            <li><a href="index.html">🏠 Home</a></li>
+            <li class="nav-section">World</li>
+            <li><a href="world-overview.html">📖 World Overview</a></li>
+            <li><a href="geography.html">🗺️ Geography</a></li>
+            <li><a href="magic-items.html">✨ Magic Items</a></li>
+            <li><a href="magic-users.html">🔮 Magic Users</a></li>
+            <li><a href="religion.html">🙏 Religion</a></li>
+            <li class="nav-section">Locations</li>
+            <li><a href="veraheim.html">🏰 Veraheim</a></li>
+            <li><a href="floating-docks.html">⚓ The Floating Docks</a></li>
+            <li><a href="elven-enclaves.html">🌳 Elven Enclaves</a></li>
+            <li><a href="freehold-harbor.html" class="active">🏴‍☠️ Freehold Harbor</a></li>
+            <li class="nav-section">History</li>
+            <li><a href="timeline.html">📅 Timeline</a></li>
+            <li><a href="dragon-war.html">🐉 Dragon War</a></li>
+            <li><a href="founding.html">⚔️ The Founding</a></li>
+            <li class="nav-section">Factions</li>
+            <li><a href="elven-empire.html">👑 Elven Empire</a></li>
+            <li><a href="human-kingdom.html">🛡️ Human Kingdom</a></li>
+            <li><a href="eleven-domains.html">🏰 The Eleven Domains</a></li>
+            <li><a href="broken-isles.html">🏴‍☠️ The Broken Isles</a></li>
+            <li><a href="drow-persecution.html">🌑 Drow Persecution</a></li>
+            <li class="nav-section">Veraheim NPCs</li>
+            <li><a href="vera.html">💫 Vera Wyrdweaver</a></li>
+            <li><a href="thaelen.html">🏹 Thaelen Ruincalen</a></li>
+            <li><a href="thorongil.html">🐲 Thorongil</a></li>
+            <li class="nav-section">Empire NPCs</li>
+            <li><a href="valandor.html">👤 Emperor Valandor</a></li>
+            <li class="nav-section">Broken Isles NPCs</li>
+            <li><a href="vaelith-draegor.html">🌊 Vaelith "The Storm"</a></li>
+            <li><a href="graza-bloodtide.html">👑 Graza Bloodtide</a></li>
+        </ul>
+        <div class="sidebar-footer">
+            <p>D&D 5e 2024 Rules</p>
+            <p class="version">v2.0</p>
+        </div>
+    </nav>
+
+    <main class="content">
+        <header class="page-header">
+            <h1>🏴‍☠️ Freehold Harbor</h1>
+            <p class="subtitle">Capital of the Broken Isles - "Where Freedom Anchors"</p>
+        </header>
+
+        <div class="info-table">
+            <table>
+                <tr><th>Population</th><td>8,000-10,000 (fluctuates)</td></tr>
+                <tr><th>Type</th><td>Pirate Capital, Neutral Ground</td></tr>
+                <tr><th>Ruler</th><td>Graza Bloodtide (Pirate Queen)</td></tr>
+                <tr><th>Geography</th><td>Flooded volcanic caldera</td></tr>
+                <tr><th>Sacred Law</th><td>Harbor Peace</td></tr>
+            </table>
+        </div>
+
+        <section class="content-section">
+            <h2>⚡ At a Glance</h2>
+            <div class="tier-label">What anyone sailing these waters would know</div>
+            
+            <p><strong>Freehold Harbor</strong> is built inside a flooded volcanic caldera—a natural fortress that became the capital of piracy.</p>
+            
+            <p>Ships enter through a narrow channel in the caldera wall. Inside: calm waters, multiple docks, and the only place in the Broken Isles where violence is absolutely forbidden. The Pirate Queen rules from the Throne Hall. The Moot meets quarterly. Merchants fence stolen goods openly. Everyone prospers.</p>
+            
+            <div class="callout">
+                <strong>Harbor Peace:</strong> No violence in Freehold. Violators die. Everyone enforces this. It's why trade works.
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2>📖 Common Knowledge</h2>
+            <div class="tier-label">What visitors, traders, or pirates would know</div>
+            
+            <h3>The Caldera</h3>
+            <p>Ancient volcano, collapsed and flooded. Steep walls rise 200 feet around a sheltered bay. One entrance—a channel carved by the sea (or by something else). Inside: calm water regardless of weather outside. Natural fortress.</p>
+            
+            <h3>Districts</h3>
+            <table>
+                <tr><th>District</th><th>Character</th><th>Notable Locations</th></tr>
+                <tr><td><strong>The Docks</strong></td><td>Business, trade</td><td>Harbormaster's Tower, auction blocks</td></tr>
+                <tr><td><strong>Merchant's Rise</strong></td><td>Shops, fencing</td><td>The Golden Fence, ship suppliers</td></tr>
+                <tr><td><strong>Captain's Row</strong></td><td>Wealthy homes</td><td>Captain mansions, Throne Hall</td></tr>
+                <tr><td><strong>The Warren</strong></td><td>Common folk</td><td>Cheap taverns, boarding houses</td></tr>
+                <tr><td><strong>The Pits</strong></td><td>Arena, gambling</td><td>Fighting pits, betting halls</td></tr>
+            </table>
+            
+            <h3>Harbor Peace</h3>
+            <p>The sacred law that makes everything work:</p>
+            <ul>
+                <li><strong>No violence</strong> within Freehold's waters</li>
+                <li><strong>Ships traveling to/from</strong> Freehold are protected</li>
+                <li><strong>Violators:</strong> Hunted by ALL captains, executed publicly</li>
+                <li><strong>Disputes:</strong> Settled by the Queen or dueling (outside harbor)</li>
             </ul>
-            <div class="sidebar-footer"><p>D&D 5e 2024 Rules</p><p class="version">v2.0</p></div>
-        </nav>
+            
+            <p><strong>Why it works:</strong> Without Harbor Peace, no one could safely trade. Merchants couldn't fence goods. Captains couldn't resupply. Everyone benefits. Everyone enforces.</p>
+            
+            <h3>The Moot</h3>
+            <p>Quarterly assembly at the Throne Hall:</p>
+            <ul>
+                <li>Every captain = 1 vote</li>
+                <li>Every settlement = 1 vote</li>
+                <li>Pirate Monarch = tie-breaker</li>
+                <li>Major decisions require 2/3 majority</li>
+            </ul>
+            
+            <h3>Economy</h3>
+            <p><strong>Primary trade:</strong> Stolen goods, ship supplies, mercenary contracts, information.</p>
+            <p><strong>Currency:</strong> Any coin accepted, but Kingdom gold preferred.</p>
+            <p><strong>The Golden Fence:</strong> Largest fencing operation—buys anything, asks nothing, pays 40% of legitimate value.</p>
+        </section>
 
-        <main class="content">
-            <header class="page-header">
-                <span class="faction-badge pirates">Political Capital</span>
-                <h1>Freehold Harbor</h1>
-                <p class="subtitle">"The only law here is Harbor Peace. Break it and every captain in the Isles will hunt you."</p>
-            </header>
+        <section class="content-section">
+            <h2>🔒 Secret Knowledge</h2>
+            <div class="tier-label">DM-only information</div>
+            
+            <div class="secret-box">
+                <h4>⚠️ Contains spoilers for players</h4>
+            </div>
+            
+            <h3>The Caldera's Secret</h3>
+            <p>The volcanic caldera wasn't entirely natural. Something carved the entrance channel. Something reinforced the walls. Ancient construction, far older than the pirate confederation.</p>
+            
+            <p><strong>What lies beneath:</strong> Flooded tunnels below the harbor floor lead to chambers carved into the rock. Only the oldest captains know. They don't talk about it. Some things are best left underwater.</p>
+            
+            <h3>The Storm's Anchor</h3>
+            <p><em>Sorrow</em> has a permanent berth in Freehold—the only ship that does. Vaelith pays no fees. No one would ask.</p>
+            
+            <p><strong>When Sorrow is in harbor:</strong> The entire city walks more carefully. Conversations become quieter. Everyone remembers the Thenn family.</p>
+            
+            <h3>The Queen's Enforcers</h3>
+            <p>Graza maintains 200 "Peacekeepers"—mixed crew from all races, loyal to the throne (not any captain). They enforce Harbor Peace. Well-paid, well-equipped, absolutely ruthless.</p>
+            
+            <p><strong>Their secret orders:</strong> If The Storm ever moves against the throne, protect the Queen's escape. Don't fight him. Just buy time.</p>
+            
+            <h3>The Information Trade</h3>
+            <p>Freehold's most valuable commodity isn't stolen goods—it's information.</p>
+            <ul>
+                <li><strong>Shipping schedules:</strong> Sold to captains planning raids</li>
+                <li><strong>Noble secrets:</strong> Sold to Kingdom Lords (their rivals pay well)</li>
+                <li><strong>Empire intelligence:</strong> Sold to anyone with gold</li>
+            </ul>
+            
+            <p><strong>The Storm knows all of this.</strong> He allows it. Information flowing through Freehold eventually reaches him.</p>
+        </section>
 
-            <section>
-                <h2>Overview</h2>
-                <p>Freehold Harbor is the heart of <a href="broken-isles.html">The Broken Isles</a>—a massive natural harbor formed from a flooded volcanic caldera. It serves as the pirate stronghold, neutral meeting ground, and the only place in the Isles where violence is absolutely forbidden.</p>
-                
-                <div class="stat-block">
-                    <div class="stat-item">
-                        <span class="stat-label">Population</span>
-                        <span class="stat-value">8,000-10,000</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-label">Government</span>
-                        <span class="stat-value">Pirate Monarch</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-label">Current Ruler</span>
-                        <span class="stat-value gold"><a href="graza-bloodtide.html">Graza Bloodtide</a></span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-label">Location</span>
-                        <span class="stat-value">Central Island</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-label">Function</span>
-                        <span class="stat-value">Political Capital</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-label">Defense</span>
-                        <span class="stat-value">Nearly Impregnable</span>
-                    </div>
-                </div>
-            </section>
+        <div class="plot-hooks">
+            <h3>🎲 Story Hooks</h3>
+            <ul>
+                <li><strong>Harbor Peace Broken:</strong> Someone violates the sacred law. The hunt begins. Who did it? Why?</li>
+                <li><strong>The Moot Convenes:</strong> A major vote divides the captains. Both sides want allies.</li>
+                <li><strong>The Flooded Tunnels:</strong> Something stirs in the chambers beneath the harbor. Divers don't return.</li>
+                <li><strong>The Information Broker:</strong> A merchant offers to sell secrets about the Empire. Real? Or a trap?</li>
+                <li><strong>The Challenge:</strong> A captain challenges Graza for the throne. The Moot must witness. Opportunities abound.</li>
+            </ul>
+        </div>
 
-            <section>
-                <h2>Geography: The Caldera Harbor</h2>
-                <p>The harbor is a geological marvel—an ancient volcanic crater that collapsed and flooded, creating a nearly perfect natural port.</p>
-                <ul>
-                    <li><strong>Single narrow entrance</strong> — easily defended, ships must enter single-file</li>
-                    <li><strong>Deep water</strong> — can accommodate hundreds of ships</li>
-                    <li><strong>Volcanic cliffs</strong> — surround the harbor on all sides</li>
-                    <li><strong>Protected from storms</strong> — the caldera walls block most weather</li>
-                    <li><strong>Natural hot springs</strong> — volcanic activity provides heated pools</li>
-                </ul>
-                
-                <h3>The Throat</h3>
-                <p>The narrow channel into the harbor is called "The Throat" by sailors:</p>
-                <ul>
-                    <li>Only one ship can pass at a time</li>
-                    <li>Defended by shore batteries on both cliffs</li>
-                    <li>Any attacking fleet would be destroyed ship by ship</li>
-                    <li>This geography makes Freehold nearly impregnable</li>
-                </ul>
-            </section>
+        <footer class="page-footer">
+            <p>Exilium - A D&D 5e 2024 Campaign Setting</p>
+        </footer>
+    </main>
 
-            <section>
-                <h2>Districts</h2>
-                <table>
-                    <thead><tr><th>District</th><th>Function</th></tr></thead>
-                    <tbody>
-                        <tr><td><strong>The Docks</strong></td><td>Working waterfront, hundreds of berths, constant activity</td></tr>
-                        <tr><td><strong>The Market</strong></td><td>Fencing operations, "no questions asked" trading</td></tr>
-                        <tr><td><strong>The Tavern Quarter</strong></td><td>Entertainment district, where crews spend their shares</td></tr>
-                        <tr><td><strong>The Monarch's Keep</strong></td><td>Queen's residence, The Moot chamber, dispute resolution</td></tr>
-                        <tr><td><strong>Shipwright's Row</strong></td><td>Repairs and maintenance (major work done in Skarath)</td></tr>
-                    </tbody>
-                </table>
-            </section>
-
-            <section>
-                <h2>The Sacred Law: Harbor Peace</h2>
-                <blockquote>"Any ship heading to or from Freehold is untouchable. Break this rule and die."</blockquote>
-                
-                <h3>The Rule</h3>
-                <ul>
-                    <li>Ships traveling TO Freehold = protected</li>
-                    <li>Ships traveling FROM Freehold = protected</li>
-                    <li>Within Freehold: No violence against other pirates</li>
-                    <li>No theft from other pirates</li>
-                    <li>All disputes settled through proper channels</li>
-                </ul>
-                
-                <h3>Enforcement</h3>
-                <p><strong>Breaking Harbor Peace = Death</strong></p>
-                <ul>
-                    <li>Not from the Monarch alone—from ALL captains collectively</li>
-                    <li>Your ship burned, your crew scattered</li>
-                    <li>Your name erased from the Isles</li>
-                    <li>No one has broken the Peace in decades</li>
-                    <li><a href="vaelith-draegor.html">The Storm</a> would act if Peace were broken</li>
-                </ul>
-            </section>
-
-            <section>
-                <h2>The Moot</h2>
-                <p>The governing council of the Broken Isles meets quarterly in the Gathering Hall near the Monarch's Keep.</p>
-                
-                <h3>Composition</h3>
-                <ul>
-                    <li>Each pirate captain = 1 vote</li>
-                    <li>Each settlement = 1 vote</li>
-                    <li>Pirate Monarch = tie-breaker</li>
-                </ul>
-                
-                <h3>Responsibilities</h3>
-                <ul>
-                    <li>Elect/confirm the Pirate Monarch</li>
-                    <li>Settle disputes between captains</li>
-                    <li>Coordinate major raids</li>
-                    <li>Handle external threats</li>
-                </ul>
-            </section>
-
-            <section>
-                <h2>Notable Locations</h2>
-                <ul>
-                    <li><strong>The Rusty Anchor:</strong> Largest tavern, where captains meet and deal</li>
-                    <li><strong>The Black Market:</strong> Open-air market for fenced goods (ironic name)</li>
-                    <li><strong>The Pit:</strong> Fighting arena for disputes and entertainment</li>
-                    <li><strong>The Shipbreaker's Yard:</strong> Where captured ships are dismantled</li>
-                    <li><strong>The Tide's Memory:</strong> Shrine to lost sailors, surprisingly respected</li>
-                </ul>
-            </section>
-
-            <section>
-                <h2>Population</h2>
-                <table>
-                    <thead><tr><th>Type</th><th>Number</th><th>Notes</th></tr></thead>
-                    <tbody>
-                        <tr><td>Permanent Residents</td><td>~5,000</td><td>Merchants, craftsmen, workers</td></tr>
-                        <tr><td>Rotating Population</td><td>3,000-5,000</td><td>Crews, merchants, transients</td></tr>
-                        <tr><td>Queen's Guard</td><td>~200</td><td>Loyal to <a href="graza-bloodtide.html">Graza</a></td></tr>
-                    </tbody>
-                </table>
-                <p>All races of the Broken Isles represented—truly cosmopolitan by Isles standards.</p>
-            </section>
-
-            <section class="story-hooks">
-                <h3>🎲 Story Hooks</h3>
-                <div class="story-hook"><strong>Murder in the Harbor:</strong> Someone killed in Freehold, breaking Peace. The Queen must find the killer before chaos erupts.</div>
-                <div class="story-hook"><strong>The Merchant's Secret:</strong> A mainland merchant is buying specific stolen goods. What's he really after?</div>
-                <div class="story-hook"><strong>Challenge to the Throne:</strong> A captain builds alliances to challenge Graza. Does The Storm care?</div>
-            </section>
-        </main>
-    </div>
     <script src="script.js"></script>
 </body>
 </html>

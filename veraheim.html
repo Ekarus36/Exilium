@@ -3,24 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Veraheim - Exilium</title>
+    <title>Veraheim - Exilium Wiki</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav class="sidebar">
-        <div class="logo"><h2>EXILIUM</h2><p class="tagline">Campaign Setting</p></div>
-        <div class="search-box"><input type="text" id="searchInput" placeholder="Search Exilium..."></div>
+        <div class="logo">
+            <h2>EXILIUM</h2>
+            <p class="tagline">Campaign Setting</p>
+        </div>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search Exilium...">
+        </div>
         <ul class="nav-menu">
             <li><a href="index.html">🏠 Home</a></li>
             <li class="nav-section">World</li>
             <li><a href="world-overview.html">📖 World Overview</a></li>
             <li><a href="geography.html">🗺️ Geography</a></li>
             <li><a href="magic-items.html">✨ Magic Items</a></li>
+            <li><a href="magic-users.html">🔮 Magic Users</a></li>
             <li><a href="religion.html">🙏 Religion</a></li>
             <li class="nav-section">Locations</li>
             <li><a href="veraheim.html" class="active">🏰 Veraheim</a></li>
-            <li><a href="elven-enclaves.html">🌳 Elven Enclaves</a></li>
             <li><a href="floating-docks.html">⚓ The Floating Docks</a></li>
+            <li><a href="elven-enclaves.html">🌳 Elven Enclaves</a></li>
+            <li><a href="freehold-harbor.html">🏴‍☠️ Freehold Harbor</a></li>
             <li class="nav-section">History</li>
             <li><a href="timeline.html">📅 Timeline</a></li>
             <li><a href="dragon-war.html">🐉 Dragon War</a></li>
@@ -28,220 +35,171 @@
             <li class="nav-section">Factions</li>
             <li><a href="elven-empire.html">👑 Elven Empire</a></li>
             <li><a href="human-kingdom.html">🛡️ Human Kingdom</a></li>
+            <li><a href="eleven-domains.html">🏰 The Eleven Domains</a></li>
+            <li><a href="broken-isles.html">🏴‍☠️ The Broken Isles</a></li>
             <li><a href="drow-persecution.html">🌑 Drow Persecution</a></li>
-            <li class="nav-section">Notable NPCs</li>
+            <li class="nav-section">Veraheim NPCs</li>
             <li><a href="vera.html">💫 Vera Wyrdweaver</a></li>
-            <li><a href="galdor.html">🏹 Galdor Ruincalen</a></li>
+            <li><a href="thaelen.html">🏹 Thaelen Ruincalen</a></li>
             <li><a href="thorongil.html">🐲 Thorongil</a></li>
-            <li><a href="cirdan.html">👤 Círdan Golvenion</a></li>
+            <li class="nav-section">Empire NPCs</li>
+            <li><a href="valandor.html">👤 Emperor Valandor</a></li>
+            <li class="nav-section">Broken Isles NPCs</li>
+            <li><a href="vaelith-draegor.html">🌊 Vaelith "The Storm"</a></li>
+            <li><a href="graza-bloodtide.html">👑 Graza Bloodtide</a></li>
         </ul>
-        <div class="sidebar-footer"><p>D&D 5e 2024 Rules</p><p class="version">v1.0</p></div>
+        <div class="sidebar-footer">
+            <p>D&D 5e 2024 Rules</p>
+            <p class="version">v2.0</p>
+        </div>
     </nav>
 
     <main class="content">
         <header class="page-header">
             <h1>🏰 Veraheim</h1>
-            <p class="subtitle">The Safe Haven - A City Born from Love and Rage</p>
+            <p class="subtitle">The Sanctuary City - "Where the Unwanted Become Essential"</p>
         </header>
 
-        <section>
-            <div class="info-box">
-                <p><strong>Founded:</strong> 80 years ago by Vera Wyrdweaver & Galdor Ruincalen<br>
-                <strong>Population:</strong> 3,500 permanent residents<br>
-                <strong>Location:</strong> Central mountain pass, 500 feet above sea level<br>
-                <strong>Access:</strong> Three magical lifts (North, South, West)<br>
-                <strong>Guardian:</strong> Thorongil the dragon, perched on natural peak above<br>
-                <strong>Rulers:</strong> Vera Wyrdweaver (The Lady) & Galdor Ruincalen (The Commander)</p>
-            </div>
-        </section>
-
-        <section>
-            <h2>The City's Core Principle</h2>
-            <blockquote>"All races are equal. Citizenship is earned through contribution, not birth. Merit over bloodline. Always."</blockquote>
-            
-            <h3>What This Means:</h3>
-            <ul>
-                <li><strong>No Racism:</strong> First place in Exilium treating all races equally</li>
-                <li><strong>Merit-Based:</strong> Earn your place through work and contribution</li>
-                <li><strong>No Private Property:</strong> Housing awarded by contribution tier</li>
-                <li><strong>Retirement System:</strong> Lifetime contributors cared for</li>
-                <li><strong>The Hard Truth:</strong> No place for those who won't/can't contribute</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>City Structure - Three Levels</h2>
-            
-            <div class="feature-card">
-                <h3>Level 1: Lower Plaza (Ground Level)</h3>
-                <p><strong>Elevation:</strong> 500 feet above sea level<br>
-                <strong>Access:</strong> Three lift arrival platforms</p>
-                <ul>
-                    <li><strong>The Grand Plaza:</strong> Central gathering space, markets, announcements</li>
-                    <li><strong>Mid-Tier Housing:</strong> Comfortable apartments for established contributors</li>
-                    <li><strong>The Lift Stations:</strong> North (Kingdom), South (Harbor), West (Empire)</li>
-                    <li><strong>Guard Posts:</strong> Security checkpoints at each lift</li>
-                </ul>
-            </div>
-
-            <div class="feature-card">
-                <h3>Level 2: Crafter's District (Middle Level)</h3>
-                <p><strong>Purpose:</strong> Workshops, employee housing, economic heart</p>
-                <ul>
-                    <li><strong>Workshop Quarter:</strong> Master craftsmen, guilds, training facilities</li>
-                    <li><strong>Employee Housing:</strong> Basic housing for new contributors</li>
-                    <li><strong>The Market Streets:</strong> Shops, taverns, services</li>
-                    <li><strong>Guard Barracks:</strong> 300 guards housed here</li>
-                </ul>
-            </div>
-
-            <div class="feature-card">
-                <h3>Level 3: The Grand Castle (Summit)</h3>
-                <p><strong>Purpose:</strong> Governance, high officials, founders' residence</p>
-                <ul>
-                    <li><strong>Vera & Galdor's Quarters:</strong> Private residence</li>
-                    <li><strong>Council Chambers:</strong> City governance meetings</li>
-                    <li><strong>High Official Housing:</strong> Senior administrators, guild leaders</li>
-                    <li><strong>Thorongil's Peak:</strong> Natural mountain summit above castle</li>
-                </ul>
-            </div>
-        </section>
-
-        <section>
-            <h2>The Contribution System</h2>
-            <h3>How to Become a Citizen</h3>
-            
-            <h4>Step 1: Entry</h4>
-            <p>Anyone can visit Veraheim during daylight hours via day pass. No contribution status = must leave by sunset.</p>
-
-            <h4>Step 2: Employment</h4>
-            <p>Find work with established business or guild. Prove your skills and reliability. Most start as apprentices or laborers.</p>
-
-            <h4>Step 3: Contribution Evaluation</h4>
-            <p>After 6-12 months of consistent work, apply for contribution status. Evaluated on:</p>
-            <ul>
-                <li>Skill quality and reliability</li>
-                <li>Community behavior</li>
-                <li>Vouches from employers/neighbors</li>
-                <li>Integration into city life</li>
-            </ul>
-
-            <h4>Step 4: Contributor Status</h4>
-            <p>Granted housing based on tier:</p>
-            <ul>
-                <li><strong>Entry Level:</strong> Basic shared housing (Level 2)</li>
-                <li><strong>Mid-Tier:</strong> Private apartments (Level 1)</li>
-                <li><strong>Senior:</strong> Larger quarters (Level 1/3)</li>
-            </ul>
-
-            <h4>Step 5: Master/Retirement</h4>
-            <p>Lifetime contributors earn retirement benefits and permanent housing security.</p>
-        </section>
-
-        <section>
-            <h2>Demographics</h2>
-            <h3>Population: 3,500 Residents</h3>
-            
+        <div class="info-table">
             <table>
-                <tr><th>Race</th><th>Population</th><th>Percentage</th></tr>
-                <tr><td>Humans</td><td>875</td><td>25%</td></tr>
-                <tr><td>Drow</td><td>525</td><td>15%</td></tr>
-                <tr><td>Dwarves</td><td>420</td><td>12%</td></tr>
-                <tr><td>Half-Elves</td><td>350</td><td>10%</td></tr>
-                <tr><td>High Elves</td><td>315</td><td>9%</td></tr>
-                <tr><td>Halflings</td><td>280</td><td>8%</td></tr>
-                <tr><td>Half-Orcs</td><td>210</td><td>6%</td></tr>
-                <tr><td>Gnomes</td><td>175</td><td>5%</td></tr>
-                <tr><td>Tieflings</td><td>140</td><td>4%</td></tr>
-                <tr><td>Wood Elves</td><td>105</td><td>3%</td></tr>
-                <tr><td>Dragonborn</td><td>70</td><td>2%</td></tr>
-                <tr><td>Goliaths</td><td>35</td><td>1%</td></tr>
+                <tr><th>Population</th><td>~3,500 permanent residents</td></tr>
+                <tr><th>Founded</th><td>80 years ago</td></tr>
+                <tr><th>Founders</th><td>Vera Wyrdweaver & Thaelen Ruincalen</td></tr>
+                <tr><th>Guardian</th><td>Thorongil (ancient silver dragon)</td></tr>
+                <tr><th>Location</th><td>500ft up in split mountain, central pass</td></tr>
             </table>
+        </div>
 
-            <p><strong>Notable:</strong> Most persecuted races have largest populations. Veraheim inverts outside power structures.</p>
-        </section>
-
-        <section>
-            <h2>Economy</h2>
-            <h3>How Veraheim Thrives</h3>
+        <section class="content-section">
+            <h2>⚡ At a Glance</h2>
+            <div class="tier-label">What anyone in Exilium would know</div>
             
-            <h4>1. Tunnel Toll Revenue</h4>
-            <p>Only safe east-west passage. Both powers pay toll for commercial traffic. Massive revenue stream.</p>
-
-            <h4>2. Master Craftsmanship</h4>
-            <p>Diversity + competition = superior products. "Made in Veraheim" commands premium prices throughout Exilium.</p>
-            <ul>
-                <li>Dwarf smiths + Gnome enchanters = revolutionary designs</li>
-                <li>Halfling chefs + Human brewers = famous cuisine</li>
-                <li>Elven artisans + Human pragmatism = beautiful functionality</li>
-            </ul>
-
-            <h4>3. Guild Challenges</h4>
-            <p>Every 5 years, any master can challenge guild leadership. Winner gets shop/position. Constant innovation and quality improvement.</p>
-        </section>
-
-        <section>
-            <h2>Defense</h2>
-            <h3>Why Veraheim is Unconquerable</h3>
+            <p><strong>Veraheim</strong> is a city carved into a split mountain—the only place in Exilium where all races are truly equal.</p>
             
-            <ol>
-                <li><strong>Thorongil the Dragon:</strong> Perched on peak, visible for miles. No army can fight an ancient dragon.</li>
-                <li><strong>500-Foot Cliffs:</strong> Sheer rock walls, unclimbable without magic.</li>
-                <li><strong>Three Controllable Lifts:</strong> Only access points. Vera can disable remotely.</li>
-                <li><strong>300 Professional Guards:</strong> Commanded by Galdor Ruincalen, trained rigorously.</li>
-                <li><strong>Defensible Position:</strong> Attackers must come up lifts single-file or fly (dragon territory).</li>
-            </ol>
-        </section>
-
-        <section>
-            <h2>The Dark Side</h2>
-            <div class="warning-box">
-                <h3>The Floating Docks</h3>
-                <p>Not everyone makes it into Veraheim. Those too poor, too unskilled, or unable to contribute end up on The Floating Docks - lawless boat clusters in the harbor.</p>
-                <p>~500-800 desperate people live there. Gang violence, poverty, disease. Vera and Galdor don't intervene.</p>
-                <p><strong>The price of idealism:</strong> Can only save 3,500. What about the 501st person?</p>
+            <p>80 years ago, a human sorceress and an elven dragon rider fell in love, defied their nations, and split a mountain to create a sanctuary. Now 3,500 people live 500 feet above the only safe east-west passage between the Elven Empire and Human Kingdom.</p>
+            
+            <p>The dragon Thorongil perches above, making the city unconquerable. The tunnel below generates wealth through tolls. And the founders' idealism creates something unprecedented: a merit-based society that judges by contribution, not birth.</p>
+            
+            <div class="callout">
+                <strong>Common saying:</strong> "In Veraheim, you are what you do, not where you're from."
             </div>
         </section>
 
-        <section>
-            <h2>Daily Life</h2>
-            <h3>What It's Like to Live in Veraheim</h3>
+        <section class="content-section">
+            <h2>📖 Common Knowledge</h2>
+            <div class="tier-label">What visitors, merchants, or residents would know</div>
             
-            <h4>Morning:</h4>
+            <h3>Getting There</h3>
+            <p><strong>Three magical lifts</strong> are the only way up (or down). Each platform holds 20 people or equivalent cargo. Vera's magic powers them—they've never failed in 80 years.</p>
+            
             <ul>
-                <li>Dawn bell rings (work begins)</li>
-                <li>Markets open, craftsmen start work</li>
-                <li>Day workers ascend lifts from Floating Docks</li>
-                <li>Guards change shifts</li>
+                <li><strong>East Lift:</strong> Faces Kingdom, busiest commercial traffic</li>
+                <li><strong>West Lift:</strong> Faces Empire, elven merchants primarily</li>
+                <li><strong>Harbor Lift:</strong> Faces sea, connects to small harbor below</li>
             </ul>
-
-            <h4>Day:</h4>
+            
+            <h3>The Tunnel Below</h3>
+            <p>Vera's mountain-splitting created a tunnel through the range—<strong>the only safe east-west passage</strong>. Takes 8-12 hours to walk through. Both empires need it desperately. Veraheim charges tolls. This is their primary income.</p>
+            
+            <h3>City Layout</h3>
+            <table>
+                <tr><th>District</th><th>Character</th><th>Notable Locations</th></tr>
+                <tr><td><strong>The Heights</strong></td><td>Government, elite</td><td>Castle Wyrdweaver, Council Hall</td></tr>
+                <tr><td><strong>Crafters' Quarter</strong></td><td>Workshops, guild halls</td><td>Master forges, artificers</td></tr>
+                <tr><td><strong>Market Ring</strong></td><td>Commerce, trade</td><td>The Grand Bazaar, inns</td></tr>
+                <tr><td><strong>Residential Terraces</strong></td><td>Housing, families</td><td>Multi-level housing carved into rock</td></tr>
+                <tr><td><strong>Lower Reach</strong></td><td>Working class, new arrivals</td><td>Simpler housing, proving grounds</td></tr>
+            </table>
+            
+            <h3>The Contribution System</h3>
+            <p>Citizenship isn't bought or inherited—it's earned:</p>
             <ul>
-                <li>Workshops busy, markets crowded</li>
-                <li>Tunnel traffic (merchants, travelers)</li>
-                <li>Public audiences (twice weekly - Vera hears petitions)</li>
-                <li>Guard patrols</li>
+                <li><strong>Arrive:</strong> 30-day provisional status</li>
+                <li><strong>Prove yourself:</strong> Demonstrate useful skill</li>
+                <li><strong>Contribute:</strong> Regular work for the city's benefit</li>
+                <li><strong>Stay:</strong> Permanent residence as long as you contribute</li>
             </ul>
-
-            <h4>Evening:</h4>
+            
+            <p><strong>No contributions = no residence.</strong> Those who can't or won't contribute must leave by sunset. Most end up on the <a href="floating-docks.html">Floating Docks</a>.</p>
+            
+            <h3>Defense</h3>
             <ul>
-                <li>Sunset bell (day workers must leave)</li>
-                <li>Taverns fill, families gather</li>
-                <li>Vera visits Thorongil (3-4x per week)</li>
-                <li>Night markets (smaller, quieter)</li>
+                <li><strong>300 guards</strong> under Thaelen's command</li>
+                <li><strong>500-foot cliffs</strong> on all sides</li>
+                <li><strong>Three lift access points</strong> easily defended</li>
+                <li><strong>Thorongil</strong> - ancient dragon, ultimate deterrent</li>
             </ul>
-
-            <h4>Night:</h4>
+            
+            <p>No army has ever attacked Veraheim. No army ever will while Thorongil lives.</p>
+            
+            <h3>Demographics</h3>
+            <p>True diversity—possibly the only place in Exilium where this exists:</p>
             <ul>
-                <li>Reduced activity, residential areas quiet</li>
-                <li>Night guards patrol</li>
-                <li>Thorongil watches from his peak</li>
-                <li>Below, the Floating Docks grow dangerous</li>
+                <li>Humans (various Kingdom refugees)</li>
+                <li>Elves (Empire exiles, including drow)</li>
+                <li>Dwarves (craftsmen, miners)</li>
+                <li>Halflings (traders, service workers)</li>
+                <li>Gnomes (artificers, tinkers)</li>
+                <li>Half-breeds (welcomed nowhere else)</li>
+                <li>Others (goblinoids, tieflings, anyone who can contribute)</li>
             </ul>
         </section>
+
+        <section class="content-section">
+            <h2>🔒 Secret Knowledge</h2>
+            <div class="tier-label">DM-only information</div>
+            
+            <div class="secret-box">
+                <h4>⚠️ Contains spoilers for players</h4>
+            </div>
+            
+            <h3>The Lift Vulnerability</h3>
+            <p><strong>Critical secret:</strong> The lifts run on Vera's life force.</p>
+            <ul>
+                <li>She bound them to herself 80 years ago</li>
+                <li>If she dies, lifts stop working within hours</li>
+                <li>3,500 people trapped 500 feet up</li>
+                <li>No replacement trained</li>
+                <li>No succession plan</li>
+            </ul>
+            
+            <p>Thaelen knows. He's terrified. They don't talk about it.</p>
+            
+            <h3>The Founding Truth</h3>
+            <p>When Vera split the mountain 80 years ago, she wasn't alone. Both the Empire and Kingdom had sent forces to capture her and Thaelen.</p>
+            
+            <p><strong>What actually happened:</strong> She didn't just split the mountain—she killed dozens of soldiers in the process. Her rage was so great, her power so uncontrolled, that bodies were buried in the rock.</p>
+            
+            <p>The founders don't talk about this. The official history says they "created a sanctuary." The unofficial truth is they created it on a foundation of blood.</p>
+            
+            <h3>The Floating Docks Problem</h3>
+            <p>Vera sees the Docks every day from her castle. Children drowning. People starving. The contribution system's failures floating below her window.</p>
+            
+            <p><strong>Her justification:</strong> Veraheim can only support so many. Lowering standards would collapse everything. Better some people safe than everyone in ruins.</p>
+            
+            <p><strong>Her secret:</strong> She anonymously funds Mama Kresh's Haven on the Docks. Subsidizes the water barge. Five years ago, gave gold to a halfling family—but didn't change policy.</p>
+            
+            <p>She tells herself it's enough. She doesn't believe it.</p>
+            
+            <h3>Thorongil's Perspective</h3>
+            <p>The dragon doesn't just protect Veraheim—he believes in it. He chose this life. Chose exile from dragonkind. Chose to protect these small lives instead of returning to his own kind.</p>
+            
+            <p>But he's not immortal. Dragons can die. He's 400 years old. He might have centuries left—or decades. When he goes, Veraheim becomes conquerable.</p>
+        </section>
+
+        <div class="plot-hooks">
+            <h3>🎲 Story Hooks</h3>
+            <ul>
+                <li><strong>The Succession Crisis:</strong> Vera is training someone to take over the lifts. But who? And can they handle the burden?</li>
+                <li><strong>The Founding Bones:</strong> Construction unearths something from 80 years ago. Bodies in the rock. Evidence of what really happened.</li>
+                <li><strong>The Docks Uprising:</strong> Someone on the Floating Docks is organizing. They want in. What happens when they demand it?</li>
+                <li><strong>Dragon's Sickness:</strong> Thorongil falls ill. Veraheim is suddenly vulnerable. Both powers notice.</li>
+                <li><strong>The Failed Citizen:</strong> Someone who was expelled years ago returns—with an army, or a secret, or both.</li>
+            </ul>
+        </div>
 
         <footer class="page-footer">
-            <p>Veraheim: Proof that another way is possible. But idealism always has a price.</p>
+            <p>Exilium - A D&D 5e 2024 Campaign Setting</p>
         </footer>
     </main>
 

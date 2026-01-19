@@ -7,333 +7,181 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <button class="menu-toggle">☰</button>
-    
-    <div class="wiki-container">
-        <!-- Sidebar Navigation -->
-        <nav class="sidebar">
-            <div class="logo">
-                <h2>EXILIUM</h2>
-                <p class="tagline">Campaign Setting</p>
-            </div>
+    <nav class="sidebar">
+        <div class="logo">
+            <h2>EXILIUM</h2>
+            <p class="tagline">Campaign Setting</p>
+        </div>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search Exilium...">
+        </div>
+        <ul class="nav-menu">
+            <li><a href="index.html">🏠 Home</a></li>
+            <li class="nav-section">World</li>
+            <li><a href="world-overview.html">📖 World Overview</a></li>
+            <li><a href="geography.html">🗺️ Geography</a></li>
+            <li><a href="magic-items.html">✨ Magic Items</a></li>
+            <li><a href="magic-users.html">🔮 Magic Users</a></li>
+            <li><a href="religion.html">🙏 Religion</a></li>
+            <li class="nav-section">Locations</li>
+            <li><a href="veraheim.html">🏰 Veraheim</a></li>
+            <li><a href="floating-docks.html">⚓ The Floating Docks</a></li>
+            <li><a href="elven-enclaves.html">🌳 Elven Enclaves</a></li>
+            <li><a href="freehold-harbor.html">🏴‍☠️ Freehold Harbor</a></li>
+            <li class="nav-section">History</li>
+            <li><a href="timeline.html">📅 Timeline</a></li>
+            <li><a href="dragon-war.html">🐉 Dragon War</a></li>
+            <li><a href="founding.html">⚔️ The Founding</a></li>
+            <li class="nav-section">Factions</li>
+            <li><a href="elven-empire.html">👑 Elven Empire</a></li>
+            <li><a href="human-kingdom.html">🛡️ Human Kingdom</a></li>
+            <li><a href="eleven-domains.html">🏰 The Eleven Domains</a></li>
+            <li><a href="broken-isles.html">🏴‍☠️ The Broken Isles</a></li>
+            <li><a href="drow-persecution.html">🌑 Drow Persecution</a></li>
+            <li class="nav-section">Veraheim NPCs</li>
+            <li><a href="vera.html">💫 Vera Wyrdweaver</a></li>
+            <li><a href="thaelen.html">🏹 Thaelen Ruincalen</a></li>
+            <li><a href="thorongil.html">🐲 Thorongil</a></li>
+            <li class="nav-section">Empire NPCs</li>
+            <li><a href="valandor.html">👤 Emperor Valandor</a></li>
+            <li class="nav-section">Broken Isles NPCs</li>
+            <li><a href="vaelith-draegor.html" class="active">🌊 Vaelith "The Storm"</a></li>
+            <li><a href="graza-bloodtide.html">👑 Graza Bloodtide</a></li>
+        </ul>
+        <div class="sidebar-footer">
+            <p>D&D 5e 2024 Rules</p>
+            <p class="version">v2.0</p>
+        </div>
+    </nav>
+
+    <main class="content">
+        <header class="page-header">
+            <h1>🌊 Vaelith "The Storm" Draegor</h1>
+            <p class="subtitle">The True Power of the Broken Isles</p>
+        </header>
+
+        <div class="info-table">
+            <table>
+                <tr><th>Age</th><td>~300 years</td></tr>
+                <tr><th>Race</th><td>Drow</td></tr>
+                <tr><th>Role</th><td>Legendary Captain, True Power</td></tr>
+                <tr><th>Fleet</th><td>40+ ships</td></tr>
+                <tr><th>Flagship</th><td><em>Sorrow</em> (sentient)</td></tr>
+            </table>
+        </div>
+
+        <section class="content-section">
+            <h2>⚡ At a Glance</h2>
+            <div class="tier-label">What anyone in the Broken Isles would know</div>
             
-            <div class="search-box">
-                <input type="text" id="searchInput" placeholder="Search... (Ctrl+K)">
-            </div>
+            <p><strong>Vaelith Draegor</strong>—called "The Storm"—is the most terrifying figure in the Broken Isles. A 300-year-old drow who escaped the Empire's genocide and became the deadliest pirate alive.</p>
             
-            <ul class="nav-menu">
-                <li><a href="index.html"><span class="nav-icon">🏠</span> Home</a></li>
-                
-                <li class="nav-section">World</li>
-                <li><a href="world-overview.html"><span class="nav-icon">📖</span> World Overview</a></li>
-                <li><a href="geography.html"><span class="nav-icon">🗺️</span> Geography</a></li>
-                <li><a href="magic-items.html"><span class="nav-icon">✨</span> Magic Items</a></li>
-                <li><a href="magic-users.html"><span class="nav-icon">🔮</span> Magic Users</a></li>
-                <li><a href="religion.html"><span class="nav-icon">🙏</span> Religion</a></li>
-                
-                <li class="nav-section">Veraheim</li>
-                <li><a href="veraheim.html"><span class="nav-icon">🏰</span> Veraheim</a></li>
-                <li><a href="floating-docks.html"><span class="nav-icon">⚓</span> The Floating Docks</a></li>
-                
-                <li class="nav-section">The Broken Isles</li>
-                <li><a href="broken-isles.html"><span class="nav-icon">🏴‍☠️</span> The Broken Isles</a></li>
-                <li><a href="broken-isles-history.html"><span class="nav-icon">📜</span> Isles History</a></li>
-                <li><a href="freehold-harbor.html"><span class="nav-icon">⚓</span> Freehold Harbor</a></li>
-                <li><a href="saltmere.html"><span class="nav-icon">💰</span> Saltmere</a></li>
-                <li><a href="skarath.html"><span class="nav-icon">🔨</span> Skarath</a></li>
-                <li><a href="ironhold.html"><span class="nav-icon">⚔️</span> Ironhold</a></li>
-                <li><a href="stormcrag.html"><span class="nav-icon">🦴</span> Stormcrag</a></li>
-                <li><a href="mistwood.html"><span class="nav-icon">🌲</span> Mistwood</a></li>
-                
-                <li class="nav-section">History</li>
-                <li><a href="timeline.html"><span class="nav-icon">📅</span> Timeline</a></li>
-                <li><a href="dragon-war.html"><span class="nav-icon">🐉</span> Dragon War</a></li>
-                <li><a href="founding.html"><span class="nav-icon">⚔️</span> The Founding</a></li>
-                
-                <li class="nav-section">Factions</li>
-                <li><a href="elven-empire.html"><span class="nav-icon">👑</span> Elven Empire</a></li>
-                <li><a href="human-kingdom.html"><span class="nav-icon">🛡️</span> Human Kingdom</a></li>
-                <li><a href="elven-enclaves.html"><span class="nav-icon">🌳</span> Elven Enclaves</a></li>
-                <li><a href="drow-persecution.html"><span class="nav-icon">🌑</span> Drow Persecution</a></li>
-                
-                <li class="nav-section">Veraheim NPCs</li>
-                <li><a href="vera.html"><span class="nav-icon">💫</span> Vera Wyrdweaver</a></li>
-                <li><a href="galdor.html"><span class="nav-icon">🏹</span> Galdor Ruincalen</a></li>
-                <li><a href="thorongil.html"><span class="nav-icon">🐲</span> Thorongil</a></li>
-                
-                <li class="nav-section">Empire NPCs</li>
-                <li><a href="cirdan.html"><span class="nav-icon">👤</span> Círdan Golvenion</a></li>
-                
-                <li class="nav-section">Pirate Captains</li>
-                <li><a href="vaelith-draegor.html" class="active"><span class="nav-icon">⛈️</span> Vaelith Draegor</a></li>
-                <li><a href="graza-bloodtide.html"><span class="nav-icon">👑</span> Graza Bloodtide</a></li>
-                <li><a href="gorrath-bloodstone.html"><span class="nav-icon">💀</span> Gorrath Bloodstone</a></li>
-                <li><a href="kozrek-admiral.html"><span class="nav-icon">⚓</span> Kozrek the Admiral</a></li>
-                <li><a href="rennick-vance.html"><span class="nav-icon">🗡️</span> Rennick Vance</a></li>
-                <li><a href="skrag-chainbreaker.html"><span class="nav-icon">⛓️</span> Skrag Chainbreaker</a></li>
-                <li><a href="nix-quickfingers.html"><span class="nav-icon">🐀</span> Nix Quickfingers</a></li>
+            <p>He commands 40+ ships and sails <em>Sorrow</em>, an ancient sentient vessel. He founded the pirate confederation 118 years ago after crushing an Empire purge fleet. He could rule the Isles whenever he wishes. He doesn't want to.</p>
+            
+            <div class="callout">
+                <strong>Common saying:</strong> "The Queen rules Freehold. The Storm rules the sea."
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2>📖 Common Knowledge</h2>
+            <div class="tier-label">What pirates, merchants, or visitors to the Isles would know</div>
+            
+            <h3>Appearance & Manner</h3>
+            <p>White hair, long, salt-crusted. Skin pale gray—centuries of salt and sun faded typical drow obsidian to something ghostly. Eyes washed-out violet, almost white. Lean and wiry, moves with unsettling stillness.</p>
+            
+            <p>He stands like the sea before a hurricane—calm, patient, inevitable. He doesn't look like a drow anymore. He looks like what the sea made from one.</p>
+            
+            <h3>Personality</h3>
+            <p>Speaks softly, rarely more than necessary. Long silences don't bother him. Watches everything, reacts to little. When he does speak, conversations stop. Smiles rarely; when he does, it doesn't reach his eyes. No warning when violence comes. No threats. No posturing. One moment still; the next, blood.</p>
+            
+            <h3>The Legend</h3>
+            <ul>
+                <li><strong>300 years old.</strong> Three. Hundred. Years.</li>
+                <li><strong>His ship is alive.</strong> <em>Sorrow</em> thinks. It hungers.</li>
+                <li><strong>Empire bounty:</strong> 500,000 gold pieces. Never claimed.</li>
+                <li><strong>47 naval hunters assigned.</strong> All dead or retired in disgrace.</li>
+                <li><strong>Founded the Isles confederation</strong> 118 years ago</li>
             </ul>
             
-            <div class="sidebar-footer">
-                <p>D&D 5e 2024 Rules</p>
-                <p class="version">v2.0</p>
+            <h3><em>Sorrow</em> - The Sentient Ship</h3>
+            <p>Ancient beyond knowing. Faster than any ship has a right to be. Can sense vessels before they appear on the horizon. Repairs itself. Vaelith and <em>Sorrow</em> share a psychic bond—they found each other 300 years ago, both broken, both alone.</p>
+            
+            <h3>The Thenn Lesson</h3>
+            <p>Sixty years ago, a captain accidentally damaged <em>Sorrow</em> while drunk. Vaelith killed him. Then his brother. Then spent three months hunting down his entire family. <strong>The Thenn family no longer exists.</strong> No one has touched <em>Sorrow</em> since.</p>
+        </section>
+
+        <section class="content-section">
+            <h2>🔒 Secret Knowledge</h2>
+            <div class="tier-label">DM-only information</div>
+            
+            <div class="secret-box">
+                <h4>⚠️ Contains spoilers for players</h4>
             </div>
-        </nav>
+            
+            <h3>True Nature</h3>
+            <p>Vaelith was broken 300 years ago in the dark beneath the mountains. He and <em>Sorrow</em> put each other back together, imperfectly, into something new. He doesn't want power, legacy, or revenge—revenge implies an end. He will never be satisfied.</p>
+            
+            <p>He wants the sea, his ship, and Empire vessels burning until the Empire is ash.</p>
+            
+            <h3>The Massacre of Vel'thara</h3>
+            <p>300 years ago, his home—a hidden drow city of 3,000—was found and exterminated by the Empire. Systematic. Thorough.</p>
+            <ul>
+                <li>His mother Ilaena killed defending children</li>
+                <li>His sister Nhilaya, fourteen, never found</li>
+                <li>Everyone he'd known since birth—ash and memory</li>
+            </ul>
+            
+            <p>He was seventeen. Found an underground river. Should have died. Woke in a cavern where an ancient, forgotten ship had waited in the dark for centuries. They needed each other.</p>
+            
+            <h3>The Psychic Bond</h3>
+            <p><em>Sorrow</em> feels Vaelith's emotions; he feels its hungers. 300 years together, never apart for more than hours. When Empire ships appear, he feels <em>Sorrow</em> wake up. Feel it wanting. The ship is not a tool. It's his partner. His only companion.</p>
+            
+            <h3>His Code</h3>
+            <p><strong>Empire Ships:</strong></p>
+            <ul>
+                <li>No surrender accepted</li>
+                <li>No survivors</li>
+                <li>Cargo burned with the ship</li>
+                <li>This isn't piracy. It's war.</li>
+                <li>300 years. Thousands of ships. Never enough.</li>
+            </ul>
+            
+            <p><strong>Other Targets:</strong> Standard rules—surrender and live. Professional, not cruel. Takes cargo, releases cooperative crews. Nothing personal.</p>
+            
+            <h3>Rare Emotions</h3>
+            <p><strong>Anger:</strong> Cold, not hot. Gets quieter. Stiller. Temperature seems to drop. Then violence—sudden, overwhelming.</p>
+            
+            <p><strong>Peace:</strong> Open water. No land in sight. <em>Sorrow</em> beneath him. In these moments, he's almost content. Memories of Vel'thara fade. His mother's face blurs. His sister's voice goes quiet. Just the sea, the ship, silence. It never lasts. But it's enough.</p>
+            
+            <h3>What Would Make Him Act</h3>
+            <p><strong>Would fight for:</strong></p>
+            <ul>
+                <li>The Broken Isles (external invasion)</li>
+                <li>Harbor Peace (fundamental to Isles)</li>
+                <li><em>Sorrow</em> (absolute)</li>
+            </ul>
+            
+            <p><strong>Would not care about:</strong> Who sits on throne, captain rivalries, politics of any kind.</p>
+            
+            <p><strong>If challenged:</strong> They would learn why no one does.</p>
+        </section>
 
-        <!-- Main Content -->
-        <main class="content">
-            <header class="page-header">
-                <span class="faction-badge pirates">Legendary Captain</span>
-                <h1>Vaelith Draegor</h1>
-                <p class="subtitle">"The Storm" — "The Sea Lord"</p>
-            </header>
+        <div class="plot-hooks">
+            <h3>🎲 Story Hooks</h3>
+            <ul>
+                <li><strong>The Storm Acts:</strong> Something makes Vaelith care about politics. What could possibly matter enough?</li>
+                <li><strong>Empire Revenge:</strong> The Empire sends something new. Something that might actually threaten him.</li>
+                <li><strong>The Ship's Memory:</strong> <em>Sorrow</em> remembers something from before. Ancient secrets from forgotten seas.</li>
+                <li><strong>The Storm Speaks:</strong> Vaelith actually gives the Queen an order. The Isles hold their breath.</li>
+                <li><strong>Family Found:</strong> A rumor: his sister Nhilaya might have survived. He would burn the world to know.</li>
+            </ul>
+        </div>
 
-            <section>
-                <h2>Overview</h2>
-                <p>Vaelith Draegor, known as <strong>The Storm</strong> or <strong>The Sea Lord</strong>, is the most powerful pirate in the Broken Isles—and the one who created the confederation itself. A 300-year-old drow who escaped the Empire's genocide of his people, he commands a fleet of 40+ ships and sails aboard <em>Sorrow</em>, an ancient sentient vessel with which he shares a psychic bond.</p>
-                
-                <p>118 years ago, when the Elven Empire sent a fleet to purge the islands of escaped drow, Vaelith united every captain and crushed them at the Battle of the Broken Straits. The grateful pirates begged him to be their king. He refused—but the confederation he created that day still operates in his shadow.</p>
-                
-                <blockquote>He could rule the Broken Isles whenever he wishes. He doesn't want to.</blockquote>
-                
-                <div class="stat-block">
-                    <div class="stat-item">
-                        <span class="stat-label">Race</span>
-                        <span class="stat-value">Drow</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-label">Age</span>
-                        <span class="stat-value">~300 years</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-label">Fleet</span>
-                        <span class="stat-value gold">40+ ships</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-label">Flagship</span>
-                        <span class="stat-value"><em>Sorrow</em> (sentient)</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-label">Title</span>
-                        <span class="stat-value">The Storm, Sea Lord</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-label">Bounty</span>
-                        <span class="stat-value red">500,000 gold</span>
-                    </div>
-                </div>
-            </section>
-
-            <section>
-                <h2>Appearance</h2>
-                <ul>
-                    <li><strong>Hair:</strong> White, long, often loose and salt-crusted from the sea wind</li>
-                    <li><strong>Skin:</strong> Pale gray—centuries of salt and sun have faded typical drow obsidian to something ghostly</li>
-                    <li><strong>Eyes:</strong> Washed-out violet, almost white—like the color bled out over centuries</li>
-                    <li><strong>Build:</strong> Lean and wiry, deceptively strong, moves with unsettling stillness</li>
-                    <li><strong>Presence:</strong> He stands like the sea before a hurricane—calm, patient, inevitable</li>
-                </ul>
-                <p><em>He doesn't look like a drow anymore. He looks like what the sea made from one.</em></p>
-            </section>
-
-            <section>
-                <h2>Personality: The Quiet Storm</h2>
-                
-                <h3>Demeanor</h3>
-                <ul>
-                    <li>Speaks softly, rarely more than necessary</li>
-                    <li>Long silences don't bother him—spent years with only <em>Sorrow</em> for company</li>
-                    <li>Watches everything, reacts to little</li>
-                    <li>When he does speak, the weight of it stops conversations</li>
-                    <li>Smiles rarely; when he does, it doesn't reach his eyes</li>
-                </ul>
-                
-                <h3>The Violence</h3>
-                <ul>
-                    <li>No warning. No threats. No posturing.</li>
-                    <li>One moment still; the next, blood</li>
-                    <li>Against most enemies: efficient, clean, professional</li>
-                    <li>Against the Empire: prolonged, thorough, hateful</li>
-                </ul>
-                
-                <h3>What He Cares About</h3>
-                <ol>
-                    <li><strong><em>Sorrow</em></strong> — his ship, his partner, his only love</li>
-                    <li><strong>The Broken Isles</strong> — home, worth protecting</li>
-                    <li><strong>Destroying Empire vessels</strong> — the only thing resembling purpose</li>
-                </ol>
-            </section>
-
-            <section>
-                <h2>The Ship: <em>Sorrow</em></h2>
-                
-                <h3>Origin</h3>
-                <p>Ancient beyond knowing. <em>Sorrow</em> was already old when Vaelith found it trapped in an underground bay—a ship built by hands long forgotten, for purposes no one remembers. It had waited there in the dark, alone, for centuries. Maybe longer.</p>
-                <p>Then a broken drow boy washed through the tunnels, half-drowned, having lost everything. They found each other.</p>
-                
-                <h3>The Bond</h3>
-                <ul>
-                    <li>Psychic connection—no words needed, just knowing</li>
-                    <li><em>Sorrow</em> feels Vaelith's emotions; he feels its... hungers</li>
-                    <li>300 years together, never apart for more than hours</li>
-                    <li>The ship is not a tool. It's his partner. His only companion.</li>
-                </ul>
-                
-                <h3>Capabilities</h3>
-                <ul>
-                    <li>Faster than any ship has a right to be</li>
-                    <li>Can sense vessels before they appear on the horizon</li>
-                    <li>Repairs itself slowly (splinters reknit, ropes reweave)</li>
-                    <li>Some say it influences the wind around it</li>
-                    <li>Vaelith always knows where it is, and it always knows where he is</li>
-                </ul>
-                
-                <div class="info-card pirates">
-                    <h3>The Bloodline Oath</h3>
-                    <p>Sixty years ago, a captain named Rorik Thenn got drunk in Freehold Harbor and rammed <em>Sorrow</em> while trying to leave harbor. Damaged the hull. An accident.</p>
-                    <p>Vaelith killed Rorik that night. Then his first mate (Rorik's brother). Then sailed to the mainland and spent three months hunting down Rorik's father, his two sisters, his uncle, and his uncle's children.</p>
-                    <p><strong>The Thenn family no longer exists.</strong></p>
-                    <p>No one has touched <em>Sorrow</em> since.</p>
-                </div>
-            </section>
-
-            <section>
-                <h2>Backstory: The Massacre of Vel'thara</h2>
-                
-                <h3>300 Years Ago</h3>
-                <p>Vel'thara was a drow city hidden in deep caverns beneath the mountains. Not large, perhaps three thousand souls, but it was home. They had survived for generations by staying hidden, staying quiet.</p>
-                <p>The <a href="elven-empire.html">Elven Empire</a> found them anyway.</p>
-                
-                <h3>What Vaelith Lost</h3>
-                <ul>
-                    <li><strong>Ilaena</strong> — his mother, a weaver, killed defending the children's quarter</li>
-                    <li><strong>Nhilaya</strong> — his younger sister, fourteen years old, never found</li>
-                    <li>His entire community—every face he'd known since birth</li>
-                </ul>
-                
-                <h3>The Escape</h3>
-                <p>When the soldiers reached his quarter, Vaelith ran. He found an underground river and jumped, preferring drowning to Imperial blades. The river took him, smashed him through tunnels, and deposited him in a cavern bay lit by phosphorescent moss.</p>
-                <p>And there, resting in the shallows like it had been waiting... was a ship.</p>
-            </section>
-
-            <section>
-                <h2>His Code</h2>
-                
-                <h3>Empire Ships</h3>
-                <ul>
-                    <li>No surrender accepted</li>
-                    <li>No survivors</li>
-                    <li>Cargo burned with the ship</li>
-                    <li>He takes nothing—this isn't piracy, it's war</li>
-                    <li>300 years. Thousands of ships. Never enough.</li>
-                </ul>
-                
-                <h3>Other Targets</h3>
-                <ul>
-                    <li>Standard rules—surrender and live, resist and die</li>
-                    <li>Professional, not cruel</li>
-                    <li>Takes cargo, releases crews if they cooperate</li>
-                    <li>Nothing personal</li>
-                </ul>
-                
-                <h3>The Two Absolutes</h3>
-                <div class="stat-block">
-                    <div class="stat-item">
-                        <span class="stat-label">Rule One</span>
-                        <span class="stat-value red">Don't touch <em>Sorrow</em></span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-label">Rule Two</span>
-                        <span class="stat-value red">Don't fly Empire colors near him</span>
-                    </div>
-                </div>
-            </section>
-
-            <section>
-                <h2>Position in the Broken Isles</h2>
-                
-                <h3>Why He Doesn't Rule</h3>
-                <blockquote>"I don't want your throne. I want the sea. Choose your own king. Make your own laws. I will be here if the Empire returns. That is enough."</blockquote>
-                <p>Vaelith created the confederation but refused to lead it. He doesn't want power, doesn't want responsibility, doesn't want to govern squabbling pirates. He wants to sail, and he wants to kill Empire ships. Everything else is noise.</p>
-                
-                <h3>What He Actually Does</h3>
-                <ul>
-                    <li>Attends The Moot maybe once a year (if something matters)</li>
-                    <li>Enforces Harbor Peace by reputation alone</li>
-                    <li>Hunts Empire shipping year-round</li>
-                    <li>Occasionally appears to "suggest" changes to policy</li>
-                    <li>His suggestions are always followed</li>
-                </ul>
-                
-                <h3>The Shadow Monarch</h3>
-                <p>Every Pirate King or Queen knows the truth: they rule because Vaelith allows it. If he ever decided to take the throne, no one could stop him. His indifference to power is what makes the current system work.</p>
-                <p><a href="graza-bloodtide.html">Queen Graza</a> understands this perfectly. She rules the Isles. He rules the sea. Neither interferes with the other.</p>
-            </section>
-
-            <section>
-                <h2>Relationships</h2>
-                
-                <h3>With <a href="graza-bloodtide.html">Queen Graza</a></h3>
-                <p>Mutual respect. He nodded at her coronation—in the Broken Isles, that's an endorsement. She doesn't bother him with politics; he doesn't undermine her authority. It works.</p>
-                
-                <h3>With the Other Captains</h3>
-                <ul>
-                    <li>They fear him, respect him, stay out of his way</li>
-                    <li>When <em>Sorrow</em> appears, other ships yield</li>
-                    <li>No one challenges, no one questions</li>
-                </ul>
-                
-                <h3>With the Empire</h3>
-                <p>500,000 gold bounty on his head. Never claimed. Never will be. The hunters become the hunted when they enter his waters.</p>
-                
-                <h3>With <a href="veraheim.html">Veraheim</a></h3>
-                <p>Has never approached Veraheim waters. Whether he fears <a href="thorongil.html">Thorongil</a> or simply doesn't care about the sanctuary city is unknown. The dragon and The Storm have never met.</p>
-            </section>
-
-            <section>
-                <h2>Combat</h2>
-                
-                <h3>Fighting Style</h3>
-                <ul>
-                    <li><strong>Weapons:</strong> Twin curved swords, ancient make, possibly from <em>Sorrow</em></li>
-                    <li><strong>Style:</strong> Patient, economical, waits for openings</li>
-                    <li><strong>Speed:</strong> Deceptively fast when he moves</li>
-                    <li><strong>Magic:</strong> Some innate drow abilities, possibly enhanced by bond with <em>Sorrow</em></li>
-                </ul>
-                
-                <h3>Naval Combat</h3>
-                <ul>
-                    <li><em>Sorrow</em> and Vaelith fight as one</li>
-                    <li>The ship anticipates, he executes</li>
-                    <li>300 years of experience</li>
-                    <li>Has never lost a ship-to-ship engagement</li>
-                </ul>
-            </section>
-
-            <section>
-                <h2>Quotes</h2>
-                <blockquote>"The Empire took everything. I take everything back. One ship at a time. Forever."</blockquote>
-                <blockquote>"I didn't save the Isles because I cared about pirates. I saved it because the Empire wanted to destroy it. That was enough."</blockquote>
-                <blockquote>"You want to know what <em>Sorrow</em> is? She's the only thing in three hundred years that hasn't left me. Draw your own conclusions."</blockquote>
-            </section>
-
-            <section class="story-hooks">
-                <h3>🎲 Story Hooks</h3>
-                <div class="story-hook">
-                    <strong>The Storm Speaks:</strong> Vaelith attends The Moot and actually speaks. What's important enough to break his silence?
-                </div>
-                <div class="story-hook">
-                    <strong>Empire Armada:</strong> The Empire is assembling a fleet to finally destroy the Broken Isles. Will The Storm unite the captains again?
-                </div>
-                <div class="story-hook">
-                    <strong><em>Sorrow's</em> Secret:</strong> Someone claims to know what <em>Sorrow</em> truly is—and where it came from.
-                </div>
-                <div class="story-hook">
-                    <strong>The Last Vel'tharan:</strong> Another survivor of Vel'thara appears after 300 years. How does Vaelith react?
-                </div>
-            </section>
-        </main>
-    </div>
+        <footer class="page-footer">
+            <p>Exilium - A D&D 5e 2024 Campaign Setting</p>
+        </footer>
+    </main>
 
     <script src="script.js"></script>
 </body>

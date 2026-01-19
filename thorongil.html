@@ -3,24 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thorongil (Vaethor) - Exilium</title>
+    <title>Thorongil - Exilium Wiki</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav class="sidebar">
-        <div class="logo"><h2>EXILIUM</h2><p class="tagline">Campaign Setting</p></div>
-        <div class="search-box"><input type="text" id="searchInput" placeholder="Search..."></div>
+        <div class="logo">
+            <h2>EXILIUM</h2>
+            <p class="tagline">Campaign Setting</p>
+        </div>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search Exilium...">
+        </div>
         <ul class="nav-menu">
             <li><a href="index.html">🏠 Home</a></li>
             <li class="nav-section">World</li>
             <li><a href="world-overview.html">📖 World Overview</a></li>
             <li><a href="geography.html">🗺️ Geography</a></li>
             <li><a href="magic-items.html">✨ Magic Items</a></li>
+            <li><a href="magic-users.html">🔮 Magic Users</a></li>
             <li><a href="religion.html">🙏 Religion</a></li>
             <li class="nav-section">Locations</li>
             <li><a href="veraheim.html">🏰 Veraheim</a></li>
-            <li><a href="elven-enclaves.html">🌳 Elven Enclaves</a></li>
             <li><a href="floating-docks.html">⚓ The Floating Docks</a></li>
+            <li><a href="elven-enclaves.html">🌳 Elven Enclaves</a></li>
+            <li><a href="freehold-harbor.html">🏴‍☠️ Freehold Harbor</a></li>
             <li class="nav-section">History</li>
             <li><a href="timeline.html">📅 Timeline</a></li>
             <li><a href="dragon-war.html">🐉 Dragon War</a></li>
@@ -28,370 +35,151 @@
             <li class="nav-section">Factions</li>
             <li><a href="elven-empire.html">👑 Elven Empire</a></li>
             <li><a href="human-kingdom.html">🛡️ Human Kingdom</a></li>
+            <li><a href="eleven-domains.html">🏰 The Eleven Domains</a></li>
+            <li><a href="broken-isles.html">🏴‍☠️ The Broken Isles</a></li>
             <li><a href="drow-persecution.html">🌑 Drow Persecution</a></li>
-            <li class="nav-section">Notable NPCs</li>
+            <li class="nav-section">Veraheim NPCs</li>
             <li><a href="vera.html">💫 Vera Wyrdweaver</a></li>
-            <li><a href="galdor.html">🏹 Galdor Ruincalen</a></li>
+            <li><a href="thaelen.html">🏹 Thaelen Ruincalen</a></li>
             <li><a href="thorongil.html" class="active">🐲 Thorongil</a></li>
-            <li><a href="cirdan.html">👤 Círdan Golvenion</a></li>
+            <li class="nav-section">Empire NPCs</li>
+            <li><a href="valandor.html">👤 Emperor Valandor</a></li>
+            <li class="nav-section">Broken Isles NPCs</li>
+            <li><a href="vaelith-draegor.html">🌊 Vaelith "The Storm"</a></li>
+            <li><a href="graza-bloodtide.html">👑 Graza Bloodtide</a></li>
         </ul>
-        <div class="sidebar-footer"><p>D&D 5e 2024 Rules</p><p class="version">v1.0</p></div>
+        <div class="sidebar-footer">
+            <p>D&D 5e 2024 Rules</p>
+            <p class="version">v2.0</p>
+        </div>
     </nav>
 
     <main class="content">
         <header class="page-header">
             <h1>🐲 Thorongil (Vaethor)</h1>
-            <p class="subtitle">The Guardian Dragon - 400+ Years of Wisdom and Protection</p>
+            <p class="subtitle">The Guardian Dragon - "The Peak Watcher"</p>
         </header>
 
-        <section>
-            <div class="info-box">
-                <p><strong>Species:</strong> Ancient Dragon (400+ years old)<br>
-                <strong>True Name:</strong> Vaethor (dragon name, few know it)<br>
-                <strong>Common Name:</strong> Thorongil (Sindarin - "Eagle of the Peak")<br>
-                <strong>Bond:</strong> Galdor Ruincalen (400+ years, unbroken)<br>
-                <strong>Status:</strong> Last bonded dragon in Exilium, Guardian of Veraheim<br>
-                <strong>Location:</strong> Natural mountain peak above Veraheim (700-800ft total elevation)</p>
-            </div>
-        </section>
+        <div class="info-table">
+            <table>
+                <tr><th>True Name</th><td>Vaethor ("Sky Guardian" in Draconic)</td></tr>
+                <tr><th>Age</th><td>400+ years</td></tr>
+                <tr><th>Species</th><td>Adult Silver Dragon (CR 16)</td></tr>
+                <tr><th>Bond</th><td>Thaelen Ruincalen</td></tr>
+                <tr><th>Role</th><td>Ultimate Deterrent</td></tr>
+            </table>
+        </div>
 
-        <section>
-            <h2>Core Character: Wise Elder & Fierce Protector</h2>
+        <section class="content-section">
+            <h2>⚡ At a Glance</h2>
+            <div class="tier-label">What anyone in Exilium would know</div>
             
-            <h3>The Wise Elder:</h3>
-            <ul>
-                <li>400+ years of accumulated wisdom</li>
-                <li>Seen empires rise and fall</li>
-                <li>Understands cycles of history</li>
-                <li>Patient perspective (dragons measure time differently)</li>
-                <li>Philosophical and contemplative</li>
-                <li>Values knowledge and understanding</li>
-            </ul>
-
-            <h3>The Fierce Protector:</h3>
-            <ul>
-                <li>Absolutely devoted to Galdor and Vera</li>
-                <li>Would burn armies to protect them</li>
-                <li>Territorial about Veraheim (his to guard)</li>
-                <li>Calm until threatened, then devastating</li>
-                <li>No mercy for those who threaten his people</li>
-            </ul>
-
-            <h4>The Balance:</h4>
-            <p>Wise enough to avoid unnecessary violence. Fierce enough that no one tests him. His calm presence is the deterrent. Everyone knows the dragon could end them, so no one tries.</p>
-        </section>
-
-        <section>
-            <h2>Communication - Three Methods</h2>
-
-            <div class="feature-card">
-                <h3>1. Telepathy (Primary with Galdor)</h3>
-                <p><strong>The Bond:</strong> Mind-to-mind with Galdor (always open). 400+ years = perfect understanding. Emotions shared directly. Can communicate complex ideas instantly.</p>
-                <p><strong>With Vera:</strong> After 30 years of trust-building, opened telepathic communication. Not as deep as Galdor bond, but clear mind-to-mind speech.</p>
-            </div>
-
-            <div class="feature-card">
-                <h3>2. Draconic (Dragon Speech)</h3>
-                <p><strong>The Ancient Language:</strong> Spoken aloud in dragon tongue. Deep, resonant, earth-shaking voice. Very few non-dragons understand it.</p>
-                <p><strong>When He Uses It:</strong> Warning roars (everyone understands "dragon is angry"), speaking with other dragons (if they ever return), ceremonial moments.</p>
-                <p><strong>The Effect:</strong> Physical vibration (you feel it in your chest). Primal fear response. Can be heard for miles.</p>
-            </div>
-
-            <div class="feature-card">
-                <h3>3. Common (Learned Speech)</h3>
-                <p><strong>The Human Tongue:</strong> Learned Common over 80 years in Veraheim. Deep, rumbling voice with draconic accent. Speaks slowly, deliberately.</p>
-                <p><strong>When He Uses It:</strong> Speaking with Veraheim citizens (rare), addressing threats, public statements.</p>
-                <p><strong>Why It's Rare:</strong> Prefers telepathy (more precise). Common feels clumsy. But CAN speak it fluently when needed.</p>
+            <p><strong>Thorongil</strong> is the ancient silver dragon perched on the mountain above Veraheim—the last dragon bonded to a rider.</p>
+            
+            <p>He makes Veraheim unconquerable. No army can defeat an adult dragon with a skilled rider. Both the Elven Empire and Human Kingdom know this. So neither attacks.</p>
+            
+            <div class="callout">
+                <strong>Common saying:</strong> "Sleep well. The dragon watches."
             </div>
         </section>
 
-        <section>
-            <h2>The Peak and The Lair</h2>
-
-            <h3>His Territory:</h3>
+        <section class="content-section">
+            <h2>📖 Common Knowledge</h2>
+            <div class="tier-label">What visitors or residents of Veraheim would know</div>
+            
+            <h3>Appearance</h3>
+            <p>Massive silver dragon—38 feet long, 76-foot wingspan. Brilliant metallic scales that gleam in sunlight. Deep sapphire blue eyes, wise and penetrating.</p>
+            
+            <p>Battle scars visible: three claw marks across left shoulder, chipped horns, small tears in wing membranes. Noble, majestic, beautiful—and terrifying.</p>
+            
+            <h3>Behavior</h3>
             <ul>
-                <li>Natural mountain peak rising above Veraheim (700-800ft total)</li>
-                <li>Peak itself is bare rock (his perch)</li>
-                <li>Just below peak: cave entrance (his lair)</li>
-                <li>Cave only accessible by flight (400ft sheer drop)</li>
-                <li>Natural fortress within a fortress</li>
+                <li>Perches on the peak above Veraheim during daylight (visible deterrent)</li>
+                <li>Flies patrol circuits at dawn</li>
+                <li>Hunts in the wilderness every few days</li>
+                <li>Retires to his lair (cave below peak) at night</li>
+                <li>Does NOT interact with citizens—too intimidating</li>
+                <li>Only Thaelen and Vera visit him regularly</li>
             </ul>
-
-            <h3>The Lair (His Cave):</h3>
+            
+            <h3>Known Capabilities</h3>
             <ul>
-                <li>Carved/expanded by Thorongil over 80 years</li>
-                <li>Large central chamber (dragon-sized)</li>
-                <li>Sleeping area (dragons do sleep, just less)</li>
-                <li>Private space (only Galdor and Vera invited)</li>
-                <li>Temperature controlled by his presence</li>
-            </ul>
-
-            <h3>The Perch (Peak Summit):</h3>
-            <ul>
-                <li>Where he spends most daylight hours</li>
-                <li>Visible from anywhere in Veraheim</li>
-                <li>360-degree view of approaches</li>
-                <li>Perfect observation post</li>
-                <li>"The Dragon is watching"</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Daily Routine</h2>
-
-            <h4>Dawn:</h4>
-            <ul>
-                <li>Emerges from lair at sunrise</li>
-                <li>Morning flight (scouting)</li>
-                <li>Circles Veraheim's perimeter</li>
-                <li>Checks eastern approaches (Human Kingdom)</li>
-                <li>Checks western approaches (Elven Empire)</li>
-                <li>Returns to perch</li>
-            </ul>
-
-            <h4>Day:</h4>
-            <ul>
-                <li>Perched on peak (visible deterrent)</li>
-                <li>Observes city below (distant, but aware)</li>
-                <li>Watches horizon for threats</li>
-                <li>Naps occasionally (dragons can doze while alert)</li>
-                <li>Contemplates (400 years = lots to think about)</li>
-            </ul>
-
-            <h4>Afternoon:</h4>
-            <ul>
-                <li>Hunting flight (every 2-3 days)</li>
-                <li>Dragons eat large game (deer, boar, cattle)</li>
-                <li>Hunts in unclaimed wilderness</li>
-                <li>Returns to lair or perch</li>
-            </ul>
-
-            <h4>Evening:</h4>
-            <ul>
-                <li><strong>Vera visits (3-4 times per week)</strong> - Long conversations, her moral check-ins</li>
-                <li><strong>Galdor visits (2-3 times per week)</strong> - Often just sits together, bond doesn't need words</li>
-                <li>Sometimes all three together</li>
-            </ul>
-
-            <h4>Night:</h4>
-            <ul>
-                <li>Retires to lair</li>
-                <li>Sleeps lightly (always somewhat alert)</li>
-                <li>Would wake if Veraheim threatened</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>What He Does NOT Do</h2>
-            <div class="warning-box">
-                <h3>No City Interaction</h3>
-                <ul>
-                    <li>Doesn't land in the city (too large, would cause panic)</li>
-                    <li>Doesn't interact with citizens (intimidating)</li>
-                    <li>Doesn't attend public events</li>
-                    <li>Stays on his peak or in his lair</li>
-                </ul>
-                
-                <h4>Why the Distance:</h4>
-                <p>His size is threatening (can't help it). Citizens fear him (natural response). Better to be distant deterrent than constant anxiety. Galdor and Vera are the public face. He is the final defense.</p>
-
-                <p><strong>The Exception:</strong> If Veraheim directly attacked, he would engage. If Vera or Galdor in danger, he would land anywhere. Otherwise: maintains his distance.</p>
-            </div>
-        </section>
-
-        <section>
-            <h2>Relationship with Galdor</h2>
-            <h3>400+ Years of Unbreakable Bond</h3>
-
-            <p><strong>The Sacred Connection:</strong> Bonded 400+ years ago (both young). Survived Dragon War together. Only bonded pair to survive with bond intact. Shared exile from their peoples. Telepathic bond: always connected.</p>
-
-            <h4>What Galdor Means to Thorongil:</h4>
-            <ul>
-                <li>Partner (equal, not master/pet)</li>
-                <li>Brother (closer than any blood tie)</li>
-                <li>Purpose (reason to stay in Exilium)</li>
-                <li>Witness (to entire adult life)</li>
-                <li>Home (wherever Galdor is, Thorongil belongs)</li>
-            </ul>
-
-            <h4>Their Communication:</h4>
-            <ul>
-                <li>Mostly telepathic (words unnecessary after 400 years)</li>
-                <li>Complete thoughts/emotions shared instantly</li>
-                <li>In combat: perfect coordination</li>
-                <li>In peace: comfortable silence</li>
-                <li>"We are two parts of one whole"</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Relationship with Vera</h2>
-            <h3>The Human He Learned to Love</h3>
-
-            <h4>The Beginning (80 Years Ago):</h4>
-            <ul>
-                <li>Initially wary (human intruder in dragon-elf bond)</li>
-                <li>Protective of Galdor (what if she hurts him?)</li>
-                <li>Watched her carefully (assessing threat)</li>
-                <li>She was brave (approached him despite fear)</li>
-                <li>She respected him (not as pet, as person)</li>
-            </ul>
-
-            <h4>The Slow Build:</h4>
-            <ul>
-                <li><strong>First decade:</strong> Tolerated her for Galdor's sake</li>
-                <li><strong>Second decade:</strong> Respect grew - she split a mountain, created sanctuary, loved Galdor truly</li>
-                <li><strong>Third decade:</strong> Affection developed - her evening visits, her questions, her vulnerability</li>
-                <li><strong>After 30 years:</strong> Opened telepathic link to her</li>
-            </ul>
-
-            <h4>Now (After 80 Years):</h4>
-            <ul>
-                <li>Loves her deeply, independently of Galdor</li>
-                <li>Protective of her specifically</li>
-                <li>Fiercely devoted (would burn the world for her)</li>
-                <li>Keeps her in line of sight when she leaves castle</li>
-                <li>She rides him (privilege that took 30 years to earn)</li>
-                <li>Moral advisor (her conscience and confessor)</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Their Evening Conversations</h2>
-
-            <h3>What They Discuss (Vera & Thorongil, 3-4x per week):</h3>
-            <ul>
-                <li>The Floating Docks (is she right? Where's the line?)</li>
-                <li>Power and corruption (is she losing her way?)</li>
-                <li>The future (what happens when she dies?)</li>
-                <li>History (he's seen empires rise and fall)</li>
-                <li>Dragons (she wants to understand his people)</li>
-                <li>Galdor (shared concern for his wellbeing)</li>
-            </ul>
-
-            <h4>Why It Matters:</h4>
-            <p>He's not human (no human biases). He's not mortal (longer perspective). He loves her (honest because he cares). He's feared (no one pressures him). He's wise (400+ years of observation).</p>
-
-            <h4>The Halfling Girl Secret:</h4>
-            <p>Vera told only Thorongil about giving gold to the family. He didn't judge her. Validated her feelings. But also supported her policy. "You did what your heart demanded. The line still holds. Both can be true."</p>
-        </section>
-
-        <section>
-            <h2>His Role in Veraheim's Defense</h2>
-
-            <h3>The Ultimate Deterrent</h3>
-
-            <h4>Why No One Attacks Veraheim:</h4>
-            <ol>
-                <li>Thorongil on the peak (visible for miles)</li>
-                <li>Ancient dragon (no army can fight him)</li>
-                <li>Aerial supremacy (Galdor + Thorongil = unstoppable)</li>
-                <li>Would have to kill him first (no one can)</li>
-                <li>Even if they could, losses would be catastrophic</li>
-            </ol>
-
-            <h4>Combat Capabilities:</h4>
-            <ul>
-                <li>Dragon breath (devastating area attack)</li>
                 <li>Flight (faster than any horse)</li>
+                <li>Dragon breath (devastating cold and paralyzing gas)</li>
                 <li>Physical strength (can tear through fortifications)</li>
                 <li>400 years of combat experience</li>
-                <li>Perfect coordination with Galdor (telepathic tactics)</li>
+                <li>Perfect coordination with Thaelen (telepathic bond)</li>
             </ul>
-
-            <h4>What He Guards:</h4>
-            <ul>
-                <li><strong>Galdor (Primary):</strong> The bond is everything</li>
-                <li><strong>Vera (Equally Fierce):</strong> Loves her independently now</li>
-                <li><strong>Veraheim (Extended):</strong> Their home = his territory</li>
-                <li>3,500 residents under his watch</li>
-            </ul>
+            
+            <h3>Why No One Attacks Veraheim</h3>
+            <p>Any army approaching would face Thorongil. No force in Exilium can defeat an adult dragon with a skilled rider. Even if they could, losses would be catastrophic.</p>
         </section>
 
-        <section>
-            <h2>Dragon Perspective</h2>
-
-            <h3>Time (Dragons Measure Differently):</h3>
-            <ul>
-                <li><strong>80 Years is Nothing:</strong> To Vera: entire adult life. To Galdor: significant. To Thorongil: "We just arrived."</li>
-                <li><strong>400 Years is Young:</strong> For a dragon, Thorongil is still relatively young. Dragons can live millennia.</li>
-                <li><strong>How It Affects His Advice:</strong> "This crisis will pass" (he's seen it before). "Patience yields better results." "What seems urgent to you is temporary."</li>
-            </ul>
-
-            <h3>What He Understands About Mortals:</h3>
-            <ul>
-                <li>Their urgency comes from short lives (he respects this now)</li>
-                <li>Their passion burns hot because time is limited</li>
-                <li>Their mistakes are forgiven because they don't have centuries to learn</li>
-                <li>Their bonds are precious because they're temporary</li>
-                <li>"You live faster. That is not weakness. That is courage."</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>The Dragon War Legacy</h2>
-
-            <div class="warning-box">
-                <h3>Survivor of the 35 Days</h3>
-                <p><strong>What He Lived Through:</strong> 35 days of fighting other dragons. Fought his own kind to protect Galdor. Watched dragon-elf bonds break and die. Saw dragons he knew fall. Elder dragons tried to kill him (traitor!). Survived because of Galdor's skill and their bond.</p>
-
-                <h4>His Guilt:</h4>
-                <p>Fought dragons (his people) for elves (Galdor's people). Some died because of him. Chose bond over species. Considered traitor by other dragons (still, 400 years later).</p>
-
-                <h4>Isolation from Dragon Society:</h4>
-                <ul>
-                    <li>Dragons in Northwestern mountains (400 years, no contact)</li>
-                    <li>They consider him traitor (sided with elves)</li>
-                    <li>If he went back, they might attack him</li>
-                    <li>Only dragon in this part of world</li>
-                    <li>400 years without his kind</li>
-                    <li>"I paid the price of the bond. It was worth it. But I paid."</li>
-                </ul>
+        <section class="content-section">
+            <h2>🔒 Secret Knowledge</h2>
+            <div class="tier-label">DM-only information</div>
+            
+            <div class="secret-box">
+                <h4>⚠️ Contains spoilers for players</h4>
             </div>
-        </section>
-
-        <section>
-            <h2>Wisdom and Philosophy</h2>
-
-            <h3>On Power:</h3>
+            
+            <h3>Exile from Dragonkind</h3>
+            <p>Thorongil chose his bond with Thaelen over his species. He's been exiled from dragonkind for 400 years.</p>
+            <ul>
+                <li>Cannot return to dragon society</li>
+                <li>Dragons in the northwestern mountains (400 years, no contact)</li>
+                <li>They consider him ultimate traitor</li>
+                <li>If he returned, they'd likely attack</li>
+                <li>No one to speak Draconic with</li>
+                <li>Sometimes flies toward the mountains, stops before visible</li>
+            </ul>
+            
+            <h3>His Love for Vera</h3>
+            <p>Thorongil loves Vera as much as Thaelen. This is unusual—dragons bond with one rider, tolerating others at best. Thorongil genuinely chose to protect both of them.</p>
+            
+            <p><strong>Why?</strong> He saw something in Vera that reminded him of dragons. Her rage when she split the mountain. Her willingness to burn everything for the one she loved. He recognized a kindred spirit.</p>
+            
+            <p><strong>If Vera died:</strong> Thorongil might not leave. He might stay to protect what she built. Or he might burn both empires in grief. Even Thaelen doesn't know which.</p>
+            
+            <h3>His Role as Vera's Conscience</h3>
+            <p>Vera visits 3-4 times weekly for "evening conversations":</p>
+            <ul>
+                <li>Challenges her reasoning on difficult decisions</li>
+                <li>Points out blind spots she can't see</li>
+                <li>Validates her doubts (not weakness, wisdom)</li>
+                <li>Tells her when she's wrong (dragons don't lie)</li>
+                <li>He's the only one she told about the halfling girl</li>
+            </ul>
+            
+            <h3>His Wisdom (Quotes for DM Use)</h3>
             <blockquote>"Power without purpose is destruction. You have both, Vera. Never lose the purpose."</blockquote>
             
-            <blockquote>"The mountain fears the earthquake because it can break stone. The earthquake fears nothing because it IS the breaking. Be the mountain, not the earthquake."</blockquote>
-
-            <h3>On the Floating Docks:</h3>
-            <blockquote>"You cannot save everyone. This is truth. But you can save these 3,500. This is also truth. Both matter. Neither negates the other."</blockquote>
-            
-            <blockquote>"The child asked for help and you gave it. The policy remained and you upheld it. Your heart and your head both have value. Do not silence either."</blockquote>
-
-            <h3>On Time:</h3>
             <blockquote>"Humans see a lifetime. Elves see ten. I see a hundred. None of us see eternity. We all make choices in the dark."</blockquote>
             
-            <blockquote>"Eighty years and you despair that problems remain. I have seen empires rise and fall in less time. You are doing well."</blockquote>
-
-            <h3>On Love:</h3>
-            <blockquote>"I bonded with Galdor when we were both young and foolish. 400 years later, the bond is wiser but no less fierce. This is how love endures."</blockquote>
-            
-            <blockquote>"You fear losing him. This is love. He fears losing you. This is also love. The fear proves the bond."</blockquote>
-
-            <h3>On Corruption:</h3>
             <blockquote>"Tyrants do not question themselves. You ask every day if you've lost your way. This is how you know you haven't."</blockquote>
             
-            <blockquote>"I have watched you for 80 years. If you were becoming what you fear, I would tell you. I have not needed to."</blockquote>
+            <h3>His Fears</h3>
+            <ul>
+                <li><strong>Losing Thaelen:</strong> The bond might literally kill him. Thaelen has maybe 200-300 years left. Then what?</li>
+                <li><strong>Losing Vera:</strong> Would devastate him independently now</li>
+                <li><strong>The After:</strong> If both die, what does he do? Stay? Return to face death? Fly away alone?</li>
+                <li><strong>Meaninglessness:</strong> Dragons don't fear death. They fear their existence having no purpose.</li>
+            </ul>
         </section>
 
-        <section>
-            <h2>His Greatest Fears</h2>
-            <div class="warning-box">
-                <ul>
-                    <li><strong>What if Galdor or Vera dies?</strong> Galdor especially (bond might kill him). Elves live ~750 years (Galdor is 400+). Might have 200-300 years left together. Then what? Eternal loneliness?</li>
-                    <li><strong>What if other dragons return?</strong> Would they attack him? Kill him as traitor? Could he mediate? Would they listen?</li>
-                    <li><strong>What if both Vera and Galdor die?</strong> Would he stay to protect Veraheim? Or return to dragon territory (face death as traitor)? Or fly away to die alone? He doesn't know.</li>
-                </ul>
-            </div>
-        </section>
+        <div class="plot-hooks">
+            <h3>🎲 Story Hooks</h3>
+            <ul>
+                <li><strong>Dragon Returns:</strong> Other dragons appear near Veraheim. Do they want Thorongil dead—or forgiven?</li>
+                <li><strong>The Truth Revealed:</strong> Evidence proves drow (not elves) caused the Dragon War. Could this change anything?</li>
+                <li><strong>Thorongil Injured:</strong> The dragon is hurt or sick. Veraheim is suddenly vulnerable.</li>
+                <li><strong>The Bond Threatened:</strong> Something could sever the dragon-rider bond. Both would die—or worse.</li>
+                <li><strong>After Thaelen:</strong> Thaelen dies. What does Thorongil do? What happens to Veraheim?</li>
+            </ul>
+        </div>
 
         <footer class="page-footer">
-            <p>Thorongil (Vaethor): Ancient dragon, last of his kind in this land, bonded to Galdor for 400 years, guardian of Veraheim, Vera's conscience, and living deterrent that makes the city unconquerable. The wise elder who chose love over species, and paid the price of exile.</p>
+            <p>Exilium - A D&D 5e 2024 Campaign Setting</p>
         </footer>
     </main>
 

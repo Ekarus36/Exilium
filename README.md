@@ -1,88 +1,137 @@
-# Exilium Wiki - Upload Instructions
+# 🌐 Exilium Wiki v2.0 - Complete Update Package
 
-## 📦 What You Have
+## 📦 What's Included
 
-A complete wiki-style website for your Exilium D&D setting with:
-- ✅ Dark fantasy theme (looks professional!)
-- ✅ Sidebar navigation
-- ✅ Search functionality
-- ✅ Mobile-friendly
-- ✅ All your lore organized
+This package contains **20 files** that completely update your Exilium wiki with all new content and corrected names.
 
-## 🚀 How to Upload to GitHub (10 minutes)
+### Core Files (3)
+- `index.html` - Updated homepage with Broken Isles, corrected names
+- `styles.css` - Updated styling with pirate/purple accents
+- `script.js` - Unchanged functionality
 
-### Step 1: Create Repository (if not done yet)
-1. Go to https://github.com
-2. Click the **"+"** in top right → "New repository"
-3. Name it: **exilium** (lowercase, no spaces)
-4. Make it **Public** (so it works with GitHub Pages)
-5. **DON'T** check "Add a README"
-6. Click **"Create repository"**
+### World & Systems (4)
+- `world-overview.html` - Complete overview with all four powers
+- `magic-users.html` - **NEW** - Magic user types by region
+- `religion.html` - Updated one-god system
+- `dragon-war.html` - Updated with hidden truth
 
-### Step 2: Upload Your Files
-1. On your new repository page, click **"uploading an existing file"** link
-2. **Drag and drop ALL the files from the exilium-wiki folder**
-3. Or click "choose your files" and select all files
-4. Scroll down and click **"Commit changes"**
+### Locations (4)
+- `veraheim.html` - Updated with 3-tier format
+- `floating-docks.html` - Updated with 3-tier format  
+- `freehold-harbor.html` - **NEW** - Pirate capital
+- (elven-enclaves.html - use your existing file)
 
-### Step 3: Enable GitHub Pages
-1. In your repository, click **"Settings"** tab (top right)
-2. Scroll down left sidebar, click **"Pages"**
-3. Under "Source", select **"Deploy from a branch"**
-4. Under "Branch", select **"main"** (or "master")
-5. Leave folder as **"/ (root)"**
-6. Click **"Save"**
+### Factions (3)
+- `elven-empire.html` - Updated with correct names (Aelindor, Valandor)
+- `human-kingdom.html` - Updated with full Lord details
+- `broken-isles.html` - **NEW** - Complete pirate confederation
 
-### Step 4: Wait & Visit! (2-3 minutes)
-1. GitHub will build your site (takes 2-3 minutes)
-2. Refresh the Pages settings page
-3. You'll see: **"Your site is live at https://yourusername.github.io/exilium/"**
-4. Click that link!
-
-## 🎉 Done!
-
-Your Exilium wiki is now live and you can share the URL with your players!
+### NPCs (6)
+- `vera.html` - Updated with 3-tier format
+- `thaelen.html` - **NEW** - Renamed from galdor.html
+- `thorongil.html` - Updated with 3-tier format
+- `valandor.html` - **NEW** - Renamed from cirdan.html
+- `vaelith-draegor.html` - **NEW** - The Storm
+- `graza-bloodtide.html` - **NEW** - Pirate Queen
 
 ---
 
-## 📝 Files in This Package
+## 🔄 Key Name Changes
 
-- `index.html` - Homepage
-- `styles.css` - All styling
-- `script.js` - Search & interactive features
-- More pages coming (vera.html, galdor.html, etc.)
-
----
-
-## 🔄 To Update Later
-
-When you want to add/change content:
-1. Go to your repository on GitHub
-2. Click the file you want to edit
-3. Click the pencil icon (Edit)
-4. Make your changes
-5. Scroll down, click "Commit changes"
-6. Wait 2-3 minutes, your site updates automatically!
+| Old Name | New Name | File |
+|----------|----------|------|
+| Galdor Ruincalen | **Thaelen Ruincalen** | thaelen.html |
+| Círdan Golvenion | **Valandor Aethril** | valandor.html |
+| Tirion | **Aelindor** | (capital city) |
 
 ---
 
-## ❓ Troubleshooting
+## 📤 Upload Instructions
 
-**Site not showing up?**
-- Wait 3-5 minutes after enabling Pages
-- Make sure repository is **Public**
-- Make sure you selected **main** branch in Pages settings
+### Step 1: Download All Files
+Download this entire package to your computer.
 
-**404 Error?**
-- Check the URL: `https://YOUR-USERNAME.github.io/exilium/`
-- Make sure `index.html` is in the root folder (not in a subfolder)
+### Step 2: Go to Your GitHub Repository
+Navigate to: `https://github.com/YOUR-USERNAME/exilium`
+
+### Step 3: Delete Old Files (Optional but Recommended)
+Delete these old files if they exist:
+- `galdor.html` (replaced by thaelen.html)
+- `cirdan.html` (replaced by valandor.html)
+
+### Step 4: Upload New Files
+1. Click **"Add file"** → **"Upload files"**
+2. Drag and drop ALL files from this package
+3. This will replace existing files and add new ones
+
+### Step 5: Commit Changes
+- Add commit message: "Wiki v2.0 - Broken Isles, corrected names, 3-tier format"
+- Click **"Commit changes"**
+
+### Step 6: Wait for GitHub Pages
+- Takes 2-3 minutes to rebuild
+- Visit your site to verify
 
 ---
 
-## 🎨 Customization Tips
+## ⚠️ Files to Keep From Old Version
 
-Want to change colors? Edit `styles.css` and look for the `:root` section at the top!
+These files from your old wiki are still valid (update navigation if needed):
+- `geography.html`
+- `magic-items.html`
+- `timeline.html`
+- `founding.html`
+- `drow-persecution.html`
+- `elven-enclaves.html`
+- `eleven-domains.html` (if you had it)
+
+**Note:** These pages may have old names (Galdor, Círdan, Tirion). You can update them manually or I can create updated versions.
 
 ---
 
-**Need help? Let me know and I'll guide you through it!**
+## 🆕 What's New in v2.0
+
+### The Broken Isles
+Complete pirate confederation with:
+- Faction overview
+- Freehold Harbor (capital)
+- Vaelith "The Storm" Draegor
+- Graza Bloodtide (Pirate Queen)
+
+### 3-Tier Document Format
+All pages now use:
+- **At a Glance** - What everyone knows
+- **Common Knowledge** - What visitors/residents know
+- **Secret Knowledge** - DM-only information
+
+### Corrected Names
+- Thaelen Ruincalen (was Galdor)
+- Valandor Aethril (was Círdan)
+- Aelindor (was Tirion)
+
+### New Systems
+- Magic Users page with regional treatment
+- Updated religion with one-god truth
+
+---
+
+## ✅ Checklist
+
+- [ ] Download all files
+- [ ] Delete old galdor.html and cirdan.html
+- [ ] Upload all new files
+- [ ] Commit changes
+- [ ] Wait for rebuild
+- [ ] Test website
+- [ ] Celebrate! 🎉
+
+---
+
+## 📝 Future Updates Needed
+
+If you want complete consistency, these old pages need name updates:
+- `timeline.html` - References to old names
+- `founding.html` - References to old names
+- `geography.html` - References to old names
+
+Let me know if you want me to create updated versions of these!

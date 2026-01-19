@@ -3,24 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Floating Docks - Exilium</title>
+    <title>The Floating Docks - Exilium Wiki</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav class="sidebar">
-        <div class="logo"><h2>EXILIUM</h2><p class="tagline">Campaign Setting</p></div>
-        <div class="search-box"><input type="text" id="searchInput" placeholder="Search..."></div>
+        <div class="logo">
+            <h2>EXILIUM</h2>
+            <p class="tagline">Campaign Setting</p>
+        </div>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search Exilium...">
+        </div>
         <ul class="nav-menu">
             <li><a href="index.html">🏠 Home</a></li>
             <li class="nav-section">World</li>
             <li><a href="world-overview.html">📖 World Overview</a></li>
             <li><a href="geography.html">🗺️ Geography</a></li>
             <li><a href="magic-items.html">✨ Magic Items</a></li>
+            <li><a href="magic-users.html">🔮 Magic Users</a></li>
             <li><a href="religion.html">🙏 Religion</a></li>
             <li class="nav-section">Locations</li>
             <li><a href="veraheim.html">🏰 Veraheim</a></li>
-            <li><a href="elven-enclaves.html">🌳 Elven Enclaves</a></li>
             <li><a href="floating-docks.html" class="active">⚓ The Floating Docks</a></li>
+            <li><a href="elven-enclaves.html">🌳 Elven Enclaves</a></li>
+            <li><a href="freehold-harbor.html">🏴‍☠️ Freehold Harbor</a></li>
             <li class="nav-section">History</li>
             <li><a href="timeline.html">📅 Timeline</a></li>
             <li><a href="dragon-war.html">🐉 Dragon War</a></li>
@@ -28,281 +35,159 @@
             <li class="nav-section">Factions</li>
             <li><a href="elven-empire.html">👑 Elven Empire</a></li>
             <li><a href="human-kingdom.html">🛡️ Human Kingdom</a></li>
+            <li><a href="eleven-domains.html">🏰 The Eleven Domains</a></li>
+            <li><a href="broken-isles.html">🏴‍☠️ The Broken Isles</a></li>
             <li><a href="drow-persecution.html">🌑 Drow Persecution</a></li>
-            <li class="nav-section">Notable NPCs</li>
+            <li class="nav-section">Veraheim NPCs</li>
             <li><a href="vera.html">💫 Vera Wyrdweaver</a></li>
-            <li><a href="galdor.html">🏹 Galdor Ruincalen</a></li>
+            <li><a href="thaelen.html">🏹 Thaelen Ruincalen</a></li>
             <li><a href="thorongil.html">🐲 Thorongil</a></li>
-            <li><a href="cirdan.html">👤 Círdan Golvenion</a></li>
+            <li class="nav-section">Empire NPCs</li>
+            <li><a href="valandor.html">👤 Emperor Valandor</a></li>
+            <li class="nav-section">Broken Isles NPCs</li>
+            <li><a href="vaelith-draegor.html">🌊 Vaelith "The Storm"</a></li>
+            <li><a href="graza-bloodtide.html">👑 Graza Bloodtide</a></li>
         </ul>
-        <div class="sidebar-footer"><p>D&D 5e 2024 Rules</p><p class="version">v1.0</p></div>
+        <div class="sidebar-footer">
+            <p>D&D 5e 2024 Rules</p>
+            <p class="version">v2.0</p>
+        </div>
     </nav>
 
     <main class="content">
         <header class="page-header">
             <h1>⚓ The Floating Docks</h1>
-            <p class="subtitle">The Dark Mirror of Veraheim - Where Idealism Meets Its Limits</p>
+            <p class="subtitle">The Dark Mirror - "Where Idealism Drowns"</p>
         </header>
 
-        <section>
-            <div class="warning-box">
-                <p><strong>Population:</strong> ~500-800 people (fluctuates constantly)<br>
-                <strong>Location:</strong> Anchored in open water off Veraheim's harbor<br>
-                <strong>Status:</strong> Lawless, no official recognition<br>
-                <strong>Nickname:</strong> "The Floats," "The Drowned Quarter"</p>
+        <div class="info-table">
+            <table>
+                <tr><th>Population</th><td>500-800 (fluctuates)</td></tr>
+                <tr><th>Status</th><td>Unrecognized, lawless</td></tr>
+                <tr><th>Location</th><td>Anchored off Veraheim's harbor</td></tr>
+                <tr><th>Government</th><td>Three competing gangs</td></tr>
+                <tr><th>Origins</th><td>Failed Veraheim applicants</td></tr>
+            </table>
+        </div>
+
+        <section class="content-section">
+            <h2>⚡ At a Glance</h2>
+            <div class="tier-label">What anyone approaching Veraheim would know</div>
+            
+            <p>Anchored in the harbor below Veraheim floats a collection of lashed-together boats, rafts, and derelict vessels—home to those who couldn't make it into the sanctuary above.</p>
+            
+            <p><strong>The Floating Docks</strong> represent the price of Veraheim's idealism. The contribution system works because failures are expelled. The expelled have nowhere to go. So they stay, floating in the shadow of the city that rejected them.</p>
+            
+            <p>No law. No protection. Three gangs fight for territory. Children learn to swim before they walk. People drown in storms. Vera watches from her castle every single day.</p>
+            
+            <div class="callout">
+                <strong>Veraheim's rule:</strong> Those who cannot contribute must leave by sunset. The Docks are where they go.
             </div>
         </section>
 
-        <section>
-            <h2>Overview - The Cruel Truth</h2>
-            <p>The Floating Docks are the grim reality that exists in the shadow of Veraheim's idealistic sanctuary. Where Veraheim represents hope through contribution and merit, the Floats represent what happens to those who cannot meet that standard—or cannot afford to try.</p>
-
-            <blockquote>"You can visit Veraheim during daylight hours, but if you cannot afford housing or prove your contribution, you must leave by sunset. The Floating Docks is where they go."</blockquote>
-        </section>
-
-        <section>
-            <h2>The Rule: "Off by Sunset"</h2>
+        <section class="content-section">
+            <h2>📖 Common Knowledge</h2>
+            <div class="tier-label">What visitors, traders, or Docks residents would know</div>
             
             <h3>Who Lives Here</h3>
-
-            <h4>The Desperate:</h4>
             <ul>
-                <li>People who come to Veraheim but cannot afford entry</li>
-                <li>Visitors not allowed to stay after sunset (non-contributors)</li>
-                <li>Day laborers who earn enough to survive but not enough for city housing</li>
-                <li>Refugees too poor to qualify for citizenship</li>
-                <li>Those who failed the evaluation period</li>
-                <li>Families saving money to afford city entry</li>
+                <li>Failed Veraheim applicants (couldn't prove contribution)</li>
+                <li>Expelled citizens (lost ability to contribute)</li>
+                <li>Refugees who never tried to enter Veraheim</li>
+                <li>Criminals avoiding both empires</li>
+                <li>Children born on the Docks (never knew anything else)</li>
             </ul>
-
-            <h4>The Unwanted:</h4>
-            <ul>
-                <li>Criminals fleeing justice from Empire or Kingdom (no extradition here)</li>
-                <li>Outcasts even Veraheim won't accept</li>
-                <li>Black market traders avoiding city oversight</li>
-                <li>Those expelled from Veraheim for minor infractions</li>
-            </ul>
-
-            <h4>The Hopeful:</h4>
-            <ul>
-                <li>Young people trying to prove themselves worthy</li>
-                <li>Craftsmen building reputation to win shop challenges</li>
-                <li>Anyone still dreaming of earning a place above</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Structure of the Floats</h2>
-            <p>Each "float" is an independent artificial island made of boats, barges, rafts, and debris lashed together with rope, chain, and desperation. They drift in a loose cluster, anchored in open water just beyond Veraheim's jurisdiction.</p>
-
-            <h3>Notable Establishments</h3>
-
-            <div class="feature-card">
-                <h4>The Rusty Anchor (Largest Tavern Float)</h4>
-                <p><strong>Owner:</strong> Marin Saltwhisker (Human, male, 52)<br>
-                Former sailor who lost his ship in a storm. Weathered, one eye scarred shut. Tries desperately to stay neutral between gangs.</p>
-                
-                <p><strong>Structure:</strong> 20+ boats lashed together<br>
-                <strong>Capacity:</strong> ~80 people at peak times</p>
-                
-                <p><strong>Services:</strong></p>
-                <ul>
-                    <li>Watered-down ale (1 copper)</li>
-                    <li>Fish stew (2 copper)</li>
-                    <li>Hammock space (1 copper per night)</li>
-                    <li>Information brokering (if you know who to ask)</li>
-                </ul>
-                
-                <p><strong>Character:</strong> Loud, crowded, dangerous after dark. Neutral ground during day. Pays protection to whoever asks.</p>
-            </div>
-
-            <div class="feature-card">
-                <h4>Mama Kresh's Haven</h4>
-                <p><strong>Owner:</strong> Kreshna "Mama Kresh" Ironheart (Half-Orc, female, 45)<br>
-                Fierce protector of her customers. Lost her family in Human Kingdom persecution. Tolerates no violence in her establishment.</p>
-                
-                <p><strong>Structure:</strong> 8 boats, cozy and cramped<br>
-                <strong>Capacity:</strong> ~30 people</p>
-                
-                <p><strong>Services:</strong></p>
-                <ul>
-                    <li>Actual food (not just stew) - 3 copper</li>
-                    <li>Clean beds (not hammocks) - 2 copper per night</li>
-                    <li>Safety (gangs don't mess with Mama)</li>
-                    <li>Motherly advice (free)</li>
-                    <li>Children get free meals</li>
-                </ul>
-                
-                <p><strong>Character:</strong> Warmest place on the Floats. Families prioritized. <strong>Only place where you're truly safe at night.</strong></p>
-                
-                <p><strong>Secret:</strong> Vera anonymously funds Mama Kresh's Haven. Mama doesn't know who her benefactor is.</p>
-            </div>
-        </section>
-
-        <section>
-            <h2>The Three Gangs</h2>
-            <p>Three criminal organizations prey on Float residents, each controlling different territories and rackets.</p>
-
-            <div class="power-card empire">
-                <h3>1. The Tide Reapers</h3>
-                <p><strong>Leader:</strong> "Captain" Darius Blackwater (Human, male, 38)<br>
-                <strong>Territory:</strong> Southern floats (closest to open sea)<br>
-                <strong>Specialty:</strong> Smuggling and piracy</p>
-                
-                <h4>Operations:</h4>
-                <ul>
-                    <li>Control smuggling routes to/from Veraheim</li>
-                    <li>Protection racket (pay or boats "accidentally" sink)</li>
-                    <li>Black market goods (stolen, contraband, illegal)</li>
-                    <li>Occasional piracy on merchant vessels</li>
-                </ul>
-                
-                <h4>Character:</h4>
-                <p>Most organized and professional. Prefer intimidation over violence (bad for business). Will negotiate if you have leverage. Respect strength and cunning.</p>
-            </div>
-
-            <div class="power-card kingdom">
-                <h3>2. The Barnacle Boys</h3>
-                <p><strong>Leader:</strong> "Rusty" Kelvin Sharptooth (Half-Elf, male, 29)<br>
-                <strong>Territory:</strong> Eastern floats (near Veraheim harbor)<br>
-                <strong>Specialty:</strong> Petty crime and exploitation</p>
-                
-                <h4>Operations:</h4>
-                <ul>
-                    <li>Pickpocketing and mugging</li>
-                    <li>Loan sharking (brutal collection methods)</li>
-                    <li>Forced labor (debt slavery)</li>
-                    <li>Selling fake Veraheim work permits</li>
-                </ul>
-                
-                <h4>Character:</h4>
-                <p>Youngest and most violent gang. Desperate to prove themselves. Unpredictable and cruel. Prey on the weakest residents. Most dangerous to common people.</p>
-            </div>
-
-            <div class="power-card sanctuary">
-                <h3>3. The Sinkers</h3>
-                <p><strong>Leader:</strong> Gresha "The Drowner" Coalgrim (Dwarf, female, 67)<br>
-                <strong>Territory:</strong> Western floats (furthest from Veraheim)<br>
-                <strong>Specialty:</strong> Assassinations and disposal</p>
-                
-                <h4>Operations:</h4>
-                <ul>
-                    <li>Contract killings (cheap rates)</li>
-                    <li>Body disposal (weighted, sunk, disappeared)</li>
-                    <li>Kidnapping for ransom</li>
-                    <li>Sabotage and arson</li>
-                </ul>
-                
-                <h4>Character:</h4>
-                <p>Smallest but most feared. Methodical and efficient. Silent operations (violence without witnesses). Gresha is calm, professional, terrifying. "Bodies don't float if you weight them right."</p>
-            </div>
-        </section>
-
-        <section>
-            <h2>Daily Life on the Floats</h2>
-
-            <h3>Morning (Dawn):</h3>
-            <ul>
-                <li>Water barge arrives (1 copper per bucket)</li>
-                <li>Day workers row to Veraheim for work</li>
-                <li>Fishermen set nets (food for the day)</li>
-                <li>Children scavenge debris for salvage</li>
-                <li>Gangs still asleep (partied through night)</li>
-            </ul>
-
-            <h3>Day:</h3>
-            <ul>
-                <li>Relatively safe (gangs keep violence down during day)</li>
-                <li>Trading and bartering between floats</li>
-                <li>Repairs to boats and structures</li>
-                <li>Hopeful check Veraheim job boards</li>
-                <li>Families gather at Mama Kresh's</li>
-            </ul>
-
-            <h3>Evening (Sunset):</h3>
-            <ul>
-                <li><strong>The bell rings from Veraheim</strong> (day workers must leave)</li>
-                <li>Boats return carrying exhausted laborers</li>
-                <li>Taverns fill up quickly</li>
-                <li>Gangs emerge for "business"</li>
-                <li>Families lock themselves in boats</li>
-            </ul>
-
-            <h3>Night:</h3>
-            <ul>
-                <li>Dangerous. Stay inside or at Mama Kresh's.</li>
-                <li>Gang violence, muggings, disappearances</li>
-                <li>Tide Reapers collect protection money</li>
-                <li>Barnacle Boys prowl for victims</li>
-                <li>The Sinkers conduct "jobs"</li>
-                <li>Morning often brings floating bodies</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Veraheim's Position</h2>
             
-            <div class="warning-box">
-                <h3>Why Vera and Galdor Don't Intervene</h3>
-                
-                <h4>1. Jurisdiction:</h4>
-                <p>The Floats are in international waters, technically outside Veraheim's authority. Any military action would be seen as aggression by both major powers.</p>
+            <h3>Physical Structure</h3>
+            <p>Boats lashed together with rope and chain. Platforms built on barrels. Walkways that shift with waves. Lean-tos and tents. Everything rots. Everything sinks eventually.</p>
+            
+            <p><strong>Sections:</strong></p>
+            <ul>
+                <li><strong>The Core:</strong> Oldest, most stable platforms. Gang territories.</li>
+                <li><strong>The Ring:</strong> Newer additions around the edges. Less stable.</li>
+                <li><strong>The Fringes:</strong> Single boats, isolated families. Dangerous.</li>
+            </ul>
+            
+            <h3>The Three Gangs</h3>
+            <table>
+                <tr><th>Gang</th><th>Leader</th><th>Territory</th><th>Business</th></tr>
+                <tr><td><strong>Tide Reapers</strong></td><td>Roderick "The Eel"</td><td>Eastern Core</td><td>Smuggling, theft</td></tr>
+                <tr><td><strong>The Barnacles</strong></td><td>Zephyr Nightscale</td><td>Western Core</td><td>Gambling, loans</td></tr>
+                <tr><td><strong>The Drowned</strong></td><td>Skar Bloodtide</td><td>Northern Ring</td><td>Violence, protection</td></tr>
+            </table>
+            
+            <h3>Economy</h3>
+            <p><strong>Primary income:</strong> Selling goods and services to Veraheim that residents don't want to do themselves—dangerous work, illegal work, dirty work.</p>
+            
+            <ul>
+                <li>Diving for salvage</li>
+                <li>Fishing in dangerous waters</li>
+                <li>Black market goods</li>
+                <li>Information selling</li>
+                <li>Services Veraheim won't acknowledge</li>
+            </ul>
+            
+            <h3>Mama Kresh's Haven</h3>
+            <p>The only kindness on the Docks. Run by an elderly orc woman, the Haven feeds hungry children and provides basic medical care. No one knows where her money comes from. No gang touches her. Some say Vera herself funds it secretly.</p>
+        </section>
 
-                <h4>2. Resource Limits:</h4>
-                <p>Veraheim has 300 guards for 3,500 residents. Cannot spare forces to police the Floats.</p>
-
-                <h4>3. No Solution:</h4>
-                <p>Break up the gangs, more would form. Bring everyone into city, population becomes unsustainable. Build housing on Floats, it becomes Veraheim-2 (same problems).</p>
-
-                <h4>4. Overflow Valve:</h4>
-                <p>The Floats prevent worse alternatives. Without it, desperate people would storm Veraheim, camp outside walls, create bigger crisis.</p>
-
-                <h4>5. The Guilt:</h4>
-                <p>Vera sees the Floats from her castle every day. Knows children are drowning. This eats at her. But she won't change course.</p>
+        <section class="content-section">
+            <h2>🔒 Secret Knowledge</h2>
+            <div class="tier-label">DM-only information</div>
+            
+            <div class="secret-box">
+                <h4>⚠️ Contains spoilers for players</h4>
             </div>
-
-            <h3>What Veraheim Does Do:</h3>
-            <ul>
-                <li>Allows day work passes (Float residents can work in city during daylight)</li>
-                <li>Water barge delivers clean water daily (subsidized by Veraheim)</li>
-                <li>Guards protect anyone who reaches the lifts (once you touch them, you're safe)</li>
-                <li>Vera secretly funds Mama Kresh's Haven</li>
-                <li>Veraheim will help anyone who earns citizenship (path exists, just difficult)</li>
-            </ul>
+            
+            <h3>Vera's Secret Support</h3>
+            <p>Vera anonymously funds three things on the Docks:</p>
+            <ol>
+                <li><strong>Mama Kresh's Haven:</strong> Monthly gold through intermediaries</li>
+                <li><strong>The Water Barge:</strong> Subsidized to never run out</li>
+                <li><strong>Emergency Medicine:</strong> A healer who "volunteers"</li>
+            </ol>
+            
+            <p>She's never told anyone except Thorongil. She doesn't change policy. She just... makes it slightly less terrible. She hates that this is all she does. She does it anyway.</p>
+            
+            <h3>The Halfling Girl</h3>
+            <p>Five years ago, an 8-year-old halfling girl asked Vera why her family couldn't live in the city. They'd been expelled when her father got sick and couldn't work.</p>
+            
+            <p>Vera explained the contribution system. The girl said her baby brother got sick. They spent everything on medicine. Now they had nothing.</p>
+            
+            <p>Vera gave them gold—enough for two months. Anonymously. Then went back to her castle and cried. She told only Thorongil.</p>
+            
+            <p><strong>She didn't change the policy.</strong></p>
+            
+            <p>This haunts her more than anything else she's done.</p>
+            
+            <h3>The Docks' True Purpose</h3>
+            <p>The Docks serve a function Veraheim doesn't acknowledge: they're a warning.</p>
+            
+            <p>Every citizen who thinks about slacking, about coasting, about not contributing—they look down and see the Docks. They see what happens to those who fail. The fear keeps them working.</p>
+            
+            <p>Vera knows this. She uses it. She hates that she uses it.</p>
+            
+            <h3>Rising Tension</h3>
+            <p>The Docks population has grown in recent years. More refugees from Kingdom persecution. More failed applicants as Veraheim's standards rise.</p>
+            
+            <p><strong>Someone is organizing.</strong> Quietly. Carefully. They're not planning violence—yet. They're planning to present a united front. Demand recognition. Demand change.</p>
+            
+            <p>When that day comes, Vera will have to choose: expand Veraheim beyond its capacity, or refuse people she's already watching suffer.</p>
         </section>
 
-        <section>
-            <h2>The Moral Question</h2>
-            <blockquote>"Where do we draw the line? If we help the Floats, they'll grow. More will come. Do we expand to 4,000? 5,000? 10,000? At what point does Veraheim collapse trying to save everyone?"<br><br>- Vera Wyrdweaver</blockquote>
-
-            <p>The Floating Docks represent the fundamental tension at the heart of Exilium:</p>
+        <div class="plot-hooks">
+            <h3>🎲 Story Hooks</h3>
             <ul>
-                <li>Can idealism survive reality?</li>
-                <li>Is merit-based citizenship just? Or cruel?</li>
-                <li>Who decides who deserves saving?</li>
-                <li>Is Vera right to draw the line at 3,500?</li>
-                <li>Or is she a hypocrite who could do more?</li>
+                <li><strong>The Organizer:</strong> Someone on the Docks is building a movement. Who are they? What do they want? Can they be reasoned with—or stopped?</li>
+                <li><strong>Mama Kresh's Secret:</strong> The old orc is dying. Someone needs to continue her work—but first they need to find where her funding comes from.</li>
+                <li><strong>The Halfling Family:</strong> That family from five years ago. What happened to them? Vera wants to know but can't ask directly.</li>
+                <li><strong>Gang War:</strong> The three gangs are about to clash. The Docks could become a bloodbath. Someone needs to intervene.</li>
+                <li><strong>The Drowning Season:</strong> Storms are coming. The Docks will lose people. Can anything be done?</li>
             </ul>
-
-            <p><strong>There are no easy answers.</strong></p>
-        </section>
-
-        <section>
-            <h2>Adventure Hooks</h2>
-            <ul>
-                <li>Gang war threatens to spill into Veraheim</li>
-                <li>Mama Kresh asks party to escort refugee family</li>
-                <li>Mysterious benefactor hiring to break gang power</li>
-                <li>Child from Floats stows away on party's boat</li>
-                <li>Tide Reapers offer lucrative smuggling job</li>
-                <li>Discover Vera's secret funding of Haven</li>
-                <li>Help Float residents organize and improve conditions</li>
-                <li>Investigate disappearances (Sinkers at work)</li>
-            </ul>
-        </section>
+        </div>
 
         <footer class="page-footer">
-            <p>The Floating Docks: Where idealism meets its limits, and the question "who deserves saving?" has no good answer.</p>
+            <p>Exilium - A D&D 5e 2024 Campaign Setting</p>
         </footer>
     </main>
 

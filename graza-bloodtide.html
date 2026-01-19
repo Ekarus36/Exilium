@@ -7,258 +7,176 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <button class="menu-toggle">☰</button>
-    
-    <div class="wiki-container">
-        <nav class="sidebar">
-            <div class="logo">
-                <h2>EXILIUM</h2>
-                <p class="tagline">Campaign Setting</p>
+    <nav class="sidebar">
+        <div class="logo">
+            <h2>EXILIUM</h2>
+            <p class="tagline">Campaign Setting</p>
+        </div>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search Exilium...">
+        </div>
+        <ul class="nav-menu">
+            <li><a href="index.html">🏠 Home</a></li>
+            <li class="nav-section">World</li>
+            <li><a href="world-overview.html">📖 World Overview</a></li>
+            <li><a href="geography.html">🗺️ Geography</a></li>
+            <li><a href="magic-items.html">✨ Magic Items</a></li>
+            <li><a href="magic-users.html">🔮 Magic Users</a></li>
+            <li><a href="religion.html">🙏 Religion</a></li>
+            <li class="nav-section">Locations</li>
+            <li><a href="veraheim.html">🏰 Veraheim</a></li>
+            <li><a href="floating-docks.html">⚓ The Floating Docks</a></li>
+            <li><a href="elven-enclaves.html">🌳 Elven Enclaves</a></li>
+            <li><a href="freehold-harbor.html">🏴‍☠️ Freehold Harbor</a></li>
+            <li class="nav-section">History</li>
+            <li><a href="timeline.html">📅 Timeline</a></li>
+            <li><a href="dragon-war.html">🐉 Dragon War</a></li>
+            <li><a href="founding.html">⚔️ The Founding</a></li>
+            <li class="nav-section">Factions</li>
+            <li><a href="elven-empire.html">👑 Elven Empire</a></li>
+            <li><a href="human-kingdom.html">🛡️ Human Kingdom</a></li>
+            <li><a href="eleven-domains.html">🏰 The Eleven Domains</a></li>
+            <li><a href="broken-isles.html">🏴‍☠️ The Broken Isles</a></li>
+            <li><a href="drow-persecution.html">🌑 Drow Persecution</a></li>
+            <li class="nav-section">Veraheim NPCs</li>
+            <li><a href="vera.html">💫 Vera Wyrdweaver</a></li>
+            <li><a href="thaelen.html">🏹 Thaelen Ruincalen</a></li>
+            <li><a href="thorongil.html">🐲 Thorongil</a></li>
+            <li class="nav-section">Empire NPCs</li>
+            <li><a href="valandor.html">👤 Emperor Valandor</a></li>
+            <li class="nav-section">Broken Isles NPCs</li>
+            <li><a href="vaelith-draegor.html">🌊 Vaelith "The Storm"</a></li>
+            <li><a href="graza-bloodtide.html" class="active">👑 Graza Bloodtide</a></li>
+        </ul>
+        <div class="sidebar-footer">
+            <p>D&D 5e 2024 Rules</p>
+            <p class="version">v2.0</p>
+        </div>
+    </nav>
+
+    <main class="content">
+        <header class="page-header">
+            <h1>👑 Graza Bloodtide</h1>
+            <p class="subtitle">The Pirate Queen - Visible Ruler of the Broken Isles</p>
+        </header>
+
+        <div class="info-table">
+            <table>
+                <tr><th>Age</th><td>38 years</td></tr>
+                <tr><th>Race</th><td>Half-Orc</td></tr>
+                <tr><th>Role</th><td>Pirate Monarch (3 years)</td></tr>
+                <tr><th>Fleet</th><td>12 ships (official), 30+ allied</td></tr>
+                <tr><th>Flagship</th><td><em>Crimson Dawn</em></td></tr>
+            </table>
+        </div>
+
+        <section class="content-section">
+            <h2>⚡ At a Glance</h2>
+            <div class="tier-label">What anyone in the Broken Isles would know</div>
+            
+            <p><strong>Graza Bloodtide</strong> is the Pirate Queen—the official ruler of the Broken Isles for the past three years. She commands the largest official fleet, collects tribute, enforces Harbor Peace, and represents the Isles in external matters.</p>
+            
+            <p>She's a half-orc woman who clawed her way from nothing to the throne through cunning, combat, and careful alliance-building. Everyone respects her. Everyone fears her. And everyone knows The Storm tolerates her—which is the real reason she rules.</p>
+            
+            <div class="callout">
+                <strong>Common saying:</strong> "The Queen sits the throne. The Storm lets her."
             </div>
-            <div class="search-box">
-                <input type="text" id="searchInput" placeholder="Search... (Ctrl+K)">
-            </div>
-            <ul class="nav-menu">
-                <li><a href="index.html"><span class="nav-icon">🏠</span> Home</a></li>
-                <li class="nav-section">World</li>
-                <li><a href="world-overview.html"><span class="nav-icon">📖</span> World Overview</a></li>
-                <li><a href="geography.html"><span class="nav-icon">🗺️</span> Geography</a></li>
-                <li><a href="magic-items.html"><span class="nav-icon">✨</span> Magic Items</a></li>
-                <li><a href="magic-users.html"><span class="nav-icon">🔮</span> Magic Users</a></li>
-                <li><a href="religion.html"><span class="nav-icon">🙏</span> Religion</a></li>
-                <li class="nav-section">Veraheim</li>
-                <li><a href="veraheim.html"><span class="nav-icon">🏰</span> Veraheim</a></li>
-                <li><a href="floating-docks.html"><span class="nav-icon">⚓</span> The Floating Docks</a></li>
-                <li class="nav-section">The Broken Isles</li>
-                <li><a href="broken-isles.html"><span class="nav-icon">🏴‍☠️</span> The Broken Isles</a></li>
-                <li><a href="broken-isles-history.html"><span class="nav-icon">📜</span> Isles History</a></li>
-                <li><a href="freehold-harbor.html"><span class="nav-icon">⚓</span> Freehold Harbor</a></li>
-                <li><a href="saltmere.html"><span class="nav-icon">💰</span> Saltmere</a></li>
-                <li><a href="skarath.html"><span class="nav-icon">🔨</span> Skarath</a></li>
-                <li><a href="ironhold.html"><span class="nav-icon">⚔️</span> Ironhold</a></li>
-                <li><a href="stormcrag.html"><span class="nav-icon">🦴</span> Stormcrag</a></li>
-                <li><a href="mistwood.html"><span class="nav-icon">🌲</span> Mistwood</a></li>
-                <li class="nav-section">History</li>
-                <li><a href="timeline.html"><span class="nav-icon">📅</span> Timeline</a></li>
-                <li><a href="dragon-war.html"><span class="nav-icon">🐉</span> Dragon War</a></li>
-                <li><a href="founding.html"><span class="nav-icon">⚔️</span> The Founding</a></li>
-                <li class="nav-section">Factions</li>
-                <li><a href="elven-empire.html"><span class="nav-icon">👑</span> Elven Empire</a></li>
-                <li><a href="human-kingdom.html"><span class="nav-icon">🛡️</span> Human Kingdom</a></li>
-                <li><a href="elven-enclaves.html"><span class="nav-icon">🌳</span> Elven Enclaves</a></li>
-                <li><a href="drow-persecution.html"><span class="nav-icon">🌑</span> Drow Persecution</a></li>
-                <li class="nav-section">Veraheim NPCs</li>
-                <li><a href="vera.html"><span class="nav-icon">💫</span> Vera Wyrdweaver</a></li>
-                <li><a href="galdor.html"><span class="nav-icon">🏹</span> Galdor Ruincalen</a></li>
-                <li><a href="thorongil.html"><span class="nav-icon">🐲</span> Thorongil</a></li>
-                <li class="nav-section">Empire NPCs</li>
-                <li><a href="cirdan.html"><span class="nav-icon">👤</span> Círdan Golvenion</a></li>
-                <li class="nav-section">Pirate Captains</li>
-                <li><a href="vaelith-draegor.html"><span class="nav-icon">⛈️</span> Vaelith Draegor</a></li>
-                <li><a href="graza-bloodtide.html" class="active"><span class="nav-icon">👑</span> Graza Bloodtide</a></li>
-                <li><a href="gorrath-bloodstone.html"><span class="nav-icon">💀</span> Gorrath Bloodstone</a></li>
-                <li><a href="kozrek-admiral.html"><span class="nav-icon">⚓</span> Kozrek the Admiral</a></li>
-                <li><a href="rennick-vance.html"><span class="nav-icon">🗡️</span> Rennick Vance</a></li>
-                <li><a href="skrag-chainbreaker.html"><span class="nav-icon">⛓️</span> Skrag Chainbreaker</a></li>
-                <li><a href="nix-quickfingers.html"><span class="nav-icon">🐀</span> Nix Quickfingers</a></li>
+        </section>
+
+        <section class="content-section">
+            <h2>📖 Common Knowledge</h2>
+            <div class="tier-label">What pirates, merchants, or Isles visitors would know</div>
+            
+            <h3>Appearance & Manner</h3>
+            <p>Tall (6'2"), powerfully built. Green-gray skin, prominent tusks filed to sharp points. Black hair in dozens of small braids, each ending in a gold bead (one for every ship taken). Facial scars from countless battles. Dresses practically—leather armor, heavy boots—but with expensive touches: gold rings, silk sashes, a crown made from the teeth of her enemies.</p>
+            
+            <p>Commands rooms without raising her voice. Laughs easily, but the humor never quite reaches her eyes when politics are involved. Fights personally when challenged—has never lost.</p>
+            
+            <h3>Rise to Power</h3>
+            <ul>
+                <li>Born in the Isles to an orc mother and unknown human father</li>
+                <li>Served on ships from age 12</li>
+                <li>Captain by 25 (took her ship in a mutiny)</li>
+                <li>Built fleet through combat, alliance, and marriage (to a captain she later divorced)</li>
+                <li>Claimed throne 3 years ago after previous monarch died in a storm</li>
             </ul>
-            <div class="sidebar-footer">
-                <p>D&D 5e 2024 Rules</p>
-                <p class="version">v2.0</p>
+            
+            <h3>Powers as Monarch</h3>
+            <ul>
+                <li>Commands largest official fleet (not counting The Storm's)</li>
+                <li>Collects tribute from all captains and settlements</li>
+                <li>Enforces Harbor Peace (violence in Freehold = death)</li>
+                <li>Represents the Isles to outsiders</li>
+                <li>Settles major disputes between captains</li>
+                <li>Coordinates defense against external threats</li>
+            </ul>
+            
+            <h3>Flagship: <em>Crimson Dawn</em></h3>
+            <p>Fast, heavily armed, painted blood-red. Crew of 120, all hand-picked veterans. The most feared ship in the Isles—except for <em>Sorrow</em>.</p>
+        </section>
+
+        <section class="content-section">
+            <h2>🔒 Secret Knowledge</h2>
+            <div class="tier-label">DM-only information</div>
+            
+            <div class="secret-box">
+                <h4>⚠️ Contains spoilers for players</h4>
             </div>
-        </nav>
+            
+            <h3>The Storm's Shadow</h3>
+            <p>Graza knows the truth: she rules because Vaelith lets her. If she ever truly challenged him, she'd lose.</p>
+            
+            <p><strong>Her calculation:</strong></p>
+            <ul>
+                <li>The Storm doesn't want to rule (too much politics)</li>
+                <li>He needs someone to handle daily governance</li>
+                <li>She's competent and doesn't threaten him</li>
+                <li>As long as she doesn't cross him, she's useful</li>
+            </ul>
+            
+            <p><strong>What haunts her:</strong> Is she really a queen, or just his puppet? Does anyone respect her, or just fear The Storm through her?</p>
+            
+            <h3>Her Long Game</h3>
+            <p>Graza isn't content to be a figurehead forever. Her strategy:</p>
+            <ol>
+                <li><strong>Build legitimacy:</strong> Make decisions that benefit everyone (done)</li>
+                <li><strong>Strengthen fleet:</strong> Commission ships from Skarath (in progress)</li>
+                <li><strong>Cultivate allies:</strong> Captains loyal to HER, not tradition (ongoing)</li>
+                <li><strong>Wait:</strong> The Storm is mortal. Eventually he'll die. (Theoretically.)</li>
+            </ol>
+            
+            <p><strong>The fear:</strong> What if he never dies? Drow live centuries. She has decades at most.</p>
+            
+            <h3>Her Actual Beliefs</h3>
+            <p>Despite the politics, Graza genuinely believes in the Isles:</p>
+            <ul>
+                <li>The Isles gave her a chance when the mainland would have killed her</li>
+                <li>Freedom through strength is real—she's living proof</li>
+                <li>The confederation works; she wants to make it stronger</li>
+                <li>Harbor Peace is sacred—she'd kill family to protect it</li>
+            </ul>
+            
+            <h3>Her Vulnerability</h3>
+            <p>She has a daughter, age 8, kept hidden in Saltmere. The girl's father was a brief affair with a human merchant—one of the few times Graza let her guard down. Only three people know: Graza, the girl's caretakers, and The Storm (who knows everything).</p>
+            
+            <p><strong>What she fears:</strong> Someone using her daughter against her. She's considered bringing the girl to Freehold, but that would make her a target.</p>
+        </section>
 
-        <main class="content">
-            <header class="page-header">
-                <span class="faction-badge pirates">Pirate Queen</span>
-                <h1>Graza Bloodtide</h1>
-                <p class="subtitle">"I earned this throne. I'll keep it the same way."</p>
-            </header>
+        <div class="plot-hooks">
+            <h3>🎲 Story Hooks</h3>
+            <ul>
+                <li><strong>The Queen's Mission:</strong> Graza needs something done that can't be traced to her. Deniable operatives welcome.</li>
+                <li><strong>The Daughter:</strong> Someone's asking questions in Saltmere. The Queen needs the problem handled quietly.</li>
+                <li><strong>Challenge:</strong> A captain formally challenges for the throne. Graza must fight or lose everything.</li>
+                <li><strong>The Storm Speaks:</strong> Vaelith actually gives her an order. What could make him care enough to act?</li>
+                <li><strong>Legitimacy Crisis:</strong> Evidence surfaces that her claim to the throne was manipulated. Even if it's not true, the rumor could destroy her.</li>
+            </ul>
+        </div>
 
-            <section>
-                <h2>Overview</h2>
-                <p>Graza Bloodtide is the current Pirate Queen of <a href="broken-isles.html">The Broken Isles</a>, having held the position for three years. A half-orc woman known for her charisma and willingness to show brutal force when necessary, she rules from <a href="freehold-harbor.html">Freehold Harbor</a> while navigating the complex politics of the pirate confederation—and the shadow of <a href="vaelith-draegor.html">The Storm</a>.</p>
-                
-                <div class="stat-block">
-                    <div class="stat-item">
-                        <span class="stat-label">Title</span>
-                        <span class="stat-value gold">Pirate Queen</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-label">Race</span>
-                        <span class="stat-value">Half-Orc</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-label">Age</span>
-                        <span class="stat-value">34</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-label">Reign</span>
-                        <span class="stat-value">3 years</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-label">Fleet</span>
-                        <span class="stat-value">25 warships</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-label">Base</span>
-                        <span class="stat-value"><a href="freehold-harbor.html">Freehold Harbor</a></span>
-                    </div>
-                </div>
-            </section>
-
-            <section>
-                <h2>Personality</h2>
-                
-                <h3>Charismatic Leader</h3>
-                <ul>
-                    <li>People want to follow her</li>
-                    <li>Inspires genuine loyalty, not just fear</li>
-                    <li>Remembers names, remembers debts</li>
-                    <li>Makes people feel seen and valued</li>
-                    <li>Builds alliances through respect and shared profit</li>
-                </ul>
-                
-                <h3>Willing Brutality</h3>
-                <ul>
-                    <li>Not cruel for cruelty's sake</li>
-                    <li>But when an example needs to be made, she makes it unforgettable</li>
-                    <li>Understands that mercy can be weakness in pirate politics</li>
-                    <li>Has executed captains who betrayed her—publicly, memorably</li>
-                    <li>The lesson is always clear: cross her and suffer</li>
-                </ul>
-                
-                <h3>The Balance</h3>
-                <p>Must be charismatic enough to inspire, brutal enough to deter. Too soft = eaten alive by rivals. Too harsh = coalition collapses. Three years of walking this line successfully.</p>
-            </section>
-
-            <section>
-                <h2>The Coronation</h2>
-                <p><a href="vaelith-draegor.html">Vaelith Draegor</a> attended. Stood in the back. Said nothing.</p>
-                <p>When Graza looked at him—the moment everyone was waiting for—he gave a small nod. Then left.</p>
-                <p><strong>That nod is why she's still Queen.</strong> Every captain saw it. Every captain understood: <em>The Storm doesn't object.</em></p>
-            </section>
-
-            <section>
-                <h2>Ruling Style</h2>
-                
-                <h3>Day-to-Day Governance</h3>
-                <ul>
-                    <li>Holds court in the Monarch's Keep at Freehold</li>
-                    <li>Settles disputes between captains</li>
-                    <li>Manages harbor operations and fees</li>
-                    <li>Maintains the Queen's Guard (~200 warriors)</li>
-                    <li>Collects tribute from all captains</li>
-                </ul>
-                
-                <h3>The Moot</h3>
-                <ul>
-                    <li>Presides over quarterly meetings</li>
-                    <li>Guides agenda but doesn't dictate</li>
-                    <li>Builds consensus before votes</li>
-                    <li>Rarely surprised by outcomes (does the work beforehand)</li>
-                </ul>
-                
-                <h3>Tribute System</h3>
-                <ul>
-                    <li>All captains pay percentage of their take</li>
-                    <li>Failure to pay = loss of Harbor Peace protection</li>
-                    <li>She doesn't demand tribute from The Storm (no one does)</li>
-                    <li><strong>She sends HIM tribute instead</strong> (acknowledging reality)</li>
-                </ul>
-            </section>
-
-            <section>
-                <h2>The Storm's Shadow</h2>
-                
-                <h3>The Reality She Lives With</h3>
-                <ul>
-                    <li>He could end her reign in an afternoon</li>
-                    <li>His fleet is nearly double hers</li>
-                    <li>He's been sailing for 300 years</li>
-                    <li>He doesn't want her throne (her only comfort)</li>
-                </ul>
-                
-                <h3>Her Strategy</h3>
-                <ul>
-                    <li>Never challenge him, never cross him</li>
-                    <li>Send tribute he never asked for (wise politics)</li>
-                    <li>Consult him on major decisions affecting the Isles</li>
-                    <li>Accept that her power exists within his tolerance</li>
-                </ul>
-                
-                <h3>Her Fear</h3>
-                <p>Real, deep, constant. Not that he'll take her throne—that she'll somehow give him a reason to notice her. When she lies awake at night, it's The Storm she thinks of.</p>
-                
-                <h3>His View of Her</h3>
-                <p>Indifference. She exists, she handles the boring parts. As long as she doesn't threaten the Isles or annoy him, she's fine. He's never threatened her (why would he?).</p>
-            </section>
-
-            <section>
-                <h2>Challenges She Faces</h2>
-                <ul>
-                    <li><strong>The Storm's Shadow:</strong> Everything measured against his potential disapproval</li>
-                    <li><strong>Captain Rivalries:</strong> Multiple powerful captains with ambitions</li>
-                    <li><strong>External Threats:</strong> Empire might move against the Isles; <a href="thorongil.html">Thorongil</a> limits expansion</li>
-                    <li><strong>Economic Management:</strong> Balance raiding with retaliation risk</li>
-                </ul>
-            </section>
-
-            <section>
-                <h2>Strengths & Weaknesses</h2>
-                <div class="stat-block">
-                    <div class="stat-item">
-                        <span class="stat-label">Strength</span>
-                        <span class="stat-value green">Charisma</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-label">Strength</span>
-                        <span class="stat-value green">Political Skill</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-label">Strength</span>
-                        <span class="stat-value green">Judgment</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-label">Weakness</span>
-                        <span class="stat-value red">The Storm</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-label">Weakness</span>
-                        <span class="stat-value red">Relative Youth (34)</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-label">Weakness</span>
-                        <span class="stat-value red">Fear</span>
-                    </div>
-                </div>
-            </section>
-
-            <section>
-                <h2>Quotes</h2>
-                <blockquote>"I don't need everyone to love me. I need them to know the cost of crossing me."</blockquote>
-                <blockquote>"The Storm does what he wants. I do what needs to be done."</blockquote>
-                <blockquote>"Every captain who kneels to me chose to kneel. That's more than the Empire can say."</blockquote>
-                <blockquote>"Harbor Peace isn't just law. It's what keeps us from being savages. Break it, and I'll show you what savagery really looks like."</blockquote>
-            </section>
-
-            <section class="story-hooks">
-                <h3>🎲 Story Hooks</h3>
-                <div class="story-hook">
-                    <strong>Assassination Attempt:</strong> Someone tries to kill Graza. Was it a rival captain? External power? She needs to find out without appearing weak.
-                </div>
-                <div class="story-hook">
-                    <strong>The Storm Speaks:</strong> Vaelith actually gives her an order. What could possibly have made him care?
-                </div>
-                <div class="story-hook">
-                    <strong>Challenge for the Throne:</strong> A powerful captain formally challenges her. How does she respond?
-                </div>
-                <div class="story-hook">
-                    <strong>The Queen's Secret:</strong> Something in her past could destroy her if revealed. Someone knows.
-                </div>
-            </section>
-        </main>
-    </div>
+        <footer class="page-footer">
+            <p>Exilium - A D&D 5e 2024 Campaign Setting</p>
+        </footer>
+    </main>
 
     <script src="script.js"></script>
 </body>
